@@ -17,8 +17,15 @@ export PATH=$PATH:/usr/local/go/bin
 
 ## vscode 插件
 > go go 语言插件
+
 > runner 运行代码插件
+
 > kite 自动补全插件
 
+## 学习网站
+> [go语言之旅](https://tour.go-zh.org/flowcontrol/8)
 
+
+## 联系我
+> xms.chnb@gmail.com
 
