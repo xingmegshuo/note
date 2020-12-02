@@ -3,7 +3,7 @@
 @Time        : 2020/11/27 13:17:13
 @AUTHOR      : small_ant
 @Email       : xms.chnb@gmail.com
-@Desc        :   go 语言 range 方法学习
+@Desc        : go 语言 range 方法学习
 ****************************/
 
 package main

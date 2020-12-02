@@ -1,3 +1,10 @@
+/***************************
+@File        : funcations_go.go
+@Time        : 2020/12/02 14:54:18
+@AUTHOR      : small_ant
+@Email       : xms.chnb@gmail.com
+@Desc        : go 函数
+****************************/
 package main
 
 import "fmt"
