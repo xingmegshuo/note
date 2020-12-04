@@ -1,0 +1,3 @@
+[2020-12-04 16:45:55] [DEBUG] [文件:test.go 函数:main.main 行数:21] --- hhhh 
+[2020-12-04 16:45:55] [INFO] [文件:test.go 函数:main.main 行数:22] --- ok 
+[2020-12-04 16:45:57] [WARINING] [文件:test.go 函数:main.main 行数:25] --- ah 

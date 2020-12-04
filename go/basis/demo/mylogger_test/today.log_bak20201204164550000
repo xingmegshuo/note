@@ -1,0 +1,13 @@
+[2020-12-04 16:45:11] [WARINING] [文件:test.go 函数:main.main 行数:25] --- ah 
+[2020-12-04 16:45:19] [DEBUG] [文件:test.go 函数:main.main 行数:21] --- hhhh 
+[2020-12-04 16:45:19] [INFO] [文件:test.go 函数:main.main 行数:22] --- ok 
+[2020-12-04 16:45:21] [WARINING] [文件:test.go 函数:main.main 行数:25] --- ah 
+[2020-12-04 16:45:28] [DEBUG] [文件:test.go 函数:main.main 行数:21] --- hhhh 
+[2020-12-04 16:45:28] [INFO] [文件:test.go 函数:main.main 行数:22] --- ok 
+[2020-12-04 16:45:30] [WARINING] [文件:test.go 函数:main.main 行数:25] --- ah 
+[2020-12-04 16:45:37] [DEBUG] [文件:test.go 函数:main.main 行数:21] --- hhhh 
+[2020-12-04 16:45:37] [INFO] [文件:test.go 函数:main.main 行数:22] --- ok 
+[2020-12-04 16:45:39] [WARINING] [文件:test.go 函数:main.main 行数:25] --- ah 
+[2020-12-04 16:45:46] [DEBUG] [文件:test.go 函数:main.main 行数:21] --- hhhh 
+[2020-12-04 16:45:46] [INFO] [文件:test.go 函数:main.main 行数:22] --- ok 
+[2020-12-04 16:45:48] [WARINING] [文件:test.go 函数:main.main 行数:25] --- ah 

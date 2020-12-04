@@ -1,0 +1,11 @@
+[2020-12-04 16:27:29] [ERROR] [文件:test.go 函数:main.main 行数:30] --- error,id:10010,name:李小龙 
+[2020-12-04 16:27:29] [FATAL] [文件:test.go 函数:main.main 行数:31] --- what fuck 
+[2020-12-04 16:27:38] [ERROR] [文件:test.go 函数:main.main 行数:30] --- error,id:10010,name:李小龙 
+[2020-12-04 16:27:38] [FATAL] [文件:test.go 函数:main.main 行数:31] --- what fuck 
+[2020-12-04 16:27:47] [ERROR] [文件:test.go 函数:main.main 行数:30] --- error,id:10010,name:李小龙 
+[2020-12-04 16:27:47] [FATAL] [文件:test.go 函数:main.main 行数:31] --- what fuck 
+[2020-12-04 16:27:56] [ERROR] [文件:test.go 函数:main.main 行数:30] --- error,id:10010,name:李小龙 
+[2020-12-04 16:27:56] [FATAL] [文件:test.go 函数:main.main 行数:31] --- what fuck 
+[2020-12-04 16:28:05] [ERROR] [文件:test.go 函数:main.main 行数:30] --- error,id:10010,name:李小龙 
+[2020-12-04 16:28:05] [FATAL] [文件:test.go 函数:main.main 行数:31] --- what fuck 
+[2020-12-04 16:28:14] [ERROR] [文件:test.go 函数:main.main 行数:30] --- error,id:10010,name:李小龙 
