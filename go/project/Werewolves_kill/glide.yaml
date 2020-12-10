@@ -1,0 +1,22 @@
+package: avalon
+import:
+- package: github.com.cnpmjs.org/go-martini/martini
+- package: gopkg.in/yaml.v2
+- package: github.com.cnpmjs.org/go-xorm/xorm
+- package: github.com.cnpmjs.org/go-xorm/builder
+- package: github.com.cnpmjs.org/go-xorm/core
+- package: github.com.cnpmjs.org/beatrichartz/martini-sockets
+- package: github.com.cnpmjs.org/mattn/go-sqlite3
+- package: github.com.cnpmjs.org/gin-gonic/gin
+- package: golang.org.cnpmjs.org/x/net
+  subpackages:
+  - context
+- package: github.com.cnpmjs.org/gorilla/websocket
+- package: github.com.cnpmjs.org/astaxie/beego
+  version: v1.9.2
+  subpackages:
+  - session
+- package: github.com.cnpmjs.org/garyburd/redigo
+  version: v1.5.0
+  subpackages:
+  - redis
