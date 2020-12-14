@@ -9,12 +9,10 @@
 package main
 
 import (
-	"fmt"
 	"wwKill/Mydb"
 )
 
 func main() {
 	Mydb.Db("./wwKill")
-	orm := Mydb.SetEngin("./wwKill")
-	fmt.Println(orm)
+	Mydb.SetEngin("./wwKill.db")
 }
