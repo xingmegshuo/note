@@ -14,6 +14,7 @@ import (
 )
 
 func main() {
-	mydb := Mydb.Db("./wwKill")
-	fmt.Println(mydb)
+	Mydb.Db("./wwKill")
+	orm := Mydb.SetEngin("./wwKill")
+	fmt.Println(orm)
 }
