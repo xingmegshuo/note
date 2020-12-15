@@ -13,6 +13,14 @@ import (
 )
 
 func main() {
-	Mydb.Db("./wwKill")
-	Mydb.SetEngin("./wwKill.db")
+	ctrl := Mydb.NewUserCtrl()
+	user := Mydb.User{
+		OpenID:    "abcd",
+		NickName:  "abcd",
+		AvatarURL: "ddddd",
+		Orther:    "ahhh",
+		Money:     300,
+	}
+	// 插入一个
+	ctrl.Insert(user)
 }

@@ -1,0 +1,23 @@
+/********************
+@File        : record
+@Time        : 2020-12-15 17:24:21
+@Author      : small_ant
+@Email       : xms.chnb@gmail.com
+@Desc        : 狼人杀战绩数据
+**********************/
+
+package Mydb
+import "time"
+
+type Record struct {
+	Id int64
+	user int `xorm:"foregin key(user) references user(userid)"`	
+	gameTime time.Time `xorm:"text"`
+	identity int `xorm:"integer"`
+	gameMode string `xorm:"varchar(255)"`
+	count int `xorm:"integer"`
+	winCount int`xorm:"integer"`
+	runAway int`xorm:"integer"`
+	winRate int`xorm:"integer"`
+	result string `xorm:"varchar(255)"`
+}

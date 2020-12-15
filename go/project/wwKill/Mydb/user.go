@@ -10,17 +10,16 @@ package Mydb
 
 import (
 	"log"
-	"time"
 )
 
 type User struct {
-	Id         int
-	OpenID     string
-	NickName   string
-	AvatarURL  string
-	CreateDate time.Time
-	Login      time.Time
-	LastLogin  time.Time
+	Id        int64
+	OpenID    string `xorm:"varchar(255)"`
+	NickName  string `xorm:"varchar(255)"`
+	AvatarURL string `xorm:"varchar(255)"`
+	Level     int    `xorm:default 0`
+	Money     int    `xorm:default 300`
+	Orther    string `xorm:text`
 }
 
 // 根据openid返回用户
@@ -33,10 +32,9 @@ func (this *User) GetUserByOpenId(openID string) (*User, bool) {
 	return user, has
 }
 
-// 插入用户
-
-func (this *User) Insert() bool {
-	_, err := orm.InsertOne(this)
+// 插入单个用户
+func (u User) Insert(a ...interface{}) bool {
+	_, err := orm.InsertOne(a[0])
 	if err != nil {
 		log.Panic(err)
 	}
