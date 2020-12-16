@@ -8,7 +8,10 @@
 
 package Mydb
 
-import "log"
+import (
+	"fmt"
+	"log"
+)
 
 type Backpack struct {
 	Id       int64
@@ -16,14 +19,30 @@ type Backpack struct {
 	Property int    `xorm:"integer"`
 	Num      int    `xorm:"integer"`
 	StilTime string `xorm:"text"`
-	user     int    `xorm:"foreign key(user) references user(userid)"`
+	User     int    `xorm:"foreign key(user) references user(userid)"`
+	Del      int    `xorm:"integer"`
 }
 
 // 插入单个物品
 func (b Backpack) Insert(a ...interface{}) bool {
+	fmt.Println(a[0])
 	_, err := orm.InsertOne(a[0])
 	if err != nil {
 		log.Panic(err)
+	}
+	return true
+}
+
+// 修改单个物品
+func (b Backpack) Update(a ...interface{}) bool {
+	// example : 服装到期, 小好评使用完
+	b, ok := a[0].(Backpack)
+	fmt.Println(b, ok)
+	if ok != false {
+		_, err := orm.Id(b.Id).Update(b)
+		if err != nil {
+			log.Panic(err)
+		}
 	}
 	return true
 }

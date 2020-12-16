@@ -8,10 +8,36 @@
 
 package Mydb
 
-type Buddy struct{
-	Id int64
+import "log"
+
+type Buddy struct {
+	Id   int64
 	User int `xorm:"foregin key(user) references user(userid)"`
 	// Own_user int `xorm:"foregin key(user) references user(userid)"`
-	Agree int  `xorm:"integer"`
+	Agree  int    `xorm:"integer"`
 	buddys string `xorm:"text"`
+	del    int    `xorm:"integer"`
+}
+
+// 插入单个好友
+
+func (b Buddy) Insert(a ...interface{}) bool {
+	_, err := orm.InsertOne(a[0])
+	if err != nil {
+		log.Panic(err)
+	}
+	return true
+}
+
+// 也就是删除单个好友 好友删除为双向，调用此方法时应该互相删除
+func (b Buddy) Update(a ...interface{}) bool {
+	b, ok := a[0].(Buddy)
+	if ok != false {
+		_, err := orm.Id(b.Id).Update(b)
+		if err != nil {
+			log.Panic(err)
+		}
+	}
+
+	return true
 }

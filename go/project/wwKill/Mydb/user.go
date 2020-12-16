@@ -9,6 +9,7 @@
 package Mydb
 
 import (
+	"fmt"
 	"log"
 )
 
@@ -23,13 +24,15 @@ type User struct {
 }
 
 // 根据openid返回用户
-func (this *User) GetUserByOpenId(openID string) (*User, bool) {
-	user := &User{OpenID: openID}
-	has, err := orm.Get(user)
-	if err != nil {
-		log.Panic(err)
+func (u User) GetUser(a ...interface{}) {
+	u, ok := a[0].(User)
+	fmt.Println(u)
+	if ok != false {
+		has := orm.Id(u.Id)
+
+		fmt.Println(has)
 	}
-	return user, has
+
 }
 
 // 插入单个用户
@@ -41,21 +44,14 @@ func (u User) Insert(a ...interface{}) bool {
 	return true
 }
 
-// 删除
-
-func (this *User) Delete() bool {
-	_, err := orm.Delete(this)
-	if err != nil {
-		log.Panic(err)
-	}
-	return true
-}
-
 // 修改
-func (this *User) Update() bool {
-	_, err := orm.Id(this.Id).Update(this)
-	if err != nil {
-		log.Panic(err)
+func (u User) Update(a ...interface{}) bool {
+	u, ok := a[0].(User)
+	if ok != false {
+		_, err := orm.Id(u.Id).Update(u)
+		if err != nil {
+			log.Panic(err)
+		}
 	}
 	return true
 }

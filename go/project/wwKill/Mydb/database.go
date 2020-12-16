@@ -18,6 +18,8 @@ import (
 // 数据库操作接口
 type DbCtrlooer interface {
 	Insert(a ...interface{}) bool
+	Update(a ...interface{}) bool
+	GetUser(a ...interface{})
 }
 
 var orm *xorm.Engine
