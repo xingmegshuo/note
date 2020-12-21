@@ -19,8 +19,20 @@ type Buddy struct {
 	del    int    `xorm:"integer"`
 }
 
-// 插入单个好友
+// 获取全部好友
+func (b Buddy) GetUser(a ...interface{}) []Buddy {
+	b, ok := a[0].(Buddy)
+	buddys := make([]Buddy, 0)
+	if ok != false {
+		err := orm.Find(buddys, &b)
+		if err != nil {
+			log.Panic(err)
+		}
+	}
+	return buddys
+}
 
+// 插入单个好友
 func (b Buddy) Insert(a ...interface{}) bool {
 	_, err := orm.InsertOne(a[0])
 	if err != nil {

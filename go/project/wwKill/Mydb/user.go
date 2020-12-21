@@ -23,16 +23,16 @@ type User struct {
 	Orther    string `xorm:text`
 }
 
-// 根据openid返回用户
-func (u User) GetUser(a ...interface{}) {
+// 根据条件返回用户
+func (u User) GetUser(a ...interface{}) (User, bool) {
 	u, ok := a[0].(User)
-	fmt.Println(u)
 	if ok != false {
-		has := orm.Id(u.Id)
-
-		fmt.Println(has)
+		has, _ := orm.Get(&u)
+		fmt.Println(u, has)
+		return u, has
+	} else {
+		return User{}, false
 	}
-
 }
 
 // 插入单个用户

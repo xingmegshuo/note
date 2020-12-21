@@ -9,11 +9,31 @@
 package main
 
 import (
+	"fmt"
 	"wwKill/Mydb"
 )
 
 func main() {
+
+	// 背包管理器测试
 	ctrl := Mydb.NewBackCtrl()
+	// back := Mydb.Backpack{
+	// 	Name: "可爱裤子",
+	// 	User: 1,
+	// }
+	// ctrl.Insert(back)
+	// back := Mydb.Backpack{
+	// 	Id:       1,
+	// 	StilTime: "2012-12-12 08：00：00",
+	// }
+	// ctrl.Update(back)
+	back := Mydb.Backpack{
+		User: 1,
+	}
+	backs := ctrl.GetUser(back)
+	fmt.Println(backs)
+
+	// 用户管理器测试
 	// ctrlUser := Mydb.NewUserCtrl()
 	// user := Mydb.User{
 	// 	OpenID:    "abcd",
@@ -25,16 +45,10 @@ func main() {
 	// // 插入一个
 	// ctrlUser.Insert(user)
 	// update := Mydb.User{Id: 1}
-	// ctrl.GetUser(update)
-	// back := Mydb.Backpack{
-	// 	Name: "可爱上衣",
-	// 	User: 1,
+	// user, has := ctrlUser.GetUser(update)
+	// fmt.Println(has)
+	// if has {
+	// 	fmt.Println("输出:", user)
 	// }
-	// ctrl.Insert(back)
-	back := Mydb.Backpack{
-		Id:       1,
-		StilTime: "2012-12-12 08：00：00",
-	}
-	ctrl.Update(back)
 
 }

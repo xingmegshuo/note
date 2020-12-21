@@ -26,8 +26,20 @@ type Record struct {
 	result   string    `xorm:"varchar(255)"`
 }
 
-// 插入单个战绩
+// 获取全部战绩
+func (r Record) GetUser(a ...interface{}) []Record {
+	r, ok := a[0].(Record)
+	records := make([]Record, 0)
+	if ok != false {
+		err := orm.Find(records, &r)
+		if err != nil {
+			log.Panic(err)
+		}
+	}
+	return records
+}
 
+// 插入单个战绩
 func (r Record) Insert(a ...interface{}) bool {
 	_, err := orm.InsertOne(a[0])
 	if err != nil {
