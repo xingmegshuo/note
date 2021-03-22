@@ -18,6 +18,7 @@ import (
 
 type Level uint16
 
+
 type Log interface {
 	Debug(msg string, a ...interface{})
 	Info(msg string, a ...interface{})
@@ -37,6 +38,7 @@ const (
 
 // 解析日志级别
 func ParseLevel(s string) (Level, error) {
+	
 	s = strings.ToLower(s)
 	switch s {
 	case "debug":
