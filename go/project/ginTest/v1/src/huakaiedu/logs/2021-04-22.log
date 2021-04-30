@@ -1,0 +1,772 @@
+[GIN-debug] GET    /static/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (4 handlers)
+[GIN-debug] HEAD   /static/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (4 handlers)
+time="2021-04-22 15:37:45" level=info msg="Server Start ..."
+[GIN-debug] POST   /api/active               --> huakai/handler.CreateActive (4 handlers)
+[GIN-debug] GET    /api/active               --> huakai/handler.GetActive (5 handlers)
+[GIN-debug] PUT    /api/active               --> huakai/handler.UpdateActive (4 handlers)
+[GIN-debug] POST   /api/sign                 --> huakai/handler.CreateSign (4 handlers)
+[GIN-debug] GET    /api/sign                 --> huakai/handler.GetSign (5 handlers)
+[GIN-debug] PUT    /api/sign                 --> huakai/handler.ChangeSign (4 handlers)
+[GIN-debug] POST   /api/join                 --> huakai/handler.CreateJoinTable (4 handlers)
+[GIN-debug] GET    /api/join                 --> huakai/handler.GetJoinMes (5 handlers)
+[GIN-debug] PUT    /api/join                 --> huakai/handler.ChangeJoinTable (4 handlers)
+[GIN-debug] POST   /api/member               --> huakai/handler.CreateMemberRes (4 handlers)
+[GIN-debug] GET    /api/member               --> huakai/handler.GetMemberRes (5 handlers)
+[GIN-debug] PUT    /api/member               --> huakai/handler.ChangeMemberRes (4 handlers)
+[GIN-debug] GET    /api/memberUser           --> huakai/handler.GetMembers (5 handlers)
+[GIN-debug] DELETE /api/delete               --> huakai/handler.DeleteData (4 handlers)
+[GIN-debug] POST   /api/wx/user/login        --> huakai/handler.Login (4 handlers)
+[GIN-debug] POST   /web/user/login           --> huakai/handler.LoginWeb (4 handlers)
+[GIN-debug] GET    /web/getUsers             --> huakai/handler.GetUsers (5 handlers)
+[GIN-debug] POST   /web/addSuper             --> huakai/handler.AddSuperUser (4 handlers)
+[GIN-debug] PUT    /web/changeUser           --> huakai/handler.ChangeUser (4 handlers)
+[GIN-debug] GET    /doc                      --> main.main.func1 (4 handlers)
+time="2021-04-22 15:38:00" level=info msg="| 404 |          82ns |       127.0.0.1 | GET | / |"
+time="2021-04-22 15:38:00" level=info msg="| 404 |          82ns |       127.0.0.1 | GET | /favicon.ico |"
+time="2021-04-22 15:38:03" level=info msg="| 301 |      41.664µs |       127.0.0.1 | GET | /doc |"
+time="2021-04-22 15:38:03" level=info msg="| 200 |   30.925648ms |       127.0.0.1 | GET | /static/doc/ |"
+time="2021-04-22 15:38:03" level=info msg="| 200 |      209.61µs |       127.0.0.1 | GET | /static/doc/vendor/bootstrap.min.css |"
+time="2021-04-22 15:38:03" level=info msg="| 200 |      94.281µs |       127.0.0.1 | GET | /static/doc/vendor/prism.css |"
+time="2021-04-22 15:38:03" level=info msg="| 200 |     151.754µs |       127.0.0.1 | GET | /static/doc/css/style.css |"
+time="2021-04-22 15:38:03" level=info msg="| 200 |     160.143µs |       127.0.0.1 | GET | /static/doc/vendor/polyfill.js |"
+time="2021-04-22 15:38:03" level=info msg="| 200 |     108.377µs |       127.0.0.1 | GET | /static/doc/vendor/require.min.js |"
+time="2021-04-22 15:38:03" level=info msg="| 200 |     116.177µs |       127.0.0.1 | GET | /static/doc/main.js |"
+time="2021-04-22 15:38:03" level=info msg="| 200 |   17.408899ms |       127.0.0.1 | GET | /static/doc/img/favicon.ico |"
+time="2021-04-22 15:38:04" level=info msg="| 200 |     143.062µs |       127.0.0.1 | GET | /static/doc/vendor/lodash.custom.min.js?v=1619077084011 |"
+time="2021-04-22 15:38:04" level=info msg="| 200 |     115.014µs |       127.0.0.1 | GET | /static/doc/vendor/jquery.min.js?v=1619077084011 |"
+time="2021-04-22 15:38:04" level=info msg="| 200 |      47.369µs |       127.0.0.1 | GET | /static/doc/locales/locale.js?v=1619077084011 |"
+time="2021-04-22 15:38:04" level=info msg="| 200 |      97.864µs |       127.0.0.1 | GET | /static/doc/api_project.js?v=1619077084011 |"
+time="2021-04-22 15:38:04" level=info msg="| 200 |      90.288µs |       127.0.0.1 | GET | /static/doc/api_data.js?v=1619077084011 |"
+time="2021-04-22 15:38:04" level=info msg="| 200 |     124.313µs |       127.0.0.1 | GET | /static/doc/utils/send_sample_request.js?v=1619077084011 |"
+time="2021-04-22 15:38:04" level=info msg="| 200 |      95.931µs |       127.0.0.1 | GET | /static/doc/vendor/path-to-regexp/index.js?v=1619077084011 |"
+time="2021-04-22 15:38:04" level=info msg="| 200 |     166.744µs |       127.0.0.1 | GET | /static/doc/vendor/semver.min.js?v=1619077084011 |"
+time="2021-04-22 15:38:04" level=info msg="| 200 |     128.929µs |       127.0.0.1 | GET | /static/doc/vendor/webfontloader.js?v=1619077084011 |"
+time="2021-04-22 15:38:04" level=info msg="| 200 |     111.044µs |       127.0.0.1 | GET | /static/doc/vendor/list.min.js?v=1619077084011 |"
+time="2021-04-22 15:38:04" level=info msg="| 200 |     209.213µs |       127.0.0.1 | GET | /static/doc/vendor/prism.js?v=1619077084011 |"
+time="2021-04-22 15:38:04" level=info msg="| 200 |      84.359µs |       127.0.0.1 | GET | /static/doc/locales/fr.js?v=1619077084011 |"
+time="2021-04-22 15:38:04" level=info msg="| 200 |      38.806µs |       127.0.0.1 | GET | /static/doc/locales/es.js?v=1619077084011 |"
+time="2021-04-22 15:38:04" level=info msg="| 200 |       55.25µs |       127.0.0.1 | GET | /static/doc/locales/de.js?v=1619077084011 |"
+time="2021-04-22 15:38:04" level=info msg="| 200 |      42.559µs |       127.0.0.1 | GET | /static/doc/locales/cs.js?v=1619077084011 |"
+time="2021-04-22 15:38:04" level=info msg="| 200 |      43.985µs |       127.0.0.1 | GET | /static/doc/locales/ca.js?v=1619077084011 |"
+time="2021-04-22 15:38:04" level=info msg="| 200 |       85.28µs |       127.0.0.1 | GET | /static/doc/locales/ru.js?v=1619077084011 |"
+time="2021-04-22 15:38:04" level=info msg="| 200 |      48.259µs |       127.0.0.1 | GET | /static/doc/locales/ro.js?v=1619077084011 |"
+time="2021-04-22 15:38:04" level=info msg="| 200 |      37.582µs |       127.0.0.1 | GET | /static/doc/locales/pt_br.js?v=1619077084011 |"
+time="2021-04-22 15:38:04" level=info msg="| 200 |       37.04µs |       127.0.0.1 | GET | /static/doc/locales/pl.js?v=1619077084011 |"
+time="2021-04-22 15:38:04" level=info msg="| 200 |      38.112µs |       127.0.0.1 | GET | /static/doc/locales/nl.js?v=1619077084011 |"
+time="2021-04-22 15:38:04" level=info msg="| 200 |      35.424µs |       127.0.0.1 | GET | /static/doc/locales/it.js?v=1619077084011 |"
+time="2021-04-22 15:38:04" level=info msg="| 200 |      79.117µs |       127.0.0.1 | GET | /static/doc/locales/zh.js?v=1619077084011 |"
+time="2021-04-22 15:38:04" level=info msg="| 200 |      55.429µs |       127.0.0.1 | GET | /static/doc/locales/tr.js?v=1619077084011 |"
+time="2021-04-22 15:38:04" level=info msg="| 200 |      67.094µs |       127.0.0.1 | GET | /static/doc/locales/vi.js?v=1619077084011 |"
+time="2021-04-22 15:38:04" level=info msg="| 200 |     111.475µs |       127.0.0.1 | GET | /static/doc/vendor/handlebars.min.js?v=1619077084011 |"
+time="2021-04-22 15:38:04" level=info msg="| 200 |      84.855µs |       127.0.0.1 | GET | /static/doc/locales/zh_cn.js?v=1619077084011 |"
+time="2021-04-22 15:38:04" level=info msg="| 200 |     137.651µs |       127.0.0.1 | GET | /static/doc/vendor/bootstrap.min.js?v=1619077084011 |"
+time="2021-04-22 15:38:04" level=info msg="| 200 |     112.309µs |       127.0.0.1 | GET | /static/doc/utils/send_sample_request_utils.js?v=1619077084011 |"
+time="2021-04-22 15:38:04" level=info msg="| 200 |     115.717µs |       127.0.0.1 | GET | /static/doc/utils/handlebars_helper.js?v=1619077084011 |"
+time="2021-04-22 15:38:04" level=info msg="| 200 |     123.063µs |       127.0.0.1 | GET | /static/doc/vendor/diff_match_patch.min.js?v=1619077084011 |"
+[GIN-debug] GET    /static/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (4 handlers)
+[GIN-debug] HEAD   /static/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (4 handlers)
+time="2021-04-22 15:41:26" level=info msg="Server Start ..."
+[GIN-debug] POST   /api/active               --> huakai/handler.CreateActive (4 handlers)
+[GIN-debug] GET    /api/active               --> huakai/handler.GetActive (5 handlers)
+[GIN-debug] PUT    /api/active               --> huakai/handler.UpdateActive (4 handlers)
+[GIN-debug] POST   /api/sign                 --> huakai/handler.CreateSign (4 handlers)
+[GIN-debug] GET    /api/sign                 --> huakai/handler.GetSign (5 handlers)
+[GIN-debug] PUT    /api/sign                 --> huakai/handler.ChangeSign (4 handlers)
+[GIN-debug] POST   /api/join                 --> huakai/handler.CreateJoinTable (4 handlers)
+[GIN-debug] GET    /api/join                 --> huakai/handler.GetJoinMes (5 handlers)
+[GIN-debug] PUT    /api/join                 --> huakai/handler.ChangeJoinTable (4 handlers)
+[GIN-debug] POST   /api/member               --> huakai/handler.CreateMemberRes (4 handlers)
+[GIN-debug] GET    /api/member               --> huakai/handler.GetMemberRes (5 handlers)
+[GIN-debug] PUT    /api/member               --> huakai/handler.ChangeMemberRes (4 handlers)
+[GIN-debug] GET    /api/memberUser           --> huakai/handler.GetMembers (5 handlers)
+[GIN-debug] DELETE /api/delete               --> huakai/handler.DeleteData (4 handlers)
+[GIN-debug] POST   /api/wx/user/login        --> huakai/handler.Login (4 handlers)
+[GIN-debug] POST   /web/user/login           --> huakai/handler.LoginWeb (4 handlers)
+[GIN-debug] GET    /web/getUsers             --> huakai/handler.GetUsers (5 handlers)
+[GIN-debug] POST   /web/addSuper             --> huakai/handler.AddSuperUser (4 handlers)
+[GIN-debug] PUT    /web/changeUser           --> huakai/handler.ChangeUser (4 handlers)
+[GIN-debug] GET    /doc                      --> main.main.func1 (4 handlers)
+time="2021-04-22 15:41:31" level=info msg="| 200 |    3.680661ms |       127.0.0.1 | GET | /static/doc/ |"
+time="2021-04-22 15:41:31" level=info msg="| 200 |     244.676µs |       127.0.0.1 | GET | /static/doc/img/favicon.ico |"
+time="2021-04-22 15:41:31" level=info msg="| 200 |     239.135µs |       127.0.0.1 | GET | /static/doc/vendor/jquery.min.js?v=1619077291288 |"
+time="2021-04-22 15:41:31" level=info msg="| 200 |     125.432µs |       127.0.0.1 | GET | /static/doc/vendor/lodash.custom.min.js?v=1619077291288 |"
+time="2021-04-22 15:41:31" level=info msg="| 200 |     111.104µs |       127.0.0.1 | GET | /static/doc/locales/locale.js?v=1619077291288 |"
+time="2021-04-22 15:41:31" level=info msg="| 200 |      60.342µs |       127.0.0.1 | GET | /static/doc/api_project.js?v=1619077291288 |"
+time="2021-04-22 15:41:31" level=info msg="| 200 |     109.783µs |       127.0.0.1 | GET | /static/doc/api_data.js?v=1619077291288 |"
+time="2021-04-22 15:41:31" level=info msg="| 200 |      66.185µs |       127.0.0.1 | GET | /static/doc/utils/send_sample_request.js?v=1619077291288 |"
+time="2021-04-22 15:41:31" level=info msg="| 200 |     100.475µs |       127.0.0.1 | GET | /static/doc/vendor/semver.min.js?v=1619077291288 |"
+time="2021-04-22 15:41:31" level=info msg="| 200 |     160.945µs |       127.0.0.1 | GET | /static/doc/vendor/list.min.js?v=1619077291288 |"
+time="2021-04-22 15:41:31" level=info msg="| 200 |       76.27µs |       127.0.0.1 | GET | /static/doc/vendor/path-to-regexp/index.js?v=1619077291288 |"
+time="2021-04-22 15:41:31" level=info msg="| 200 |      94.638µs |       127.0.0.1 | GET | /static/doc/vendor/webfontloader.js?v=1619077291288 |"
+time="2021-04-22 15:41:31" level=info msg="| 200 |     156.114µs |       127.0.0.1 | GET | /static/doc/vendor/prism.js?v=1619077291288 |"
+time="2021-04-22 15:41:31" level=info msg="| 200 |     214.051µs |       127.0.0.1 | GET | /static/doc/vendor/handlebars.min.js?v=1619077291288 |"
+time="2021-04-22 15:41:31" level=info msg="| 200 |     118.213µs |       127.0.0.1 | GET | /static/doc/locales/ca.js?v=1619077291288 |"
+time="2021-04-22 15:41:31" level=info msg="| 200 |      86.418µs |       127.0.0.1 | GET | /static/doc/locales/fr.js?v=1619077291288 |"
+time="2021-04-22 15:41:31" level=info msg="| 200 |      43.657µs |       127.0.0.1 | GET | /static/doc/locales/es.js?v=1619077291288 |"
+time="2021-04-22 15:41:31" level=info msg="| 200 |      43.634µs |       127.0.0.1 | GET | /static/doc/locales/de.js?v=1619077291288 |"
+time="2021-04-22 15:41:31" level=info msg="| 200 |      39.878µs |       127.0.0.1 | GET | /static/doc/locales/cs.js?v=1619077291288 |"
+time="2021-04-22 15:41:31" level=info msg="| 200 |      95.085µs |       127.0.0.1 | GET | /static/doc/locales/it.js?v=1619077291288 |"
+time="2021-04-22 15:41:31" level=info msg="| 200 |      90.005µs |       127.0.0.1 | GET | /static/doc/locales/pl.js?v=1619077291288 |"
+time="2021-04-22 15:41:31" level=info msg="| 200 |      41.992µs |       127.0.0.1 | GET | /static/doc/locales/nl.js?v=1619077291288 |"
+time="2021-04-22 15:41:31" level=info msg="| 200 |      39.128µs |       127.0.0.1 | GET | /static/doc/locales/pt_br.js?v=1619077291288 |"
+time="2021-04-22 15:41:31" level=info msg="| 200 |      94.532µs |       127.0.0.1 | GET | /static/doc/locales/ru.js?v=1619077291288 |"
+time="2021-04-22 15:41:31" level=info msg="| 200 |      43.817µs |       127.0.0.1 | GET | /static/doc/locales/ro.js?v=1619077291288 |"
+time="2021-04-22 15:41:31" level=info msg="| 200 |      92.912µs |       127.0.0.1 | GET | /static/doc/locales/tr.js?v=1619077291288 |"
+time="2021-04-22 15:41:31" level=info msg="| 200 |     109.586µs |       127.0.0.1 | GET | /static/doc/locales/vi.js?v=1619077291288 |"
+time="2021-04-22 15:41:31" level=info msg="| 200 |      47.673µs |       127.0.0.1 | GET | /static/doc/locales/zh_cn.js?v=1619077291288 |"
+time="2021-04-22 15:41:31" level=info msg="| 200 |      40.885µs |       127.0.0.1 | GET | /static/doc/locales/zh.js?v=1619077291288 |"
+time="2021-04-22 15:41:31" level=info msg="| 200 |     132.804µs |       127.0.0.1 | GET | /static/doc/utils/send_sample_request_utils.js?v=1619077291288 |"
+time="2021-04-22 15:41:31" level=info msg="| 200 |     148.389µs |       127.0.0.1 | GET | /static/doc/vendor/bootstrap.min.js?v=1619077291288 |"
+time="2021-04-22 15:41:31" level=info msg="| 200 |     192.427µs |       127.0.0.1 | GET | /static/doc/utils/handlebars_helper.js?v=1619077291288 |"
+time="2021-04-22 15:41:31" level=info msg="| 200 |     121.292µs |       127.0.0.1 | GET | /static/doc/vendor/diff_match_patch.min.js?v=1619077291288 |"
+time="2021-04-22 15:45:29" level=info msg="| 200 |     158.754µs |       127.0.0.1 | GET | /static/doc/ |"
+time="2021-04-22 15:45:29" level=info msg="| 200 |      129.03µs |       127.0.0.1 | GET | /static/doc/img/favicon.ico |"
+time="2021-04-22 15:45:29" level=info msg="| 200 |     188.946µs |       127.0.0.1 | GET | /static/doc/vendor/jquery.min.js?v=1619077529730 |"
+time="2021-04-22 15:45:29" level=info msg="| 200 |     160.627µs |       127.0.0.1 | GET | /static/doc/vendor/lodash.custom.min.js?v=1619077529730 |"
+time="2021-04-22 15:45:29" level=info msg="| 200 |      91.596µs |       127.0.0.1 | GET | /static/doc/locales/locale.js?v=1619077529730 |"
+time="2021-04-22 15:45:29" level=info msg="| 200 |      79.361µs |       127.0.0.1 | GET | /static/doc/api_project.js?v=1619077529730 |"
+time="2021-04-22 15:45:29" level=info msg="| 200 |     123.523µs |       127.0.0.1 | GET | /static/doc/api_data.js?v=1619077529730 |"
+time="2021-04-22 15:45:29" level=info msg="| 200 |      92.347µs |       127.0.0.1 | GET | /static/doc/utils/send_sample_request.js?v=1619077529730 |"
+time="2021-04-22 15:45:29" level=info msg="| 200 |      136.04µs |       127.0.0.1 | GET | /static/doc/vendor/semver.min.js?v=1619077529730 |"
+time="2021-04-22 15:45:29" level=info msg="| 200 |     122.711µs |       127.0.0.1 | GET | /static/doc/vendor/webfontloader.js?v=1619077529730 |"
+time="2021-04-22 15:45:29" level=info msg="| 200 |     126.627µs |       127.0.0.1 | GET | /static/doc/vendor/path-to-regexp/index.js?v=1619077529730 |"
+time="2021-04-22 15:45:29" level=info msg="| 200 |     109.697µs |       127.0.0.1 | GET | /static/doc/vendor/list.min.js?v=1619077529730 |"
+time="2021-04-22 15:45:29" level=info msg="| 200 |     121.669µs |       127.0.0.1 | GET | /static/doc/vendor/prism.js?v=1619077529730 |"
+time="2021-04-22 15:45:29" level=info msg="| 200 |     161.827µs |       127.0.0.1 | GET | /static/doc/vendor/handlebars.min.js?v=1619077529730 |"
+time="2021-04-22 15:45:29" level=info msg="| 200 |     154.436µs |       127.0.0.1 | GET | /static/doc/vendor/bootstrap.min.js?v=1619077529730 |"
+time="2021-04-22 15:45:29" level=info msg="| 200 |      95.262µs |       127.0.0.1 | GET | /static/doc/locales/ca.js?v=1619077529730 |"
+time="2021-04-22 15:45:29" level=info msg="| 200 |      78.592µs |       127.0.0.1 | GET | /static/doc/locales/cs.js?v=1619077529730 |"
+time="2021-04-22 15:45:29" level=info msg="| 200 |      66.452µs |       127.0.0.1 | GET | /static/doc/locales/de.js?v=1619077529730 |"
+time="2021-04-22 15:45:29" level=info msg="| 200 |      77.872µs |       127.0.0.1 | GET | /static/doc/locales/es.js?v=1619077529730 |"
+time="2021-04-22 15:45:29" level=info msg="| 200 |      64.071µs |       127.0.0.1 | GET | /static/doc/locales/fr.js?v=1619077529730 |"
+time="2021-04-22 15:45:29" level=info msg="| 200 |      72.871µs |       127.0.0.1 | GET | /static/doc/locales/it.js?v=1619077529730 |"
+time="2021-04-22 15:45:29" level=info msg="| 200 |      70.676µs |       127.0.0.1 | GET | /static/doc/locales/nl.js?v=1619077529730 |"
+time="2021-04-22 15:45:29" level=info msg="| 200 |      72.206µs |       127.0.0.1 | GET | /static/doc/locales/pl.js?v=1619077529730 |"
+time="2021-04-22 15:45:29" level=info msg="| 200 |      76.912µs |       127.0.0.1 | GET | /static/doc/locales/pt_br.js?v=1619077529730 |"
+time="2021-04-22 15:45:29" level=info msg="| 200 |      54.774µs |       127.0.0.1 | GET | /static/doc/locales/ro.js?v=1619077529730 |"
+time="2021-04-22 15:45:29" level=info msg="| 200 |       73.19µs |       127.0.0.1 | GET | /static/doc/locales/ru.js?v=1619077529730 |"
+time="2021-04-22 15:45:29" level=info msg="| 200 |       75.28µs |       127.0.0.1 | GET | /static/doc/locales/tr.js?v=1619077529730 |"
+time="2021-04-22 15:45:29" level=info msg="| 200 |     101.642µs |       127.0.0.1 | GET | /static/doc/locales/vi.js?v=1619077529730 |"
+time="2021-04-22 15:45:29" level=info msg="| 200 |      77.701µs |       127.0.0.1 | GET | /static/doc/locales/zh.js?v=1619077529730 |"
+time="2021-04-22 15:45:29" level=info msg="| 200 |      93.655µs |       127.0.0.1 | GET | /static/doc/locales/zh_cn.js?v=1619077529730 |"
+time="2021-04-22 15:45:29" level=info msg="| 200 |      93.779µs |       127.0.0.1 | GET | /static/doc/utils/send_sample_request_utils.js?v=1619077529730 |"
+time="2021-04-22 15:45:29" level=info msg="| 200 |     173.744µs |       127.0.0.1 | GET | /static/doc/utils/handlebars_helper.js?v=1619077529730 |"
+time="2021-04-22 15:45:29" level=info msg="| 200 |     122.275µs |       127.0.0.1 | GET | /static/doc/vendor/diff_match_patch.min.js?v=1619077529730 |"
+time="2021-04-22 15:46:03" level=info msg="| 404 |      40.603µs |       127.0.0.1 | GET | /static/doc/vendor/bootstrap.min.css.map |"
+time="2021-04-22 15:49:34" level=info msg="| 200 |     157.429µs |       127.0.0.1 | GET | /static/doc/ |"
+time="2021-04-22 15:49:34" level=info msg="| 200 |     117.509µs |       127.0.0.1 | GET | /static/doc/img/favicon.ico |"
+time="2021-04-22 15:49:34" level=info msg="| 404 |      27.368µs |       127.0.0.1 | GET | /static/doc/vendor/bootstrap.min.css.map |"
+time="2021-04-22 15:49:34" level=info msg="| 200 |     174.681µs |       127.0.0.1 | GET | /static/doc/vendor/jquery.min.js?v=1619077774267 |"
+time="2021-04-22 15:49:34" level=info msg="| 200 |     161.527µs |       127.0.0.1 | GET | /static/doc/vendor/lodash.custom.min.js?v=1619077774267 |"
+time="2021-04-22 15:49:34" level=info msg="| 200 |      74.223µs |       127.0.0.1 | GET | /static/doc/locales/locale.js?v=1619077774267 |"
+time="2021-04-22 15:49:34" level=info msg="| 200 |      73.567µs |       127.0.0.1 | GET | /static/doc/api_project.js?v=1619077774267 |"
+time="2021-04-22 15:49:34" level=info msg="| 200 |     107.039µs |       127.0.0.1 | GET | /static/doc/api_data.js?v=1619077774267 |"
+time="2021-04-22 15:49:34" level=info msg="| 200 |     104.596µs |       127.0.0.1 | GET | /static/doc/utils/send_sample_request.js?v=1619077774267 |"
+time="2021-04-22 15:49:34" level=info msg="| 200 |     145.345µs |       127.0.0.1 | GET | /static/doc/vendor/semver.min.js?v=1619077774267 |"
+time="2021-04-22 15:49:34" level=info msg="| 200 |      93.393µs |       127.0.0.1 | GET | /static/doc/vendor/webfontloader.js?v=1619077774267 |"
+time="2021-04-22 15:49:34" level=info msg="| 200 |     116.602µs |       127.0.0.1 | GET | /static/doc/vendor/path-to-regexp/index.js?v=1619077774267 |"
+time="2021-04-22 15:49:34" level=info msg="| 200 |       131.8µs |       127.0.0.1 | GET | /static/doc/vendor/list.min.js?v=1619077774267 |"
+time="2021-04-22 15:49:34" level=info msg="| 200 |     139.084µs |       127.0.0.1 | GET | /static/doc/vendor/prism.js?v=1619077774267 |"
+time="2021-04-22 15:49:34" level=info msg="| 200 |     142.654µs |       127.0.0.1 | GET | /static/doc/vendor/handlebars.min.js?v=1619077774267 |"
+time="2021-04-22 15:49:34" level=info msg="| 200 |     125.916µs |       127.0.0.1 | GET | /static/doc/vendor/bootstrap.min.js?v=1619077774267 |"
+time="2021-04-22 15:49:34" level=info msg="| 200 |      77.583µs |       127.0.0.1 | GET | /static/doc/locales/ca.js?v=1619077774267 |"
+time="2021-04-22 15:49:34" level=info msg="| 200 |      72.696µs |       127.0.0.1 | GET | /static/doc/locales/cs.js?v=1619077774267 |"
+time="2021-04-22 15:49:34" level=info msg="| 200 |      80.707µs |       127.0.0.1 | GET | /static/doc/locales/de.js?v=1619077774267 |"
+time="2021-04-22 15:49:34" level=info msg="| 200 |      92.699µs |       127.0.0.1 | GET | /static/doc/locales/es.js?v=1619077774267 |"
+time="2021-04-22 15:49:34" level=info msg="| 200 |      79.128µs |       127.0.0.1 | GET | /static/doc/locales/fr.js?v=1619077774267 |"
+time="2021-04-22 15:49:34" level=info msg="| 200 |       77.98µs |       127.0.0.1 | GET | /static/doc/locales/it.js?v=1619077774267 |"
+time="2021-04-22 15:49:34" level=info msg="| 200 |      70.852µs |       127.0.0.1 | GET | /static/doc/locales/nl.js?v=1619077774267 |"
+time="2021-04-22 15:49:34" level=info msg="| 200 |      70.357µs |       127.0.0.1 | GET | /static/doc/locales/pl.js?v=1619077774267 |"
+time="2021-04-22 15:49:34" level=info msg="| 200 |      76.752µs |       127.0.0.1 | GET | /static/doc/locales/pt_br.js?v=1619077774267 |"
+time="2021-04-22 15:49:34" level=info msg="| 200 |      75.359µs |       127.0.0.1 | GET | /static/doc/locales/ro.js?v=1619077774267 |"
+time="2021-04-22 15:49:34" level=info msg="| 200 |      82.588µs |       127.0.0.1 | GET | /static/doc/locales/ru.js?v=1619077774267 |"
+time="2021-04-22 15:49:34" level=info msg="| 200 |     201.054µs |       127.0.0.1 | GET | /static/doc/locales/tr.js?v=1619077774267 |"
+time="2021-04-22 15:49:34" level=info msg="| 200 |      99.279µs |       127.0.0.1 | GET | /static/doc/locales/vi.js?v=1619077774267 |"
+time="2021-04-22 15:49:34" level=info msg="| 200 |      73.047µs |       127.0.0.1 | GET | /static/doc/locales/zh.js?v=1619077774267 |"
+time="2021-04-22 15:49:34" level=info msg="| 200 |      87.275µs |       127.0.0.1 | GET | /static/doc/locales/zh_cn.js?v=1619077774267 |"
+time="2021-04-22 15:49:34" level=info msg="| 200 |      94.842µs |       127.0.0.1 | GET | /static/doc/utils/send_sample_request_utils.js?v=1619077774267 |"
+time="2021-04-22 15:49:34" level=info msg="| 200 |     117.989µs |       127.0.0.1 | GET | /static/doc/utils/handlebars_helper.js?v=1619077774267 |"
+time="2021-04-22 15:49:34" level=info msg="| 200 |     117.987µs |       127.0.0.1 | GET | /static/doc/vendor/diff_match_patch.min.js?v=1619077774267 |"
+[GIN-debug] GET    /static/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (4 handlers)
+[GIN-debug] HEAD   /static/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (4 handlers)
+time="2021-04-22 16:07:45" level=info msg="Server Start ..."
+[GIN-debug] POST   /api/active               --> huakai/handler.CreateActive (4 handlers)
+[GIN-debug] GET    /api/active               --> huakai/handler.GetActive (5 handlers)
+[GIN-debug] PUT    /api/active               --> huakai/handler.UpdateActive (4 handlers)
+[GIN-debug] POST   /api/sign                 --> huakai/handler.CreateSign (4 handlers)
+[GIN-debug] GET    /api/sign                 --> huakai/handler.GetSign (5 handlers)
+[GIN-debug] PUT    /api/sign                 --> huakai/handler.ChangeSign (4 handlers)
+[GIN-debug] POST   /api/join                 --> huakai/handler.CreateJoinTable (4 handlers)
+[GIN-debug] GET    /api/join                 --> huakai/handler.GetJoinMes (5 handlers)
+[GIN-debug] PUT    /api/join                 --> huakai/handler.ChangeJoinTable (4 handlers)
+[GIN-debug] POST   /api/member               --> huakai/handler.CreateMemberRes (4 handlers)
+[GIN-debug] GET    /api/member               --> huakai/handler.GetMemberRes (5 handlers)
+[GIN-debug] PUT    /api/member               --> huakai/handler.ChangeMemberRes (4 handlers)
+[GIN-debug] GET    /api/memberUser           --> huakai/handler.GetMembers (5 handlers)
+[GIN-debug] DELETE /api/delete               --> huakai/handler.DeleteData (4 handlers)
+[GIN-debug] POST   /api/wx/user/login        --> huakai/handler.Login (4 handlers)
+[GIN-debug] POST   /web/user/login           --> huakai/handler.LoginWeb (4 handlers)
+[GIN-debug] GET    /web/getUsers             --> huakai/handler.GetUsers (5 handlers)
+[GIN-debug] POST   /web/addSuper             --> huakai/handler.AddSuperUser (4 handlers)
+[GIN-debug] PUT    /web/changeUser           --> huakai/handler.ChangeUser (4 handlers)
+[GIN-debug] GET    /                         --> main.main.func1 (4 handlers)
+[GIN-debug] GET    /doc                      --> main.main.func2 (4 handlers)
+time="2021-04-22 16:07:57" level=info msg="| 301 |       50.56µs |       127.0.0.1 | GET | / |"
+time="2021-04-22 16:07:57" level=info msg="| 200 |    3.297232ms |       127.0.0.1 | GET | /static/admin/sign-up.html |"
+time="2021-04-22 16:07:57" level=info msg="| 200 |     180.944µs |       127.0.0.1 | GET | /static/admin/assets/css/amazeui.datatables.min.css |"
+time="2021-04-22 16:07:57" level=info msg="| 200 |     274.316µs |       127.0.0.1 | GET | /static/admin/assets/css/amazeui.min.css |"
+time="2021-04-22 16:07:57" level=info msg="| 200 |     184.534µs |       127.0.0.1 | GET | /static/admin/assets/css/app.css |"
+time="2021-04-22 16:07:57" level=info msg="| 200 |     245.681µs |       127.0.0.1 | GET | /static/admin/assets/js/amazeui.min.js |"
+time="2021-04-22 16:07:57" level=info msg="| 200 |      66.523µs |       127.0.0.1 | GET | /static/admin/assets/js/theme.js |"
+time="2021-04-22 16:07:57" level=info msg="| 200 |     109.757µs |       127.0.0.1 | GET | /static/admin/assets/js/jquery.min.js |"
+time="2021-04-22 16:07:57" level=info msg="| 200 |      64.136µs |       127.0.0.1 | GET | /static/admin/assets/js/app.js |"
+time="2021-04-22 16:07:57" level=info msg="| 200 |      177.37µs |       127.0.0.1 | GET | /static/admin/assets/fonts/fontawesome-webfont.woff2?v=4.6.3 |"
+time="2021-04-22 16:07:57" level=info msg="| 200 |     112.633µs |       127.0.0.1 | GET | /static/admin/assets/i/favicon.png |"
+[GIN-debug] GET    /static/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (4 handlers)
+[GIN-debug] HEAD   /static/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (4 handlers)
+time="2021-04-22 16:08:29" level=info msg="Server Start ..."
+[GIN-debug] POST   /api/active               --> huakai/handler.CreateActive (4 handlers)
+[GIN-debug] GET    /api/active               --> huakai/handler.GetActive (5 handlers)
+[GIN-debug] PUT    /api/active               --> huakai/handler.UpdateActive (4 handlers)
+[GIN-debug] POST   /api/sign                 --> huakai/handler.CreateSign (4 handlers)
+[GIN-debug] GET    /api/sign                 --> huakai/handler.GetSign (5 handlers)
+[GIN-debug] PUT    /api/sign                 --> huakai/handler.ChangeSign (4 handlers)
+[GIN-debug] POST   /api/join                 --> huakai/handler.CreateJoinTable (4 handlers)
+[GIN-debug] GET    /api/join                 --> huakai/handler.GetJoinMes (5 handlers)
+[GIN-debug] PUT    /api/join                 --> huakai/handler.ChangeJoinTable (4 handlers)
+[GIN-debug] POST   /api/member               --> huakai/handler.CreateMemberRes (4 handlers)
+[GIN-debug] GET    /api/member               --> huakai/handler.GetMemberRes (5 handlers)
+[GIN-debug] PUT    /api/member               --> huakai/handler.ChangeMemberRes (4 handlers)
+[GIN-debug] GET    /api/memberUser           --> huakai/handler.GetMembers (5 handlers)
+[GIN-debug] DELETE /api/delete               --> huakai/handler.DeleteData (4 handlers)
+[GIN-debug] POST   /api/wx/user/login        --> huakai/handler.Login (4 handlers)
+[GIN-debug] POST   /web/user/login           --> huakai/handler.LoginWeb (4 handlers)
+[GIN-debug] GET    /web/getUsers             --> huakai/handler.GetUsers (5 handlers)
+[GIN-debug] POST   /web/addSuper             --> huakai/handler.AddSuperUser (4 handlers)
+[GIN-debug] PUT    /web/changeUser           --> huakai/handler.ChangeUser (4 handlers)
+[GIN-debug] GET    /                         --> main.main.func1 (4 handlers)
+[GIN-debug] GET    /doc                      --> main.main.func2 (4 handlers)
+time="2021-04-22 16:08:31" level=info msg="| 304 |     104.877µs |       127.0.0.1 | GET | /static/admin/sign-up.html |"
+time="2021-04-22 16:08:32" level=info msg="| 200 |    3.323821ms |       127.0.0.1 | GET | /static/admin/assets/i/favicon.png |"
+time="2021-04-22 16:08:32" level=info msg="| 304 |      78.529µs |       127.0.0.1 | GET | /static/admin/sign-up.html |"
+time="2021-04-22 16:08:32" level=info msg="| 200 |      84.244µs |       127.0.0.1 | GET | /static/admin/assets/i/favicon.png |"
+time="2021-04-22 16:08:34" level=info msg="| 200 |      180.58µs |       127.0.0.1 | GET | /static/doc/vendor/jquery.min.js?v=1619078914666 |"
+time="2021-04-22 16:08:34" level=info msg="| 200 |     142.221µs |       127.0.0.1 | GET | /static/doc/vendor/lodash.custom.min.js?v=1619078914666 |"
+time="2021-04-22 16:08:34" level=info msg="| 200 |     153.371µs |       127.0.0.1 | GET | /static/doc/utils/send_sample_request.js?v=1619078914666 |"
+time="2021-04-22 16:08:34" level=info msg="| 200 |      60.442µs |       127.0.0.1 | GET | /static/doc/api_project.js?v=1619078914666 |"
+time="2021-04-22 16:08:34" level=info msg="| 200 |     111.909µs |       127.0.0.1 | GET | /static/doc/api_data.js?v=1619078914666 |"
+time="2021-04-22 16:08:34" level=info msg="| 200 |      79.218µs |       127.0.0.1 | GET | /static/doc/locales/locale.js?v=1619078914666 |"
+time="2021-04-22 16:08:34" level=info msg="| 200 |     106.179µs |       127.0.0.1 | GET | /static/doc/vendor/semver.min.js?v=1619078914666 |"
+time="2021-04-22 16:08:34" level=info msg="| 200 |     105.751µs |       127.0.0.1 | GET | /static/doc/vendor/webfontloader.js?v=1619078914666 |"
+time="2021-04-22 16:08:34" level=info msg="| 200 |      85.294µs |       127.0.0.1 | GET | /static/doc/vendor/path-to-regexp/index.js?v=1619078914666 |"
+time="2021-04-22 16:08:34" level=info msg="| 200 |      86.355µs |       127.0.0.1 | GET | /static/doc/vendor/list.min.js?v=1619078914666 |"
+time="2021-04-22 16:08:34" level=info msg="| 200 |     107.063µs |       127.0.0.1 | GET | /static/doc/vendor/prism.js?v=1619078914666 |"
+time="2021-04-22 16:08:34" level=info msg="| 200 |     157.106µs |       127.0.0.1 | GET | /static/doc/vendor/handlebars.min.js?v=1619078914666 |"
+time="2021-04-22 16:08:34" level=info msg="| 200 |     188.401µs |       127.0.0.1 | GET | /static/doc/vendor/bootstrap.min.js?v=1619078914666 |"
+time="2021-04-22 16:08:34" level=info msg="| 200 |      73.764µs |       127.0.0.1 | GET | /static/doc/locales/ca.js?v=1619078914666 |"
+time="2021-04-22 16:08:34" level=info msg="| 200 |      98.396µs |       127.0.0.1 | GET | /static/doc/locales/it.js?v=1619078914666 |"
+time="2021-04-22 16:08:34" level=info msg="| 200 |      44.829µs |       127.0.0.1 | GET | /static/doc/locales/fr.js?v=1619078914666 |"
+time="2021-04-22 16:08:34" level=info msg="| 200 |      38.819µs |       127.0.0.1 | GET | /static/doc/locales/es.js?v=1619078914666 |"
+time="2021-04-22 16:08:34" level=info msg="| 200 |      45.016µs |       127.0.0.1 | GET | /static/doc/locales/de.js?v=1619078914666 |"
+time="2021-04-22 16:08:34" level=info msg="| 200 |       39.74µs |       127.0.0.1 | GET | /static/doc/locales/cs.js?v=1619078914666 |"
+time="2021-04-22 16:08:34" level=info msg="| 200 |       94.91µs |       127.0.0.1 | GET | /static/doc/locales/ru.js?v=1619078914666 |"
+time="2021-04-22 16:08:34" level=info msg="| 200 |      76.712µs |       127.0.0.1 | GET | /static/doc/locales/pt_br.js?v=1619078914666 |"
+time="2021-04-22 16:08:34" level=info msg="| 200 |      74.247µs |       127.0.0.1 | GET | /static/doc/locales/ro.js?v=1619078914666 |"
+time="2021-04-22 16:08:34" level=info msg="| 200 |      68.542µs |       127.0.0.1 | GET | /static/doc/locales/pl.js?v=1619078914666 |"
+time="2021-04-22 16:08:34" level=info msg="| 200 |      38.839µs |       127.0.0.1 | GET | /static/doc/locales/nl.js?v=1619078914666 |"
+time="2021-04-22 16:08:34" level=info msg="| 200 |     121.074µs |       127.0.0.1 | GET | /static/doc/utils/send_sample_request_utils.js?v=1619078914666 |"
+time="2021-04-22 16:08:34" level=info msg="| 200 |     108.375µs |       127.0.0.1 | GET | /static/doc/locales/zh_cn.js?v=1619078914666 |"
+time="2021-04-22 16:08:34" level=info msg="| 200 |     137.023µs |       127.0.0.1 | GET | /static/doc/locales/zh.js?v=1619078914666 |"
+time="2021-04-22 16:08:34" level=info msg="| 200 |     132.749µs |       127.0.0.1 | GET | /static/doc/locales/vi.js?v=1619078914666 |"
+time="2021-04-22 16:08:34" level=info msg="| 200 |      69.867µs |       127.0.0.1 | GET | /static/doc/locales/tr.js?v=1619078914666 |"
+time="2021-04-22 16:08:34" level=info msg="| 200 |     113.457µs |       127.0.0.1 | GET | /static/doc/utils/handlebars_helper.js?v=1619078914666 |"
+time="2021-04-22 16:08:34" level=info msg="| 200 |     122.784µs |       127.0.0.1 | GET | /static/doc/vendor/diff_match_patch.min.js?v=1619078914666 |"
+[GIN-debug] GET    /static/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (4 handlers)
+[GIN-debug] HEAD   /static/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (4 handlers)
+time="2021-04-22 16:08:59" level=info msg="Server Start ..."
+[GIN-debug] POST   /api/active               --> huakai/handler.CreateActive (4 handlers)
+[GIN-debug] GET    /api/active               --> huakai/handler.GetActive (5 handlers)
+[GIN-debug] PUT    /api/active               --> huakai/handler.UpdateActive (4 handlers)
+[GIN-debug] POST   /api/sign                 --> huakai/handler.CreateSign (4 handlers)
+[GIN-debug] GET    /api/sign                 --> huakai/handler.GetSign (5 handlers)
+[GIN-debug] PUT    /api/sign                 --> huakai/handler.ChangeSign (4 handlers)
+[GIN-debug] POST   /api/join                 --> huakai/handler.CreateJoinTable (4 handlers)
+[GIN-debug] GET    /api/join                 --> huakai/handler.GetJoinMes (5 handlers)
+[GIN-debug] PUT    /api/join                 --> huakai/handler.ChangeJoinTable (4 handlers)
+[GIN-debug] POST   /api/member               --> huakai/handler.CreateMemberRes (4 handlers)
+[GIN-debug] GET    /api/member               --> huakai/handler.GetMemberRes (5 handlers)
+[GIN-debug] PUT    /api/member               --> huakai/handler.ChangeMemberRes (4 handlers)
+[GIN-debug] GET    /api/memberUser           --> huakai/handler.GetMembers (5 handlers)
+[GIN-debug] DELETE /api/delete               --> huakai/handler.DeleteData (4 handlers)
+[GIN-debug] POST   /api/wx/user/login        --> huakai/handler.Login (4 handlers)
+[GIN-debug] POST   /web/user/login           --> huakai/handler.LoginWeb (4 handlers)
+[GIN-debug] GET    /web/getUsers             --> huakai/handler.GetUsers (5 handlers)
+[GIN-debug] POST   /web/addSuper             --> huakai/handler.AddSuperUser (4 handlers)
+[GIN-debug] PUT    /web/changeUser           --> huakai/handler.ChangeUser (4 handlers)
+[GIN-debug] GET    /                         --> main.main.func1 (4 handlers)
+[GIN-debug] GET    /doc                      --> main.main.func2 (4 handlers)
+time="2021-04-22 16:09:13" level=info msg="| 304 |     167.892µs |       127.0.0.1 | GET | /static/admin/sign-up.html |"
+time="2021-04-22 16:09:14" level=info msg="| 200 |    6.141539ms |       127.0.0.1 | GET | /static/admin/assets/i/favicon.png |"
+time="2021-04-22 16:10:52" level=info msg="| 304 |     103.839µs |       127.0.0.1 | GET | /static/admin/sign-up.html |"
+[GIN-debug] GET    /static/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (4 handlers)
+[GIN-debug] HEAD   /static/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (4 handlers)
+time="2021-04-22 16:12:13" level=info msg="Server Start ..."
+[GIN-debug] POST   /api/active               --> huakai/handler.CreateActive (4 handlers)
+[GIN-debug] GET    /api/active               --> huakai/handler.GetActive (5 handlers)
+[GIN-debug] PUT    /api/active               --> huakai/handler.UpdateActive (4 handlers)
+[GIN-debug] POST   /api/sign                 --> huakai/handler.CreateSign (4 handlers)
+[GIN-debug] GET    /api/sign                 --> huakai/handler.GetSign (5 handlers)
+[GIN-debug] PUT    /api/sign                 --> huakai/handler.ChangeSign (4 handlers)
+[GIN-debug] POST   /api/join                 --> huakai/handler.CreateJoinTable (4 handlers)
+[GIN-debug] GET    /api/join                 --> huakai/handler.GetJoinMes (5 handlers)
+[GIN-debug] PUT    /api/join                 --> huakai/handler.ChangeJoinTable (4 handlers)
+[GIN-debug] POST   /api/member               --> huakai/handler.CreateMemberRes (4 handlers)
+[GIN-debug] GET    /api/member               --> huakai/handler.GetMemberRes (5 handlers)
+[GIN-debug] PUT    /api/member               --> huakai/handler.ChangeMemberRes (4 handlers)
+[GIN-debug] GET    /api/memberUser           --> huakai/handler.GetMembers (5 handlers)
+[GIN-debug] DELETE /api/delete               --> huakai/handler.DeleteData (4 handlers)
+[GIN-debug] POST   /api/wx/user/login        --> huakai/handler.Login (4 handlers)
+[GIN-debug] POST   /web/user/login           --> huakai/handler.LoginWeb (4 handlers)
+[GIN-debug] GET    /web/getUsers             --> huakai/handler.GetUsers (5 handlers)
+[GIN-debug] POST   /web/addSuper             --> huakai/handler.AddSuperUser (4 handlers)
+[GIN-debug] PUT    /web/changeUser           --> huakai/handler.ChangeUser (4 handlers)
+[GIN-debug] GET    /                         --> main.main.func1 (4 handlers)
+[GIN-debug] GET    /doc                      --> main.main.func2 (4 handlers)
+time="2021-04-22 16:13:35" level=info msg="| 301 |      79.774µs |    192.168.0.15 | GET | / |"
+time="2021-04-22 16:13:35" level=info msg="| 200 |    3.295795ms |    192.168.0.15 | GET | /static/admin/login.html |"
+time="2021-04-22 16:13:35" level=info msg="| 200 |     211.906µs |    192.168.0.15 | GET | /static/admin/assets/css/amazeui.min.css |"
+time="2021-04-22 16:13:35" level=info msg="| 200 |     138.699µs |    192.168.0.15 | GET | /static/admin/assets/css/amazeui.datatables.min.css |"
+time="2021-04-22 16:13:35" level=info msg="| 200 |     148.908µs |    192.168.0.15 | GET | /static/admin/assets/css/app.css |"
+time="2021-04-22 16:13:35" level=info msg="| 200 |      150.23µs |    192.168.0.15 | GET | /static/admin/assets/js/jquery.min.js |"
+time="2021-04-22 16:13:35" level=info msg="| 200 |      71.587µs |    192.168.0.15 | GET | /static/admin/assets/js/theme.js |"
+time="2021-04-22 16:13:35" level=info msg="| 200 |     176.657µs |    192.168.0.15 | GET | /static/admin/assets/js/amazeui.min.js |"
+time="2021-04-22 16:13:35" level=info msg="| 200 |      96.128µs |    192.168.0.15 | GET | /static/admin/assets/js/app.js |"
+time="2021-04-22 16:13:35" level=info msg="| 200 |     108.953µs |    192.168.0.15 | GET | /static/admin/assets/img/logob.png |"
+time="2021-04-22 16:13:35" level=info msg="| 200 |     166.911µs |    192.168.0.15 | GET | /static/admin/assets/fonts/fontawesome-webfont.woff2?v=4.6.3 |"
+time="2021-04-22 16:13:35" level=info msg="| 200 |     687.461µs |    192.168.0.15 | GET | /static/admin/assets/i/favicon.png |"
+time="2021-04-22 16:13:43" level=info msg="| 200 |     128.778µs |       127.0.0.1 | GET | /static/admin/login.html |"
+time="2021-04-22 16:13:43" level=info msg="| 200 |     105.245µs |       127.0.0.1 | GET | /static/admin/assets/img/logob.png |"
+time="2021-04-22 16:14:32" level=info msg="| 200 |     172.529µs |       127.0.0.1 | GET | /static/admin/assets/img/logoa.png |"
+time="2021-04-22 16:16:46" level=info msg="| 200 |     136.171µs |       127.0.0.1 | GET | /static/admin/login.html |"
+time="2021-04-22 16:16:46" level=info msg="| 200 |      87.186µs |       127.0.0.1 | GET | /static/admin/assets/i/favicon.png |"
+time="2021-04-22 16:16:46" level=info msg="| 304 |      81.743µs |       127.0.0.1 | GET | /static/admin/login.html |"
+time="2021-04-22 16:16:46" level=info msg="| 200 |     108.928µs |       127.0.0.1 | GET | /static/admin/assets/i/favicon.png |"
+time="2021-04-22 16:16:47" level=info msg="| 304 |      72.242µs |       127.0.0.1 | GET | /static/admin/login.html |"
+time="2021-04-22 16:16:47" level=info msg="| 200 |       73.75µs |       127.0.0.1 | GET | /static/admin/assets/i/favicon.png |"
+time="2021-04-22 16:16:47" level=info msg="| 304 |      57.923µs |       127.0.0.1 | GET | /static/admin/login.html |"
+time="2021-04-22 16:16:47" level=info msg="| 200 |      72.827µs |       127.0.0.1 | GET | /static/admin/assets/i/favicon.png |"
+time="2021-04-22 16:16:47" level=info msg="| 304 |      80.474µs |       127.0.0.1 | GET | /static/admin/login.html |"
+time="2021-04-22 16:16:47" level=info msg="| 200 |       69.44µs |       127.0.0.1 | GET | /static/admin/assets/i/favicon.png |"
+time="2021-04-22 16:16:47" level=info msg="| 304 |      58.087µs |       127.0.0.1 | GET | /static/admin/login.html |"
+time="2021-04-22 16:16:47" level=info msg="| 200 |      88.517µs |       127.0.0.1 | GET | /static/admin/assets/i/favicon.png |"
+time="2021-04-22 16:16:48" level=info msg="| 304 |      71.754µs |       127.0.0.1 | GET | /static/admin/login.html |"
+time="2021-04-22 16:16:48" level=info msg="| 200 |      76.598µs |       127.0.0.1 | GET | /static/admin/assets/i/favicon.png |"
+time="2021-04-22 16:16:48" level=info msg="| 304 |      62.585µs |       127.0.0.1 | GET | /static/admin/login.html |"
+time="2021-04-22 16:16:48" level=info msg="| 200 |      90.261µs |       127.0.0.1 | GET | /static/admin/assets/i/favicon.png |"
+time="2021-04-22 16:16:48" level=info msg="| 304 |      68.342µs |       127.0.0.1 | GET | /static/admin/login.html |"
+time="2021-04-22 16:16:48" level=info msg="| 200 |     332.607µs |       127.0.0.1 | GET | /static/admin/assets/i/favicon.png |"
+time="2021-04-22 16:16:48" level=info msg="| 304 |      66.412µs |       127.0.0.1 | GET | /static/admin/login.html |"
+time="2021-04-22 16:16:48" level=info msg="| 200 |      73.936µs |       127.0.0.1 | GET | /static/admin/assets/i/favicon.png |"
+time="2021-04-22 16:16:48" level=info msg="| 304 |      66.102µs |       127.0.0.1 | GET | /static/admin/login.html |"
+time="2021-04-22 16:16:48" level=info msg="| 200 |      73.069µs |       127.0.0.1 | GET | /static/admin/assets/i/favicon.png |"
+time="2021-04-22 16:16:48" level=info msg="| 304 |       65.18µs |       127.0.0.1 | GET | /static/admin/login.html |"
+time="2021-04-22 16:16:48" level=info msg="| 200 |      82.598µs |       127.0.0.1 | GET | /static/admin/assets/i/favicon.png |"
+time="2021-04-22 16:16:49" level=info msg="| 304 |      58.545µs |       127.0.0.1 | GET | /static/admin/login.html |"
+time="2021-04-22 16:16:49" level=info msg="| 200 |      83.039µs |       127.0.0.1 | GET | /static/admin/assets/i/favicon.png |"
+time="2021-04-22 16:18:49" level=info msg="| 200 |      137.07µs |       127.0.0.1 | GET | /static/admin/login.html |"
+time="2021-04-22 16:18:49" level=info msg="| 200 |       76.88µs |       127.0.0.1 | GET | /static/admin/assets/i/favicon.png |"
+time="2021-04-22 16:18:50" level=info msg="| 304 |      77.212µs |       127.0.0.1 | GET | /static/admin/login.html |"
+time="2021-04-22 16:18:50" level=info msg="| 200 |      68.322µs |       127.0.0.1 | GET | /static/admin/assets/i/favicon.png |"
+time="2021-04-22 16:18:52" level=info msg="| 304 |      59.305µs |       127.0.0.1 | GET | /static/admin/login.html |"
+time="2021-04-22 16:18:52" level=info msg="| 200 |      72.092µs |       127.0.0.1 | GET | /static/admin/assets/i/favicon.png |"
+time="2021-04-22 16:18:52" level=info msg="| 304 |      82.332µs |       127.0.0.1 | GET | /static/admin/login.html |"
+time="2021-04-22 16:18:52" level=info msg="| 200 |      77.004µs |       127.0.0.1 | GET | /static/admin/assets/i/favicon.png |"
+time="2021-04-22 16:18:52" level=info msg="| 304 |      77.719µs |       127.0.0.1 | GET | /static/admin/login.html |"
+time="2021-04-22 16:18:52" level=info msg="| 200 |     107.803µs |       127.0.0.1 | GET | /static/admin/assets/i/favicon.png |"
+time="2021-04-22 16:18:53" level=info msg="| 304 |      60.963µs |       127.0.0.1 | GET | /static/admin/login.html |"
+time="2021-04-22 16:18:53" level=info msg="| 200 |      81.327µs |       127.0.0.1 | GET | /static/admin/assets/i/favicon.png |"
+time="2021-04-22 16:18:53" level=info msg="| 304 |      60.249µs |       127.0.0.1 | GET | /static/admin/login.html |"
+time="2021-04-22 16:18:53" level=info msg="| 200 |      81.947µs |       127.0.0.1 | GET | /static/admin/assets/i/favicon.png |"
+time="2021-04-22 16:18:56" level=info msg="| 304 |      80.298µs |       127.0.0.1 | GET | /static/admin/login.html |"
+time="2021-04-22 16:18:56" level=info msg="| 200 |      94.576µs |       127.0.0.1 | GET | /static/admin/assets/i/favicon.png |"
+time="2021-04-22 16:18:57" level=info msg="| 304 |      64.185µs |       127.0.0.1 | GET | /static/admin/login.html |"
+time="2021-04-22 16:18:57" level=info msg="| 200 |      85.119µs |       127.0.0.1 | GET | /static/admin/assets/i/favicon.png |"
+time="2021-04-22 16:18:57" level=info msg="| 304 |      60.347µs |       127.0.0.1 | GET | /static/admin/login.html |"
+time="2021-04-22 16:18:57" level=info msg="| 200 |      84.013µs |       127.0.0.1 | GET | /static/admin/assets/i/favicon.png |"
+time="2021-04-22 16:18:57" level=info msg="| 304 |      73.696µs |       127.0.0.1 | GET | /static/admin/login.html |"
+time="2021-04-22 16:18:57" level=info msg="| 200 |      74.018µs |       127.0.0.1 | GET | /static/admin/assets/i/favicon.png |"
+time="2021-04-22 16:20:15" level=info msg="| 200 |      114.75µs |       127.0.0.1 | GET | /static/admin/login.html |"
+time="2021-04-22 16:20:15" level=info msg="| 200 |     123.823µs |       127.0.0.1 | GET | /static/admin/assets/i/favicon.png |"
+time="2021-04-22 16:20:16" level=info msg="| 304 |       89.29µs |       127.0.0.1 | GET | /static/admin/login.html |"
+time="2021-04-22 16:20:16" level=info msg="| 200 |      88.729µs |       127.0.0.1 | GET | /static/admin/assets/i/favicon.png |"
+time="2021-04-22 16:20:16" level=info msg="| 304 |      77.336µs |       127.0.0.1 | GET | /static/admin/login.html |"
+time="2021-04-22 16:20:16" level=info msg="| 200 |      70.347µs |       127.0.0.1 | GET | /static/admin/assets/i/favicon.png |"
+time="2021-04-22 16:20:16" level=info msg="| 304 |      76.379µs |       127.0.0.1 | GET | /static/admin/login.html |"
+time="2021-04-22 16:20:16" level=info msg="| 200 |       71.15µs |       127.0.0.1 | GET | /static/admin/assets/i/favicon.png |"
+time="2021-04-22 16:20:21" level=info msg="| 304 |      71.877µs |       127.0.0.1 | GET | /static/admin/login.html |"
+time="2021-04-22 16:20:21" level=info msg="| 200 |       71.43µs |       127.0.0.1 | GET | /static/admin/assets/i/favicon.png |"
+time="2021-04-22 16:20:22" level=info msg="| 304 |      67.195µs |       127.0.0.1 | GET | /static/admin/login.html |"
+time="2021-04-22 16:20:22" level=info msg="| 200 |      70.259µs |       127.0.0.1 | GET | /static/admin/assets/i/favicon.png |"
+time="2021-04-22 16:21:39" level=info msg="| 200 |     122.265µs |       127.0.0.1 | GET | /static/admin/login.html |"
+time="2021-04-22 16:21:39" level=info msg="| 304 |      59.958µs |       127.0.0.1 | GET | /static/admin/login.html |"
+time="2021-04-22 16:21:40" level=info msg="| 200 |      95.244µs |       127.0.0.1 | GET | /static/admin/assets/i/favicon.png |"
+time="2021-04-22 16:22:02" level=info msg="| 200 |      92.936µs |       127.0.0.1 | GET | /static/admin/login.html |"
+time="2021-04-22 16:22:02" level=info msg="| 200 |      95.067µs |       127.0.0.1 | GET | /static/admin/assets/i/favicon.png |"
+time="2021-04-22 16:22:10" level=info msg="| 304 |      73.513µs |       127.0.0.1 | GET | /static/admin/login.html |"
+time="2021-04-22 16:22:10" level=info msg="| 200 |      79.641µs |       127.0.0.1 | GET | /static/admin/assets/i/favicon.png |"
+time="2021-04-22 16:26:12" level=info msg="| 200 |     124.336µs |       127.0.0.1 | GET | /static/admin/login.html |"
+time="2021-04-22 16:26:12" level=info msg="| 404 |      25.414µs |       127.0.0.1 | GET | /static/admin/assets/js/juquery.min.js |"
+time="2021-04-22 16:26:12" level=info msg="| 404 |      16.787µs |       127.0.0.1 | GET | /static/admin/assets/js/juquery.min.js |"
+time="2021-04-22 16:26:12" level=info msg="| 200 |      77.008µs |       127.0.0.1 | GET | /static/admin/assets/i/favicon.png |"
+time="2021-04-22 16:26:43" level=info msg="| 200 |     161.787µs |       127.0.0.1 | GET | /static/admin/login.html |"
+time="2021-04-22 16:26:43" level=info msg="| 404 |      22.433µs |       127.0.0.1 | GET | /static/admin/assets/js/juquery.min.js |"
+time="2021-04-22 16:26:43" level=info msg="| 404 |      16.182µs |       127.0.0.1 | GET | /static/admin/assets/js/juquery.min.js |"
+time="2021-04-22 16:26:43" level=info msg="| 200 |     100.922µs |       127.0.0.1 | GET | /static/admin/assets/i/favicon.png |"
+[GIN-debug] GET    /static/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (4 handlers)
+[GIN-debug] HEAD   /static/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (4 handlers)
+time="2021-04-22 16:28:16" level=info msg="Server Start ..."
+[GIN-debug] POST   /api/active               --> huakai/handler.CreateActive (4 handlers)
+[GIN-debug] GET    /api/active               --> huakai/handler.GetActive (5 handlers)
+[GIN-debug] PUT    /api/active               --> huakai/handler.UpdateActive (4 handlers)
+[GIN-debug] POST   /api/sign                 --> huakai/handler.CreateSign (4 handlers)
+[GIN-debug] GET    /api/sign                 --> huakai/handler.GetSign (5 handlers)
+[GIN-debug] PUT    /api/sign                 --> huakai/handler.ChangeSign (4 handlers)
+[GIN-debug] POST   /api/join                 --> huakai/handler.CreateJoinTable (4 handlers)
+[GIN-debug] GET    /api/join                 --> huakai/handler.GetJoinMes (5 handlers)
+[GIN-debug] PUT    /api/join                 --> huakai/handler.ChangeJoinTable (4 handlers)
+[GIN-debug] POST   /api/member               --> huakai/handler.CreateMemberRes (4 handlers)
+[GIN-debug] GET    /api/member               --> huakai/handler.GetMemberRes (5 handlers)
+[GIN-debug] PUT    /api/member               --> huakai/handler.ChangeMemberRes (4 handlers)
+[GIN-debug] GET    /api/memberUser           --> huakai/handler.GetMembers (5 handlers)
+[GIN-debug] DELETE /api/delete               --> huakai/handler.DeleteData (4 handlers)
+[GIN-debug] POST   /api/wx/user/login        --> huakai/handler.Login (4 handlers)
+[GIN-debug] POST   /web/user/login           --> huakai/handler.LoginWeb (4 handlers)
+[GIN-debug] GET    /web/getUsers             --> huakai/handler.GetUsers (5 handlers)
+[GIN-debug] POST   /web/addSuper             --> huakai/handler.AddSuperUser (4 handlers)
+[GIN-debug] PUT    /web/changeUser           --> huakai/handler.ChangeUser (4 handlers)
+[GIN-debug] GET    /                         --> main.main.func1 (4 handlers)
+[GIN-debug] GET    /doc                      --> main.main.func2 (4 handlers)
+time="2021-04-22 16:28:20" level=info msg="| 200 |    4.804288ms |       127.0.0.1 | GET | /static/admin/login.html |"
+time="2021-04-22 16:28:20" level=info msg="| 200 |      86.605µs |       127.0.0.1 | GET | /static/admin/assets/i/favicon.png |"
+time="2021-04-22 16:28:45" level=info msg="| 200 |     110.678µs |       127.0.0.1 | GET | /static/admin/login.html |"
+time="2021-04-22 16:28:45" level=info msg="| 200 |      92.898µs |       127.0.0.1 | GET | /static/admin/assets/i/favicon.png |"
+time="2021-04-22 16:28:59" level=info msg="| 200 |     121.408µs |       127.0.0.1 | GET | /static/admin/login.html |"
+time="2021-04-22 16:28:59" level=info msg="| 200 |      79.232µs |       127.0.0.1 | GET | /static/admin/assets/i/favicon.png |"
+time="2021-04-22 16:30:03" level=info msg="| 200 |     118.194µs |       127.0.0.1 | GET | /static/admin/login.html |"
+time="2021-04-22 16:30:03" level=info msg="| 200 |     125.754µs |       127.0.0.1 | GET | /static/admin/assets/i/favicon.png |"
+time="2021-04-22 16:31:04" level=info msg="| 200 |     137.588µs |       127.0.0.1 | GET | /static/admin/login.html |"
+time="2021-04-22 16:31:04" level=info msg="| 200 |     111.782µs |       127.0.0.1 | GET | /static/admin/assets/i/favicon.png |"
+time="2021-04-22 16:31:44" level=info msg="| 200 |     124.538µs |       127.0.0.1 | GET | /static/admin/login.html |"
+time="2021-04-22 16:31:44" level=info msg="| 200 |     133.771µs |       127.0.0.1 | GET | /static/admin/assets/i/favicon.png |"
+time="2021-04-22 16:33:17" level=info msg="| 200 |     120.416µs |       127.0.0.1 | GET | /static/admin/login.html |"
+time="2021-04-22 16:33:17" level=info msg="| 200 |     120.196µs |       127.0.0.1 | GET | /static/admin/assets/i/favicon.png |"
+time="2021-04-22 16:34:03" level=info msg="| 200 |     147.233µs |       127.0.0.1 | GET | /static/doc/ |"
+time="2021-04-22 16:34:03" level=info msg="| 200 |     228.543µs |       127.0.0.1 | GET | /static/doc/vendor/jquery.min.js?v=1619080443874 |"
+time="2021-04-22 16:34:03" level=info msg="| 200 |     158.232µs |       127.0.0.1 | GET | /static/doc/vendor/lodash.custom.min.js?v=1619080443874 |"
+time="2021-04-22 16:34:03" level=info msg="| 200 |     119.834µs |       127.0.0.1 | GET | /static/doc/locales/locale.js?v=1619080443874 |"
+time="2021-04-22 16:34:03" level=info msg="| 200 |     167.021µs |       127.0.0.1 | GET | /static/doc/utils/send_sample_request.js?v=1619080443874 |"
+time="2021-04-22 16:34:03" level=info msg="| 200 |      83.463µs |       127.0.0.1 | GET | /static/doc/api_project.js?v=1619080443874 |"
+time="2021-04-22 16:34:03" level=info msg="| 200 |      144.11µs |       127.0.0.1 | GET | /static/doc/vendor/semver.min.js?v=1619080443874 |"
+time="2021-04-22 16:34:03" level=info msg="| 200 |     100.152µs |       127.0.0.1 | GET | /static/doc/api_data.js?v=1619080443874 |"
+time="2021-04-22 16:34:03" level=info msg="| 200 |      87.912µs |       127.0.0.1 | GET | /static/doc/vendor/webfontloader.js?v=1619080443874 |"
+time="2021-04-22 16:34:03" level=info msg="| 200 |      98.588µs |       127.0.0.1 | GET | /static/doc/vendor/path-to-regexp/index.js?v=1619080443874 |"
+time="2021-04-22 16:34:03" level=info msg="| 200 |     138.167µs |       127.0.0.1 | GET | /static/doc/vendor/list.min.js?v=1619080443874 |"
+time="2021-04-22 16:34:03" level=info msg="| 200 |     160.923µs |       127.0.0.1 | GET | /static/doc/vendor/handlebars.min.js?v=1619080443874 |"
+time="2021-04-22 16:34:03" level=info msg="| 200 |      87.935µs |       127.0.0.1 | GET | /static/doc/vendor/prism.js?v=1619080443874 |"
+time="2021-04-22 16:34:03" level=info msg="| 200 |     199.948µs |       127.0.0.1 | GET | /static/doc/vendor/bootstrap.min.js?v=1619080443874 |"
+time="2021-04-22 16:34:03" level=info msg="| 200 |      95.213µs |       127.0.0.1 | GET | /static/doc/locales/ca.js?v=1619080443874 |"
+time="2021-04-22 16:34:03" level=info msg="| 200 |     101.957µs |       127.0.0.1 | GET | /static/doc/locales/cs.js?v=1619080443874 |"
+time="2021-04-22 16:34:03" level=info msg="| 200 |      91.998µs |       127.0.0.1 | GET | /static/doc/locales/de.js?v=1619080443874 |"
+time="2021-04-22 16:34:03" level=info msg="| 200 |      75.826µs |       127.0.0.1 | GET | /static/doc/locales/es.js?v=1619080443874 |"
+time="2021-04-22 16:34:03" level=info msg="| 200 |      74.587µs |       127.0.0.1 | GET | /static/doc/locales/fr.js?v=1619080443874 |"
+time="2021-04-22 16:34:03" level=info msg="| 200 |     155.489µs |       127.0.0.1 | GET | /static/doc/locales/it.js?v=1619080443874 |"
+time="2021-04-22 16:34:03" level=info msg="| 200 |        49.6µs |       127.0.0.1 | GET | /static/doc/locales/nl.js?v=1619080443874 |"
+time="2021-04-22 16:34:03" level=info msg="| 200 |      51.523µs |       127.0.0.1 | GET | /static/doc/locales/pt_br.js?v=1619080443874 |"
+time="2021-04-22 16:34:03" level=info msg="| 200 |      80.404µs |       127.0.0.1 | GET | /static/doc/locales/pl.js?v=1619080443874 |"
+time="2021-04-22 16:34:03" level=info msg="| 200 |      99.435µs |       127.0.0.1 | GET | /static/doc/locales/ro.js?v=1619080443874 |"
+time="2021-04-22 16:34:03" level=info msg="| 200 |      78.579µs |       127.0.0.1 | GET | /static/doc/locales/ru.js?v=1619080443874 |"
+time="2021-04-22 16:34:03" level=info msg="| 200 |      62.865µs |       127.0.0.1 | GET | /static/doc/locales/vi.js?v=1619080443874 |"
+time="2021-04-22 16:34:03" level=info msg="| 200 |      40.106µs |       127.0.0.1 | GET | /static/doc/locales/tr.js?v=1619080443874 |"
+time="2021-04-22 16:34:03" level=info msg="| 200 |     117.165µs |       127.0.0.1 | GET | /static/doc/utils/send_sample_request_utils.js?v=1619080443874 |"
+time="2021-04-22 16:34:03" level=info msg="| 200 |      58.701µs |       127.0.0.1 | GET | /static/doc/locales/zh_cn.js?v=1619080443874 |"
+time="2021-04-22 16:34:03" level=info msg="| 200 |      45.405µs |       127.0.0.1 | GET | /static/doc/locales/zh.js?v=1619080443874 |"
+time="2021-04-22 16:34:03" level=info msg="| 200 |     134.624µs |       127.0.0.1 | GET | /static/doc/utils/handlebars_helper.js?v=1619080443874 |"
+time="2021-04-22 16:34:03" level=info msg="| 200 |     105.687µs |       127.0.0.1 | GET | /static/doc/vendor/diff_match_patch.min.js?v=1619080443874 |"
+time="2021-04-22 16:38:21" level=info msg="| 200 |      121.47µs |       127.0.0.1 | GET | /static/admin/login.html |"
+time="2021-04-22 16:38:21" level=info msg="| 200 |     106.066µs |       127.0.0.1 | GET | /static/admin/assets/i/favicon.png |"
+time="2021-04-22 16:38:26" level=info msg="| 404 |         113ns |       127.0.0.1 | POST | /api/web/user/login |"
+[GIN-debug] GET    /static/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (4 handlers)
+[GIN-debug] HEAD   /static/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (4 handlers)
+time="2021-04-22 16:38:53" level=info msg="Server Start ..."
+[GIN-debug] POST   /api/active               --> huakai/handler.CreateActive (4 handlers)
+[GIN-debug] GET    /api/active               --> huakai/handler.GetActive (5 handlers)
+[GIN-debug] PUT    /api/active               --> huakai/handler.UpdateActive (4 handlers)
+[GIN-debug] POST   /api/sign                 --> huakai/handler.CreateSign (4 handlers)
+[GIN-debug] GET    /api/sign                 --> huakai/handler.GetSign (5 handlers)
+[GIN-debug] PUT    /api/sign                 --> huakai/handler.ChangeSign (4 handlers)
+[GIN-debug] POST   /api/join                 --> huakai/handler.CreateJoinTable (4 handlers)
+[GIN-debug] GET    /api/join                 --> huakai/handler.GetJoinMes (5 handlers)
+[GIN-debug] PUT    /api/join                 --> huakai/handler.ChangeJoinTable (4 handlers)
+[GIN-debug] POST   /api/member               --> huakai/handler.CreateMemberRes (4 handlers)
+[GIN-debug] GET    /api/member               --> huakai/handler.GetMemberRes (5 handlers)
+[GIN-debug] PUT    /api/member               --> huakai/handler.ChangeMemberRes (4 handlers)
+[GIN-debug] GET    /api/memberUser           --> huakai/handler.GetMembers (5 handlers)
+[GIN-debug] DELETE /api/delete               --> huakai/handler.DeleteData (4 handlers)
+[GIN-debug] POST   /api/wx/user/login        --> huakai/handler.Login (4 handlers)
+[GIN-debug] POST   /api/web/user/login       --> huakai/handler.LoginWeb (4 handlers)
+[GIN-debug] GET    /api/web/getUsers         --> huakai/handler.GetUsers (5 handlers)
+[GIN-debug] POST   /api/web/addSuper         --> huakai/handler.AddSuperUser (4 handlers)
+[GIN-debug] PUT    /api/web/changeUser       --> huakai/handler.ChangeUser (4 handlers)
+[GIN-debug] GET    /                         --> main.main.func1 (4 handlers)
+[GIN-debug] GET    /doc                      --> main.main.func2 (4 handlers)
+time="2021-04-22 16:39:00" level=info msg="| 304 |     165.792µs |       127.0.0.1 | GET | /static/admin/login.html |"
+time="2021-04-22 16:39:00" level=info msg="| 200 |    4.223645ms |       127.0.0.1 | GET | /static/admin/assets/i/favicon.png |"
+time="2021-04-22 16:39:04" level=info msg="| 200 |     449.325µs |       127.0.0.1 | POST | /api/web/user/login |"
+time="2021-04-22 16:41:01" level=info msg="| 200 |     108.258µs |       127.0.0.1 | GET | /static/admin/login.html |"
+time="2021-04-22 16:41:01" level=info msg="| 200 |     116.394µs |       127.0.0.1 | GET | /static/admin/assets/i/favicon.png |"
+time="2021-04-22 16:41:03" level=info msg="| 200 |     364.401µs |       127.0.0.1 | POST | /api/web/user/login |"
+time="2021-04-22 16:41:06" level=info msg="| 200 |     324.455µs |       127.0.0.1 | POST | /api/web/user/login |"
+time="2021-04-22 16:41:07" level=info msg="| 200 |     305.819µs |       127.0.0.1 | POST | /api/web/user/login |"
+time="2021-04-22 16:41:11" level=info msg="| 200 |     246.662µs |       127.0.0.1 | POST | /api/web/user/login |"
+time="2021-04-22 16:41:41" level=info msg="| 200 |     129.083µs |       127.0.0.1 | GET | /static/admin/login.html |"
+time="2021-04-22 16:41:41" level=info msg="| 200 |      99.964µs |       127.0.0.1 | GET | /static/admin/assets/i/favicon.png |"
+time="2021-04-22 16:41:44" level=info msg="| 200 |     290.447µs |       127.0.0.1 | POST | /api/web/user/login |"
+time="2021-04-22 16:41:50" level=info msg="| 200 |     310.114µs |       127.0.0.1 | POST | /api/web/user/login |"
+time="2021-04-22 16:45:20" level=info msg="| 200 |      147.87µs |       127.0.0.1 | GET | /static/admin/login.html |"
+time="2021-04-22 16:45:20" level=info msg="| 200 |     109.481µs |       127.0.0.1 | GET | /static/admin/assets/i/favicon.png |"
+time="2021-04-22 16:47:57" level=info msg="| 200 |     198.894µs |       127.0.0.1 | GET | /static/doc/vendor/jquery.min.js?v=1619081277536 |"
+time="2021-04-22 16:47:57" level=info msg="| 200 |      144.32µs |       127.0.0.1 | GET | /static/doc/vendor/lodash.custom.min.js?v=1619081277536 |"
+time="2021-04-22 16:47:57" level=info msg="| 200 |      79.095µs |       127.0.0.1 | GET | /static/doc/locales/locale.js?v=1619081277536 |"
+time="2021-04-22 16:47:57" level=info msg="| 200 |      68.832µs |       127.0.0.1 | GET | /static/doc/api_project.js?v=1619081277536 |"
+time="2021-04-22 16:47:57" level=info msg="| 200 |    1.085988ms |       127.0.0.1 | GET | /static/doc/api_data.js?v=1619081277536 |"
+time="2021-04-22 16:47:57" level=info msg="| 200 |     125.772µs |       127.0.0.1 | GET | /static/doc/utils/send_sample_request.js?v=1619081277536 |"
+time="2021-04-22 16:47:57" level=info msg="| 200 |     168.888µs |       127.0.0.1 | GET | /static/doc/vendor/semver.min.js?v=1619081277536 |"
+time="2021-04-22 16:47:57" level=info msg="| 200 |     121.968µs |       127.0.0.1 | GET | /static/doc/vendor/webfontloader.js?v=1619081277536 |"
+time="2021-04-22 16:47:57" level=info msg="| 200 |     103.027µs |       127.0.0.1 | GET | /static/doc/vendor/path-to-regexp/index.js?v=1619081277536 |"
+time="2021-04-22 16:47:57" level=info msg="| 200 |     146.092µs |       127.0.0.1 | GET | /static/doc/vendor/list.min.js?v=1619081277536 |"
+time="2021-04-22 16:47:57" level=info msg="| 200 |     244.741µs |       127.0.0.1 | GET | /static/doc/vendor/prism.js?v=1619081277536 |"
+time="2021-04-22 16:47:57" level=info msg="| 200 |     172.278µs |       127.0.0.1 | GET | /static/doc/vendor/bootstrap.min.js?v=1619081277536 |"
+time="2021-04-22 16:47:57" level=info msg="| 200 |     145.048µs |       127.0.0.1 | GET | /static/doc/vendor/handlebars.min.js?v=1619081277536 |"
+time="2021-04-22 16:47:57" level=info msg="| 200 |     139.806µs |       127.0.0.1 | GET | /static/doc/locales/ca.js?v=1619081277536 |"
+time="2021-04-22 16:47:57" level=info msg="| 200 |      73.248µs |       127.0.0.1 | GET | /static/doc/locales/cs.js?v=1619081277536 |"
+time="2021-04-22 16:47:57" level=info msg="| 200 |      58.014µs |       127.0.0.1 | GET | /static/doc/locales/de.js?v=1619081277536 |"
+time="2021-04-22 16:47:57" level=info msg="| 200 |      72.051µs |       127.0.0.1 | GET | /static/doc/locales/es.js?v=1619081277536 |"
+time="2021-04-22 16:47:57" level=info msg="| 200 |      41.192µs |       127.0.0.1 | GET | /static/doc/locales/fr.js?v=1619081277536 |"
+time="2021-04-22 16:47:57" level=info msg="| 200 |      80.177µs |       127.0.0.1 | GET | /static/doc/locales/it.js?v=1619081277536 |"
+time="2021-04-22 16:47:57" level=info msg="| 200 |      66.814µs |       127.0.0.1 | GET | /static/doc/locales/nl.js?v=1619081277536 |"
+time="2021-04-22 16:47:57" level=info msg="| 200 |      52.573µs |       127.0.0.1 | GET | /static/doc/locales/pl.js?v=1619081277536 |"
+time="2021-04-22 16:47:57" level=info msg="| 200 |      58.777µs |       127.0.0.1 | GET | /static/doc/locales/pt_br.js?v=1619081277536 |"
+time="2021-04-22 16:47:57" level=info msg="| 200 |       70.85µs |       127.0.0.1 | GET | /static/doc/locales/ro.js?v=1619081277536 |"
+time="2021-04-22 16:47:57" level=info msg="| 200 |      56.308µs |       127.0.0.1 | GET | /static/doc/locales/ru.js?v=1619081277536 |"
+time="2021-04-22 16:47:57" level=info msg="| 200 |      86.427µs |       127.0.0.1 | GET | /static/doc/locales/vi.js?v=1619081277536 |"
+time="2021-04-22 16:47:57" level=info msg="| 200 |      40.498µs |       127.0.0.1 | GET | /static/doc/locales/tr.js?v=1619081277536 |"
+time="2021-04-22 16:47:57" level=info msg="| 200 |      50.551µs |       127.0.0.1 | GET | /static/doc/locales/zh.js?v=1619081277536 |"
+time="2021-04-22 16:47:57" level=info msg="| 200 |      78.046µs |       127.0.0.1 | GET | /static/doc/locales/zh_cn.js?v=1619081277536 |"
+time="2021-04-22 16:47:57" level=info msg="| 200 |     134.839µs |       127.0.0.1 | GET | /static/doc/utils/send_sample_request_utils.js?v=1619081277536 |"
+time="2021-04-22 16:47:57" level=info msg="| 200 |     134.486µs |       127.0.0.1 | GET | /static/doc/utils/handlebars_helper.js?v=1619081277536 |"
+time="2021-04-22 16:47:57" level=info msg="| 200 |     155.232µs |       127.0.0.1 | GET | /static/doc/vendor/diff_match_patch.min.js?v=1619081277536 |"
+time="2021-04-22 16:48:00" level=info msg="| 200 |     117.493µs |       127.0.0.1 | GET | /static/admin/login.html |"
+time="2021-04-22 16:48:00" level=info msg="| 200 |      97.536µs |       127.0.0.1 | GET | /static/admin/assets/i/favicon.png |"
+time="2021-04-22 16:48:10" level=info msg="| 200 |     340.462µs |       127.0.0.1 | POST | /api/web/user/login |"
+time="2021-04-22 16:48:33" level=info msg="| 200 |     140.549µs |       127.0.0.1 | GET | /static/admin/login.html |"
+time="2021-04-22 16:48:33" level=info msg="| 200 |     120.226µs |       127.0.0.1 | GET | /static/admin/assets/i/favicon.png |"
+time="2021-04-22 16:48:41" level=info msg="| 200 |     331.778µs |       127.0.0.1 | POST | /api/web/user/login |"
+time="2021-04-22 16:49:00" level=info msg="| 200 |     144.368µs |       127.0.0.1 | GET | /static/admin/login.html |"
+time="2021-04-22 16:49:00" level=info msg="| 200 |      76.653µs |       127.0.0.1 | GET | /static/admin/assets/i/favicon.png |"
+time="2021-04-22 16:49:08" level=info msg="| 200 |     301.569µs |       127.0.0.1 | POST | /api/web/user/login |"
+time="2021-04-22 16:49:08" level=info msg="| 301 |       45.65µs |       127.0.0.1 | GET | /static/admin/index.html |"
+time="2021-04-22 16:49:08" level=info msg="| 200 |      114.38µs |       127.0.0.1 | GET | /static/admin/ |"
+time="2021-04-22 16:49:08" level=info msg="| 200 |     936.486µs |       127.0.0.1 | GET | /static/admin/assets/js/echarts.min.js |"
+time="2021-04-22 16:49:08" level=info msg="| 200 |     218.821µs |       127.0.0.1 | GET | /static/admin/assets/img/logo.png |"
+time="2021-04-22 16:49:08" level=info msg="| 200 |     147.061µs |       127.0.0.1 | GET | /static/admin/assets/js/amazeui.datatables.min.js |"
+time="2021-04-22 16:49:08" level=info msg="| 200 |     115.912µs |       127.0.0.1 | GET | /static/admin/assets/js/dataTables.responsive.min.js |"
+time="2021-04-22 16:49:08" level=info msg="| 200 |     197.794µs |       127.0.0.1 | GET | /static/admin/assets/img/user04.png |"
+time="2021-04-22 16:49:08" level=info msg="| 200 |     148.362µs |       127.0.0.1 | GET | /static/admin/assets/img/user02.png |"
+time="2021-04-22 16:49:08" level=info msg="| 200 |     121.361µs |       127.0.0.1 | GET | /static/admin/assets/img/user07.png |"
+time="2021-04-22 16:49:18" level=info msg="| 200 |     304.732µs |       127.0.0.1 | POST | /api/web/user/login |"
+time="2021-04-22 16:49:22" level=info msg="| 304 |      64.109µs |       127.0.0.1 | GET | /static/admin/login.html |"
+time="2021-04-22 16:49:22" level=info msg="| 200 |        75.8µs |       127.0.0.1 | GET | /static/admin/assets/i/favicon.png |"
+time="2021-04-22 16:49:28" level=info msg="| 200 |      271.56µs |       127.0.0.1 | POST | /api/web/user/login |"
+time="2021-04-22 16:50:53" level=info msg="| 200 |     184.805µs |       127.0.0.1 | GET | /static/admin/ |"
+time="2021-04-22 16:50:53" level=info msg="| 200 |      75.101µs |       127.0.0.1 | GET | /static/admin/assets/i/favicon.png |"
+time="2021-04-22 16:51:27" level=info msg="| 200 |     171.501µs |       127.0.0.1 | GET | /static/admin/tables.html |"
+time="2021-04-22 16:51:55" level=info msg="| 200 |     175.605µs |       127.0.0.1 | GET | /static/admin/table-list.html |"
+time="2021-04-22 16:51:57" level=info msg="| 200 |     137.257µs |       127.0.0.1 | GET | /static/admin/table-list-img.html |"
+time="2021-04-22 16:51:58" level=info msg="| 200 |  145.234777ms |       127.0.0.1 | GET | /static/admin/assets/img/k.jpg |"
+time="2021-04-22 16:52:11" level=info msg="| 200 |     138.334µs |       127.0.0.1 | GET | /static/admin/404.html |"
+time="2021-04-22 16:52:34" level=info msg="| 200 |     143.499µs |       127.0.0.1 | GET | /static/admin/chart.html |"
+time="2021-04-22 16:52:35" level=info msg="| 200 |      115.65µs |       127.0.0.1 | GET | /static/admin/form.html |"
+time="2021-04-22 16:52:35" level=info msg="| 200 |     179.572µs |       127.0.0.1 | GET | /static/admin/assets/img/a5.png |"
+time="2021-04-22 16:52:36" level=info msg="| 200 |     141.313µs |       127.0.0.1 | GET | /static/admin/calendar.html |"
+time="2021-04-22 16:52:36" level=info msg="| 200 |     122.539µs |       127.0.0.1 | GET | /static/admin/assets/css/fullcalendar.min.css |"
+time="2021-04-22 16:52:36" level=info msg="| 200 |     213.254µs |       127.0.0.1 | GET | /static/admin/assets/js/moment.js |"
+time="2021-04-22 16:52:36" level=info msg="| 200 |     177.663µs |       127.0.0.1 | GET | /static/admin/assets/js/fullcalendar.min.js |"
+time="2021-04-22 16:52:36" level=info msg="| 200 |     144.103µs |       127.0.0.1 | GET | /static/admin/assets/css/fullcalendar.print.css |"
+time="2021-04-22 16:52:37" level=info msg="| 304 |      106.24µs |       127.0.0.1 | GET | /static/admin/ |"
+time="2021-04-22 16:53:47" level=info msg="| 404 |      47.739µs |       127.0.0.1 | GET | /static/admin/table-list-img.htm |"
+time="2021-04-22 16:57:24" level=info msg="| 304 |      76.877µs |       127.0.0.1 | GET | /static/admin/table-list-img.html |"
+time="2021-04-22 16:57:24" level=info msg="| 200 |     114.552µs |       127.0.0.1 | GET | /static/admin/assets/i/favicon.png |"
+time="2021-04-22 16:57:25" level=info msg="| 304 |      75.164µs |       127.0.0.1 | GET | /static/admin/table-list-img.html |"
+time="2021-04-22 16:57:25" level=info msg="| 200 |     190.166µs |       127.0.0.1 | GET | /static/admin/assets/i/favicon.png |"
+time="2021-04-22 16:57:29" level=info msg="| 304 |      81.814µs |       127.0.0.1 | GET | /static/admin/table-list-img.html |"
+time="2021-04-22 16:57:29" level=info msg="| 200 |     124.818µs |       127.0.0.1 | GET | /static/admin/assets/i/favicon.png |"
+time="2021-04-22 16:57:43" level=info msg="| 200 |     164.649µs |    192.168.0.15 | GET | /static/admin/assets/img/logoa.png |"
+time="2021-04-22 16:58:39" level=info msg="| 404 |         104ns |       127.0.0.1 | GET | /s |"
+time="2021-04-22 16:59:29" level=info msg="| 200 |     155.908µs |       127.0.0.1 | GET | /static/admin/login.html |"
+time="2021-04-22 16:59:36" level=info msg="| 200 |     292.546µs |       127.0.0.1 | POST | /api/web/user/login |"
+time="2021-04-22 16:59:43" level=info msg="| 200 |     280.508µs |       127.0.0.1 | POST | /api/web/user/login |"
+time="2021-04-22 16:59:43" level=info msg="| 200 |     156.555µs |       127.0.0.1 | GET | /static/admin/ |"
+time="2021-04-22 17:00:22" level=info msg="| 200 |     292.905µs |       127.0.0.1 | POST | /api/web/user/login |"
+time="2021-04-22 17:00:22" level=info msg="| 304 |      76.129µs |       127.0.0.1 | GET | /static/admin/ |"
+time="2021-04-22 17:01:35" level=info msg="| 200 |     180.276µs |       127.0.0.1 | GET | /static/admin/ |"
+time="2021-04-22 17:01:35" level=info msg="| 200 |     118.472µs |       127.0.0.1 | GET | /static/admin/assets/i/favicon.png |"
+time="2021-04-22 17:01:45" level=info msg="| 200 |     168.727µs |       127.0.0.1 | GET | /static/admin/ |"
+time="2021-04-22 17:01:45" level=info msg="| 200 |      97.623µs |       127.0.0.1 | GET | /static/admin/assets/i/favicon.png |"
+time="2021-04-22 17:02:24" level=info msg="| 200 |     171.587µs |       127.0.0.1 | GET | /static/admin/ |"
+time="2021-04-22 17:02:24" level=info msg="| 200 |      90.749µs |       127.0.0.1 | GET | /static/admin/assets/i/favicon.png |"
+time="2021-04-22 17:02:38" level=info msg="| 200 |     183.146µs |       127.0.0.1 | GET | /static/admin/ |"
+time="2021-04-22 17:02:38" level=info msg="| 200 |      94.201µs |       127.0.0.1 | GET | /static/admin/assets/i/favicon.png |"
+time="2021-04-22 17:04:27" level=info msg="| 304 |     142.746µs |       127.0.0.1 | GET | /static/doc/ |"
+time="2021-04-22 17:04:27" level=info msg="| 200 |     281.898µs |       127.0.0.1 | GET | /static/doc/vendor/jquery.min.js?v=1619082267882 |"
+time="2021-04-22 17:04:27" level=info msg="| 200 |     169.974µs |       127.0.0.1 | GET | /static/doc/vendor/lodash.custom.min.js?v=1619082267882 |"
+time="2021-04-22 17:04:27" level=info msg="| 200 |     146.288µs |       127.0.0.1 | GET | /static/doc/api_data.js?v=1619082267882 |"
+time="2021-04-22 17:04:27" level=info msg="| 200 |      55.931µs |       127.0.0.1 | GET | /static/doc/api_project.js?v=1619082267882 |"
+time="2021-04-22 17:04:27" level=info msg="| 200 |      75.784µs |       127.0.0.1 | GET | /static/doc/utils/send_sample_request.js?v=1619082267882 |"
+time="2021-04-22 17:04:27" level=info msg="| 200 |       49.33µs |       127.0.0.1 | GET | /static/doc/locales/locale.js?v=1619082267882 |"
+time="2021-04-22 17:04:27" level=info msg="| 200 |     119.127µs |       127.0.0.1 | GET | /static/doc/vendor/semver.min.js?v=1619082267882 |"
+time="2021-04-22 17:04:27" level=info msg="| 200 |     138.304µs |       127.0.0.1 | GET | /static/doc/vendor/list.min.js?v=1619082267882 |"
+time="2021-04-22 17:04:27" level=info msg="| 200 |      58.853µs |       127.0.0.1 | GET | /static/doc/vendor/path-to-regexp/index.js?v=1619082267882 |"
+time="2021-04-22 17:04:27" level=info msg="| 200 |      66.744µs |       127.0.0.1 | GET | /static/doc/vendor/webfontloader.js?v=1619082267882 |"
+time="2021-04-22 17:04:27" level=info msg="| 200 |     146.642µs |       127.0.0.1 | GET | /static/doc/vendor/handlebars.min.js?v=1619082267882 |"
+time="2021-04-22 17:04:27" level=info msg="| 200 |     120.771µs |       127.0.0.1 | GET | /static/doc/vendor/prism.js?v=1619082267882 |"
+time="2021-04-22 17:04:27" level=info msg="| 200 |     129.511µs |       127.0.0.1 | GET | /static/doc/vendor/bootstrap.min.js?v=1619082267882 |"
+time="2021-04-22 17:04:27" level=info msg="| 200 |      80.476µs |       127.0.0.1 | GET | /static/doc/locales/ca.js?v=1619082267882 |"
+time="2021-04-22 17:04:27" level=info msg="| 200 |      96.437µs |       127.0.0.1 | GET | /static/doc/locales/cs.js?v=1619082267882 |"
+time="2021-04-22 17:04:27" level=info msg="| 200 |       87.37µs |       127.0.0.1 | GET | /static/doc/locales/es.js?v=1619082267882 |"
+time="2021-04-22 17:04:27" level=info msg="| 200 |      52.342µs |       127.0.0.1 | GET | /static/doc/locales/fr.js?v=1619082267882 |"
+time="2021-04-22 17:04:27" level=info msg="| 200 |      38.008µs |       127.0.0.1 | GET | /static/doc/locales/de.js?v=1619082267882 |"
+time="2021-04-22 17:04:27" level=info msg="| 200 |      45.751µs |       127.0.0.1 | GET | /static/doc/locales/it.js?v=1619082267882 |"
+time="2021-04-22 17:04:27" level=info msg="| 200 |      85.988µs |       127.0.0.1 | GET | /static/doc/locales/nl.js?v=1619082267882 |"
+time="2021-04-22 17:04:27" level=info msg="| 200 |      65.738µs |       127.0.0.1 | GET | /static/doc/locales/pl.js?v=1619082267882 |"
+time="2021-04-22 17:04:27" level=info msg="| 200 |      63.064µs |       127.0.0.1 | GET | /static/doc/locales/ro.js?v=1619082267882 |"
+time="2021-04-22 17:04:27" level=info msg="| 200 |      40.661µs |       127.0.0.1 | GET | /static/doc/locales/pt_br.js?v=1619082267882 |"
+time="2021-04-22 17:04:27" level=info msg="| 200 |      37.867µs |       127.0.0.1 | GET | /static/doc/locales/tr.js?v=1619082267882 |"
+time="2021-04-22 17:04:27" level=info msg="| 200 |      71.731µs |       127.0.0.1 | GET | /static/doc/locales/ru.js?v=1619082267882 |"
+time="2021-04-22 17:04:27" level=info msg="| 200 |      46.009µs |       127.0.0.1 | GET | /static/doc/locales/vi.js?v=1619082267882 |"
+time="2021-04-22 17:04:27" level=info msg="| 200 |      55.411µs |       127.0.0.1 | GET | /static/doc/locales/zh.js?v=1619082267882 |"
+time="2021-04-22 17:04:27" level=info msg="| 200 |     105.839µs |       127.0.0.1 | GET | /static/doc/locales/zh_cn.js?v=1619082267882 |"
+time="2021-04-22 17:04:27" level=info msg="| 200 |     166.882µs |       127.0.0.1 | GET | /static/doc/utils/send_sample_request_utils.js?v=1619082267882 |"
+time="2021-04-22 17:04:27" level=info msg="| 200 |     148.198µs |       127.0.0.1 | GET | /static/doc/utils/handlebars_helper.js?v=1619082267882 |"
+time="2021-04-22 17:04:27" level=info msg="| 200 |     107.104µs |       127.0.0.1 | GET | /static/doc/vendor/diff_match_patch.min.js?v=1619082267882 |"
+time="2021-04-22 17:06:44" level=info msg="| 200 |     188.103µs |       127.0.0.1 | GET | /static/admin/ |"
+time="2021-04-22 17:06:44" level=info msg="| 200 |      92.462µs |       127.0.0.1 | GET | /static/admin/assets/i/favicon.png |"
+time="2021-04-22 17:06:45" level=info msg="| 304 |     105.601µs |       127.0.0.1 | GET | /static/admin/ |"
+time="2021-04-22 17:06:45" level=info msg="| 200 |     104.106µs |       127.0.0.1 | GET | /static/admin/assets/i/favicon.png |"
+time="2021-04-22 17:06:45" level=info msg="| 304 |      99.647µs |       127.0.0.1 | GET | /static/admin/ |"
+time="2021-04-22 17:06:45" level=info msg="| 200 |     125.981µs |       127.0.0.1 | GET | /static/admin/assets/i/favicon.png |"
+time="2021-04-22 17:06:46" level=info msg="| 304 |      95.441µs |       127.0.0.1 | GET | /static/admin/ |"
+time="2021-04-22 17:06:46" level=info msg="| 200 |     203.303µs |       127.0.0.1 | GET | /static/admin/assets/i/favicon.png |"
+time="2021-04-22 17:06:46" level=info msg="| 304 |       79.12µs |       127.0.0.1 | GET | /static/admin/ |"
+time="2021-04-22 17:06:46" level=info msg="| 200 |      73.713µs |       127.0.0.1 | GET | /static/admin/assets/i/favicon.png |"
+time="2021-04-22 17:06:46" level=info msg="| 304 |      78.364µs |       127.0.0.1 | GET | /static/admin/ |"
+time="2021-04-22 17:06:46" level=info msg="| 200 |      73.774µs |       127.0.0.1 | GET | /static/admin/assets/i/favicon.png |"
+time="2021-04-22 17:06:46" level=info msg="| 304 |        73.9µs |       127.0.0.1 | GET | /static/admin/ |"
+time="2021-04-22 17:06:46" level=info msg="| 200 |     111.794µs |       127.0.0.1 | GET | /static/admin/assets/i/favicon.png |"
+time="2021-04-22 17:06:46" level=info msg="| 304 |      71.076µs |       127.0.0.1 | GET | /static/admin/ |"
+time="2021-04-22 17:06:46" level=info msg="| 200 |      70.452µs |       127.0.0.1 | GET | /static/admin/assets/i/favicon.png |"
+time="2021-04-22 17:06:47" level=info msg="| 304 |      72.689µs |       127.0.0.1 | GET | /static/admin/ |"
+time="2021-04-22 17:06:47" level=info msg="| 200 |     117.166µs |       127.0.0.1 | GET | /static/admin/assets/i/favicon.png |"
+time="2021-04-22 17:06:47" level=info msg="| 304 |      70.548µs |       127.0.0.1 | GET | /static/admin/ |"
+time="2021-04-22 17:06:47" level=info msg="| 200 |      78.962µs |       127.0.0.1 | GET | /static/admin/assets/i/favicon.png |"
+time="2021-04-22 17:06:47" level=info msg="| 304 |     104.652µs |       127.0.0.1 | GET | /static/admin/ |"
+time="2021-04-22 17:06:47" level=info msg="| 200 |      72.713µs |       127.0.0.1 | GET | /static/admin/assets/i/favicon.png |"
+time="2021-04-22 17:06:48" level=info msg="| 304 |      74.101µs |       127.0.0.1 | GET | /static/admin/ |"
+time="2021-04-22 17:06:48" level=info msg="| 200 |      91.389µs |       127.0.0.1 | GET | /static/admin/assets/i/favicon.png |"
+time="2021-04-22 17:06:48" level=info msg="| 304 |       76.62µs |       127.0.0.1 | GET | /static/admin/ |"
+time="2021-04-22 17:06:48" level=info msg="| 200 |      87.339µs |       127.0.0.1 | GET | /static/admin/assets/i/favicon.png |"
+time="2021-04-22 17:06:48" level=info msg="| 304 |      75.426µs |       127.0.0.1 | GET | /static/admin/ |"
+time="2021-04-22 17:06:48" level=info msg="| 200 |      78.323µs |       127.0.0.1 | GET | /static/admin/assets/i/favicon.png |"
+time="2021-04-22 17:06:49" level=info msg="| 304 |      95.255µs |       127.0.0.1 | GET | /static/admin/ |"
+time="2021-04-22 17:06:49" level=info msg="| 200 |      90.731µs |       127.0.0.1 | GET | /static/admin/assets/i/favicon.png |"
+time="2021-04-22 17:06:57" level=info msg="| 304 |      92.731µs |       127.0.0.1 | GET | /static/admin/ |"
+time="2021-04-22 17:06:57" level=info msg="| 200 |      85.075µs |       127.0.0.1 | GET | /static/admin/assets/i/favicon.png |"
+time="2021-04-22 17:06:58" level=info msg="| 304 |      98.128µs |       127.0.0.1 | GET | /static/admin/ |"
+time="2021-04-22 17:06:58" level=info msg="| 200 |     139.148µs |       127.0.0.1 | GET | /static/admin/assets/i/favicon.png |"
+time="2021-04-22 17:06:58" level=info msg="| 304 |      80.409µs |       127.0.0.1 | GET | /static/admin/ |"
+time="2021-04-22 17:06:58" level=info msg="| 200 |      73.048µs |       127.0.0.1 | GET | /static/admin/assets/i/favicon.png |"
+time="2021-04-22 17:06:58" level=info msg="| 304 |      70.874µs |       127.0.0.1 | GET | /static/admin/ |"
+time="2021-04-22 17:06:59" level=info msg="| 200 |     112.894µs |       127.0.0.1 | GET | /static/admin/assets/i/favicon.png |"
+time="2021-04-22 17:07:09" level=info msg="| 304 |     116.019µs |       127.0.0.1 | GET | /static/admin/ |"
+time="2021-04-22 17:07:09" level=info msg="| 200 |      78.269µs |       127.0.0.1 | GET | /static/admin/assets/i/favicon.png |"
+time="2021-04-22 17:08:06" level=info msg="| 200 |      176.54µs |       127.0.0.1 | GET | /static/admin/ |"
+time="2021-04-22 17:08:06" level=info msg="| 200 |     104.622µs |       127.0.0.1 | GET | /static/admin/assets/i/favicon.png |"
+time="2021-04-22 17:11:00" level=info msg="| 200 |     227.349µs |       127.0.0.1 | GET | /static/admin/ |"
+time="2021-04-22 17:11:00" level=info msg="| 200 |     101.912µs |       127.0.0.1 | GET | /static/admin/assets/i/favicon.png |"
+time="2021-04-22 17:16:28" level=info msg="| 200 |     187.121µs |       127.0.0.1 | GET | /static/admin/ |"
+time="2021-04-22 17:16:28" level=info msg="| 200 |      85.743µs |       127.0.0.1 | GET | /static/admin/assets/i/favicon.png |"
+time="2021-04-22 17:16:28" level=info msg="| 304 |     110.398µs |       127.0.0.1 | GET | /static/admin/ |"
+time="2021-04-22 17:16:29" level=info msg="| 200 |      88.951µs |       127.0.0.1 | GET | /static/admin/assets/i/favicon.png |"
+time="2021-04-22 17:16:29" level=info msg="| 304 |      81.408µs |       127.0.0.1 | GET | /static/admin/ |"
+time="2021-04-22 17:16:29" level=info msg="| 200 |      90.361µs |       127.0.0.1 | GET | /static/admin/assets/i/favicon.png |"
+time="2021-04-22 17:16:29" level=info msg="| 304 |      88.371µs |       127.0.0.1 | GET | /static/admin/ |"
+time="2021-04-22 17:16:29" level=info msg="| 200 |      78.551µs |       127.0.0.1 | GET | /static/admin/assets/i/favicon.png |"
+time="2021-04-22 17:16:29" level=info msg="| 304 |      73.239µs |       127.0.0.1 | GET | /static/admin/ |"
+time="2021-04-22 17:16:30" level=info msg="| 304 |      75.807µs |       127.0.0.1 | GET | /static/admin/ |"
+time="2021-04-22 17:16:30" level=info msg="| 200 |      78.845µs |       127.0.0.1 | GET | /static/admin/assets/i/favicon.png |"
+time="2021-04-22 17:16:30" level=info msg="| 304 |      70.953µs |       127.0.0.1 | GET | /static/admin/ |"
+time="2021-04-22 17:16:30" level=info msg="| 200 |      76.475µs |       127.0.0.1 | GET | /static/admin/assets/i/favicon.png |"
+time="2021-04-22 17:16:30" level=info msg="| 304 |      69.451µs |       127.0.0.1 | GET | /static/admin/ |"
+time="2021-04-22 17:16:30" level=info msg="| 200 |      91.317µs |       127.0.0.1 | GET | /static/admin/assets/i/favicon.png |"
+time="2021-04-22 17:16:30" level=info msg="| 304 |      81.532µs |       127.0.0.1 | GET | /static/admin/ |"
+time="2021-04-22 17:16:30" level=info msg="| 200 |      94.125µs |       127.0.0.1 | GET | /static/admin/assets/i/favicon.png |"
+time="2021-04-22 17:23:50" level=info msg="| 200 |     196.287µs |       127.0.0.1 | GET | /static/admin/ |"
+time="2021-04-22 17:23:51" level=info msg="| 200 |      99.595µs |       127.0.0.1 | GET | /static/admin/assets/i/favicon.png |"
+time="2021-04-22 17:24:10" level=info msg="| 200 |     211.825µs |       127.0.0.1 | GET | /static/admin/ |"
+time="2021-04-22 17:24:11" level=info msg="| 200 |     101.117µs |       127.0.0.1 | GET | /static/admin/assets/i/favicon.png |"
+time="2021-04-22 17:24:11" level=info msg="| 304 |      98.962µs |       127.0.0.1 | GET | /static/admin/ |"
+time="2021-04-22 17:24:12" level=info msg="| 200 |     110.938µs |       127.0.0.1 | GET | /static/admin/assets/i/favicon.png |"
+time="2021-04-22 17:24:12" level=info msg="| 304 |        89.5µs |       127.0.0.1 | GET | /static/admin/ |"
+time="2021-04-22 17:24:12" level=info msg="| 200 |      73.892µs |       127.0.0.1 | GET | /static/admin/assets/i/favicon.png |"
+time="2021-04-22 17:24:12" level=info msg="| 304 |       72.49µs |       127.0.0.1 | GET | /static/admin/ |"
+time="2021-04-22 17:24:12" level=info msg="| 304 |      72.403µs |       127.0.0.1 | GET | /static/admin/ |"
+time="2021-04-22 17:24:12" level=info msg="| 200 |      93.166µs |       127.0.0.1 | GET | /static/admin/assets/i/favicon.png |"
+time="2021-04-22 17:24:12" level=info msg="| 200 |      84.637µs |       127.0.0.1 | GET | /static/admin/assets/i/favicon.png |"
+time="2021-04-22 17:24:12" level=info msg="| 304 |      85.886µs |       127.0.0.1 | GET | /static/admin/ |"
+time="2021-04-22 17:24:13" level=info msg="| 304 |      89.668µs |       127.0.0.1 | GET | /static/admin/ |"
+time="2021-04-22 17:24:13" level=info msg="| 200 |      70.271µs |       127.0.0.1 | GET | /static/admin/assets/i/favicon.png |"
+time="2021-04-22 17:24:13" level=info msg="| 304 |     102.221µs |       127.0.0.1 | GET | /static/admin/ |"
+time="2021-04-22 17:24:13" level=info msg="| 200 |      73.609µs |       127.0.0.1 | GET | /static/admin/assets/i/favicon.png |"
+time="2021-04-22 17:24:22" level=info msg="| 200 |     164.645µs |       127.0.0.1 | GET | /static/admin/ |"
+time="2021-04-22 17:24:22" level=info msg="| 200 |     103.243µs |       127.0.0.1 | GET | /static/admin/assets/i/favicon.png |"
+time="2021-04-22 17:24:22" level=info msg="| 304 |       96.99µs |       127.0.0.1 | GET | /static/admin/ |"
+time="2021-04-22 17:24:23" level=info msg="| 200 |      85.248µs |       127.0.0.1 | GET | /static/admin/assets/i/favicon.png |"
+time="2021-04-22 17:24:23" level=info msg="| 304 |      76.017µs |       127.0.0.1 | GET | /static/admin/ |"
+time="2021-04-22 17:25:03" level=info msg="| 200 |     256.554µs |       127.0.0.1 | GET | /static/admin/ |"
+time="2021-04-22 17:25:03" level=info msg="| 200 |      100.18µs |       127.0.0.1 | GET | /static/admin/assets/i/favicon.png |"
+time="2021-04-22 17:25:04" level=info msg="| 304 |      96.178µs |       127.0.0.1 | GET | /static/admin/ |"
+time="2021-04-22 17:25:04" level=info msg="| 200 |      77.475µs |       127.0.0.1 | GET | /static/admin/assets/i/favicon.png |"
+time="2021-04-22 17:25:07" level=info msg="| 304 |      95.288µs |       127.0.0.1 | GET | /static/admin/ |"
+time="2021-04-22 17:25:08" level=info msg="| 200 |      73.612µs |       127.0.0.1 | GET | /static/admin/assets/i/favicon.png |"
+time="2021-04-22 17:26:44" level=info msg="| 200 |     157.474µs |       127.0.0.1 | GET | /static/admin/ |"
+time="2021-04-22 17:26:44" level=info msg="| 200 |      89.364µs |       127.0.0.1 | GET | /static/admin/assets/i/favicon.png |"
+time="2021-04-22 17:28:18" level=info msg="| 200 |     158.243µs |       127.0.0.1 | GET | /static/admin/ |"
+time="2021-04-22 17:28:18" level=info msg="| 200 |      86.993µs |       127.0.0.1 | GET | /static/admin/assets/i/favicon.png |"
+time="2021-04-22 17:28:54" level=info msg="| 200 |     150.222µs |       127.0.0.1 | GET | /static/admin/ |"
+time="2021-04-22 17:28:55" level=info msg="| 200 |     107.866µs |       127.0.0.1 | GET | /static/admin/assets/i/favicon.png |"
+time="2021-04-22 17:32:51" level=info msg="| 301 |      56.522µs |    192.168.0.26 | GET | / |"
+time="2021-04-22 17:32:51" level=info msg="| 200 |     119.723µs |    192.168.0.26 | GET | /static/admin/login.html |"
+time="2021-04-22 17:32:51" level=info msg="| 200 |     141.255µs |    192.168.0.26 | GET | /static/admin/assets/css/amazeui.datatables.min.css |"
+time="2021-04-22 17:32:51" level=info msg="| 200 |     167.076µs |    192.168.0.26 | GET | /static/admin/assets/css/app.css |"
+time="2021-04-22 17:32:51" level=info msg="| 200 |     183.368µs |    192.168.0.26 | GET | /static/admin/assets/js/jquery.min.js |"
+time="2021-04-22 17:32:51" level=info msg="| 200 |      65.374µs |    192.168.0.26 | GET | /static/admin/assets/js/theme.js |"
+time="2021-04-22 17:32:51" level=info msg="| 200 |      62.487µs |    192.168.0.26 | GET | /static/admin/assets/js/app.js |"
+time="2021-04-22 17:32:51" level=info msg="| 200 |   21.963253ms |    192.168.0.26 | GET | /static/admin/assets/css/amazeui.min.css |"
+time="2021-04-22 17:32:51" level=info msg="| 200 |   37.216343ms |    192.168.0.26 | GET | /static/admin/assets/js/amazeui.min.js |"
+time="2021-04-22 17:32:51" level=info msg="| 200 |     147.647µs |    192.168.0.26 | GET | /static/admin/assets/img/logob.png |"
+time="2021-04-22 17:32:51" level=info msg="| 200 |     167.235µs |    192.168.0.26 | GET | /static/admin/assets/fonts/fontawesome-webfont.woff2?v=4.6.3 |"
+time="2021-04-22 17:32:51" level=info msg="| 200 |     136.853µs |    192.168.0.26 | GET | /static/admin/assets/i/favicon.png |"
+time="2021-04-22 17:33:01" level=info msg="| 200 |     272.717µs |    192.168.0.26 | POST | /api/web/user/login |"
+time="2021-04-22 17:33:01" level=info msg="| 301 |      62.688µs |    192.168.0.26 | GET | /static/admin/index.html |"
+time="2021-04-22 17:33:01" level=info msg="| 200 |      150.34µs |    192.168.0.26 | GET | /static/admin/ |"
+time="2021-04-22 17:33:01" level=info msg="| 200 |     148.825µs |    192.168.0.26 | GET | /static/admin/assets/img/logo.png |"
+time="2021-04-22 17:33:01" level=info msg="| 200 |    182.4126ms |    192.168.0.26 | GET | /static/admin/assets/img/k.jpg |"

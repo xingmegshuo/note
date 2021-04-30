@@ -13,6 +13,7 @@ import (
 	"io/ioutil"
 	"log"
 	"net/http"
+	"sync"
 )
 
 type dataValue struct {
@@ -21,7 +22,7 @@ type dataValue struct {
 }
 
 var value dataValue
-
+var lock sync.RWMutex
 var word = make(map[string]bool)
 
 func handler(w http.ResponseWriter, req *http.Request) {
@@ -30,42 +31,48 @@ func handler(w http.ResponseWriter, req *http.Request) {
 	body, err := ioutil.ReadAll(req.Body)
 	if err != nil {
 		log.Println(err)
-	}
-	if err := json.Unmarshal([]byte(body), &value); err == nil {
-		r := false
-		result := []bool{}
-		for _, s := range value.Data {
-			if _, ok := word[s]; ok {
-				r = true
-			} else {
-				word[s] = true
-				r = false
-			}
-			result = append(result, r)
-		}
-		v := dataValue{
-			Result: result,
-		}
-		jsonStr, e := json.Marshal(v)
-		if e != nil {
-			log.Println(e)
-		}
-		w.Write([]byte(jsonStr))
-
 	} else {
-		log.Println(err)
-		jsonStr, e := json.Marshal(dataValue{})
-		if e != nil {
-			log.Println(e)
+		if err := json.Unmarshal([]byte(body), &value); err == nil {
+			r := false
+			result := []bool{}
+			for _, s := range value.Data {
+				lock.Lock()
+				if _, ok := word[s]; ok {
+					r = true
+					lock.Unlock()
+				} else {
+					lock.Unlock()
+					lock.Lock()
+					word[s] = true
+					lock.Unlock()
+					r = false
+				}
+				result = append(result, r)
+			}
+			v := dataValue{
+				Result: result,
+			}
+			jsonStr, e := json.Marshal(v)
+			if e != nil {
+				log.Println(e)
+			}
+			w.Write([]byte(jsonStr))
+
+		} else {
+			log.Println(err)
+			jsonStr, e := json.Marshal(dataValue{})
+			if e != nil {
+				log.Println(e)
+			}
+			w.Write([]byte(jsonStr))
 		}
-		w.Write([]byte(jsonStr))
 	}
 }
 
 func Start() error {
 
 	http.HandleFunc("/", handler)
-	log.Printf("监听 8000 端口成功，可以通过 https://127.0.0.1:8000/ 访问")
+	log.Println("监听 8000 端口成功，可以通过 https://127.0.0.1:8000/ 访问")
 	err := http.ListenAndServeTLS(":8000", "server.crt", "server.key", nil)
 	return err
 }

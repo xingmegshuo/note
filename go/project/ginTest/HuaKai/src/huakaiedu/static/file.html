@@ -1,0 +1,926 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>file_Table 1.md</title>
+<meta http-equiv="Content-type" content="text/html;charset=UTF-8">
+
+<style>
+/* https://github.com/microsoft/vscode/blob/master/extensions/markdown-language-features/media/markdown.css */
+/*---------------------------------------------------------------------------------------------
+ *  Copyright (c) Microsoft Corporation. All rights reserved.
+ *  Licensed under the MIT License. See License.txt in the project root for license information.
+ *--------------------------------------------------------------------------------------------*/
+
+body {
+	font-family: var(--vscode-markdown-font-family, -apple-system, BlinkMacSystemFont, "Segoe WPC", "Segoe UI", "Ubuntu", "Droid Sans", sans-serif);
+	font-size: var(--vscode-markdown-font-size, 14px);
+	padding: 0 26px;
+	line-height: var(--vscode-markdown-line-height, 22px);
+	word-wrap: break-word;
+}
+
+#code-csp-warning {
+	position: fixed;
+	top: 0;
+	right: 0;
+	color: white;
+	margin: 16px;
+	text-align: center;
+	font-size: 12px;
+	font-family: sans-serif;
+	background-color:#444444;
+	cursor: pointer;
+	padding: 6px;
+	box-shadow: 1px 1px 1px rgba(0,0,0,.25);
+}
+
+#code-csp-warning:hover {
+	text-decoration: none;
+	background-color:#007acc;
+	box-shadow: 2px 2px 2px rgba(0,0,0,.25);
+}
+
+body.scrollBeyondLastLine {
+	margin-bottom: calc(100vh - 22px);
+}
+
+body.showEditorSelection .code-line {
+	position: relative;
+}
+
+body.showEditorSelection .code-active-line:before,
+body.showEditorSelection .code-line:hover:before {
+	content: "";
+	display: block;
+	position: absolute;
+	top: 0;
+	left: -12px;
+	height: 100%;
+}
+
+body.showEditorSelection li.code-active-line:before,
+body.showEditorSelection li.code-line:hover:before {
+	left: -30px;
+}
+
+.vscode-light.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(0, 0, 0, 0.15);
+}
+
+.vscode-light.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(0, 0, 0, 0.40);
+}
+
+.vscode-light.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+.vscode-dark.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(255, 255, 255, 0.4);
+}
+
+.vscode-dark.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(255, 255, 255, 0.60);
+}
+
+.vscode-dark.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+.vscode-high-contrast.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(255, 160, 0, 0.7);
+}
+
+.vscode-high-contrast.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(255, 160, 0, 1);
+}
+
+.vscode-high-contrast.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+img {
+	max-width: 100%;
+	max-height: 100%;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+a:focus,
+input:focus,
+select:focus,
+textarea:focus {
+	outline: 1px solid -webkit-focus-ring-color;
+	outline-offset: -1px;
+}
+
+hr {
+	border: 0;
+	height: 2px;
+	border-bottom: 2px solid;
+}
+
+h1 {
+	padding-bottom: 0.3em;
+	line-height: 1.2;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+}
+
+h1, h2, h3 {
+	font-weight: normal;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+table > thead > tr > th {
+	text-align: left;
+	border-bottom: 1px solid;
+}
+
+table > thead > tr > th,
+table > thead > tr > td,
+table > tbody > tr > th,
+table > tbody > tr > td {
+	padding: 5px 10px;
+}
+
+table > tbody > tr + tr > td {
+	border-top: 1px solid;
+}
+
+blockquote {
+	margin: 0 7px 0 5px;
+	padding: 0 16px 0 10px;
+	border-left-width: 5px;
+	border-left-style: solid;
+}
+
+code {
+	font-family: Menlo, Monaco, Consolas, "Droid Sans Mono", "Courier New", monospace, "Droid Sans Fallback";
+	font-size: 1em;
+	line-height: 1.357em;
+}
+
+body.wordWrap pre {
+	white-space: pre-wrap;
+}
+
+pre:not(.hljs),
+pre.hljs code > div {
+	padding: 16px;
+	border-radius: 3px;
+	overflow: auto;
+}
+
+pre code {
+	color: var(--vscode-editor-foreground);
+	tab-size: 4;
+}
+
+/** Theming */
+
+.vscode-light pre {
+	background-color: rgba(220, 220, 220, 0.4);
+}
+
+.vscode-dark pre {
+	background-color: rgba(10, 10, 10, 0.4);
+}
+
+.vscode-high-contrast pre {
+	background-color: rgb(0, 0, 0);
+}
+
+.vscode-high-contrast h1 {
+	border-color: rgb(0, 0, 0);
+}
+
+.vscode-light table > thead > tr > th {
+	border-color: rgba(0, 0, 0, 0.69);
+}
+
+.vscode-dark table > thead > tr > th {
+	border-color: rgba(255, 255, 255, 0.69);
+}
+
+.vscode-light h1,
+.vscode-light hr,
+.vscode-light table > tbody > tr + tr > td {
+	border-color: rgba(0, 0, 0, 0.18);
+}
+
+.vscode-dark h1,
+.vscode-dark hr,
+.vscode-dark table > tbody > tr + tr > td {
+	border-color: rgba(255, 255, 255, 0.18);
+}
+
+</style>
+
+<style>
+/* Tomorrow Theme */
+/* http://jmblog.github.com/color-themes-for-google-code-highlightjs */
+/* Original theme - https://github.com/chriskempson/tomorrow-theme */
+
+/* Tomorrow Comment */
+.hljs-comment,
+.hljs-quote {
+	color: #8e908c;
+}
+
+/* Tomorrow Red */
+.hljs-variable,
+.hljs-template-variable,
+.hljs-tag,
+.hljs-name,
+.hljs-selector-id,
+.hljs-selector-class,
+.hljs-regexp,
+.hljs-deletion {
+	color: #c82829;
+}
+
+/* Tomorrow Orange */
+.hljs-number,
+.hljs-built_in,
+.hljs-builtin-name,
+.hljs-literal,
+.hljs-type,
+.hljs-params,
+.hljs-meta,
+.hljs-link {
+	color: #f5871f;
+}
+
+/* Tomorrow Yellow */
+.hljs-attribute {
+	color: #eab700;
+}
+
+/* Tomorrow Green */
+.hljs-string,
+.hljs-symbol,
+.hljs-bullet,
+.hljs-addition {
+	color: #718c00;
+}
+
+/* Tomorrow Blue */
+.hljs-title,
+.hljs-section {
+	color: #4271ae;
+}
+
+/* Tomorrow Purple */
+.hljs-keyword,
+.hljs-selector-tag {
+	color: #8959a8;
+}
+
+.hljs {
+	display: block;
+	overflow-x: auto;
+	color: #4d4d4c;
+	padding: 0.5em;
+}
+
+.hljs-emphasis {
+	font-style: italic;
+}
+
+.hljs-strong {
+	font-weight: bold;
+}
+</style>
+
+<style>
+/*
+ * Markdown PDF CSS
+ */
+
+ body {
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe WPC", "Segoe UI", "Ubuntu", "Droid Sans", sans-serif, "Meiryo";
+	padding: 0 12px;
+}
+
+pre {
+	background-color: #f8f8f8;
+	border: 1px solid #cccccc;
+	border-radius: 3px;
+	overflow-x: auto;
+	white-space: pre-wrap;
+	overflow-wrap: break-word;
+}
+
+pre:not(.hljs) {
+	padding: 23px;
+	line-height: 19px;
+}
+
+blockquote {
+	background: rgba(127, 127, 127, 0.1);
+	border-color: rgba(0, 122, 204, 0.5);
+}
+
+.emoji {
+	height: 1.4em;
+}
+
+code {
+	font-size: 14px;
+	line-height: 19px;
+}
+
+/* for inline code */
+:not(pre):not(.hljs) > code {
+	color: #C9AE75; /* Change the old color so it seems less like an error */
+	font-size: inherit;
+}
+
+/* Page Break : use <div class="page"/> to insert page break
+-------------------------------------------------------- */
+.page {
+	page-break-after: always;
+}
+
+</style>
+
+<script src="https://unpkg.com/mermaid/dist/mermaid.min.js"></script>
+</head>
+<body>
+  <script>
+    mermaid.initialize({
+      startOnLoad: true,
+      theme: document.body.classList.contains('vscode-dark') || document.body.classList.contains('vscode-high-contrast')
+          ? 'dark'
+          : 'default'
+    });
+  </script>
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+<th></th>
+<th></th>
+<th></th>
+<th></th>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+<td></td>
+<td>可持续发展专业委会会员权益（分层服务）</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>序号</td>
+<td>服务类别</td>
+<td>服务内容</td>
+<td>普通会员（项）1500</td>
+<td>理事单位（项）5000</td>
+<td>常务理事（项）10000</td>
+<td>副会长（项）20000</td>
+<td>会长（项）50000</td>
+</tr>
+<tr>
+<td>1</td>
+<td>权益支持</td>
+<td>中小企业法律服务平台（常年提供企业运营、风控、投融资、知识产权、劳动用工、税务等政策信息和法律顾问服务，免费网上在线咨询）</td>
+<td>√</td>
+<td>√</td>
+<td>√</td>
+<td>√</td>
+<td>√</td>
+</tr>
+<tr>
+<td>2</td>
+<td></td>
+<td>享有选举权、被选举权</td>
+<td>√（选举权）</td>
+<td>√</td>
+<td>√</td>
+<td>√</td>
+<td>√</td>
+</tr>
+<tr>
+<td>3</td>
+<td></td>
+<td>根据需要，定制危机公关与危机管理支持</td>
+<td></td>
+<td></td>
+<td>√</td>
+<td>√</td>
+<td>√</td>
+</tr>
+<tr>
+<td>4</td>
+<td>宣传推介</td>
+<td>专委会移动新媒体端进行宣传展示、咨询策划、活动策划方案咨询、影视相关行业咨询</td>
+<td>√</td>
+<td>√</td>
+<td>√</td>
+<td>√</td>
+<td>√</td>
+</tr>
+<tr>
+<td>5</td>
+<td></td>
+<td>专委会官网会员风采展示</td>
+<td></td>
+<td>√</td>
+<td>√</td>
+<td>√</td>
+<td>√</td>
+</tr>
+<tr>
+<td>6</td>
+<td></td>
+<td>优先或优惠在《可持续发展》杂志开展专访和企业宣传</td>
+<td></td>
+<td>√</td>
+<td>√</td>
+<td>免费（1次/年）</td>
+<td>免费（1次/年）</td>
+</tr>
+<tr>
+<td>7</td>
+<td></td>
+<td>根据需要，定制宣传推介、品牌推广等活动（发布会、主流媒体宣传、广告等）</td>
+<td></td>
+<td></td>
+<td>√</td>
+<td>√</td>
+<td>√</td>
+</tr>
+<tr>
+<td>8</td>
+<td>信息服务</td>
+<td>会员系统（会员信息、专委会动态、最新政策等）信息推送</td>
+<td>√</td>
+<td>√</td>
+<td>√</td>
+<td>√</td>
+<td>√</td>
+</tr>
+<tr>
+<td>9</td>
+<td></td>
+<td>会员系统定制信息（行业/地方动态等）推送</td>
+<td></td>
+<td>√</td>
+<td>√</td>
+<td>√</td>
+<td>√</td>
+</tr>
+<tr>
+<td>10</td>
+<td></td>
+<td>年度会员服务手册电子版</td>
+<td>√</td>
+<td>√</td>
+<td>√</td>
+<td>√</td>
+<td>√</td>
+</tr>
+<tr>
+<td>11</td>
+<td></td>
+<td>年度会员服务手册纸质版(邮寄）</td>
+<td></td>
+<td>√</td>
+<td>√</td>
+<td>√</td>
+<td>√</td>
+</tr>
+<tr>
+<td>12</td>
+<td></td>
+<td>四川可持续发展专委会杂志电子版</td>
+<td>√</td>
+<td>√</td>
+<td>√</td>
+<td>√</td>
+<td>√</td>
+</tr>
+<tr>
+<td>13</td>
+<td></td>
+<td>四川可持续发展专委会杂志纸质版（邮寄）</td>
+<td></td>
+<td>√</td>
+<td>√</td>
+<td>√</td>
+<td>√</td>
+</tr>
+<tr>
+<td>14</td>
+<td></td>
+<td>四川可持续发展专委会年鉴</td>
+<td></td>
+<td></td>
+<td>√</td>
+<td>√</td>
+<td>√</td>
+</tr>
+<tr>
+<td>15</td>
+<td></td>
+<td>获得上级协会及主管部门相关研究报告</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>√</td>
+</tr>
+<tr>
+<td>16</td>
+<td></td>
+<td>推荐参加专委会或上级专委会组织的政策宣讲活动</td>
+<td>√</td>
+<td>√</td>
+<td>√</td>
+<td>√</td>
+<td>√</td>
+</tr>
+<tr>
+<td>17</td>
+<td>金融及企业管理咨询</td>
+<td>推荐获得与专委会合作银行及专委会合作投资机构的授信</td>
+<td></td>
+<td>√</td>
+<td>√</td>
+<td>√</td>
+<td>√</td>
+</tr>
+<tr>
+<td>18</td>
+<td></td>
+<td>参加专委会组织的金融普及知识教育及直投对接活动</td>
+<td>√</td>
+<td>√</td>
+<td>√</td>
+<td>√</td>
+<td>√</td>
+</tr>
+<tr>
+<td>19</td>
+<td></td>
+<td>企业PPT美化、股权咨询、绩效提升管理咨询</td>
+<td></td>
+<td>√</td>
+<td>√</td>
+<td>√</td>
+<td>√</td>
+</tr>
+<tr>
+<td>20</td>
+<td></td>
+<td>优先或优惠参加中心专委会组织的企业管理咨询或股权及金融培训活动</td>
+<td>√</td>
+<td>√</td>
+<td>√</td>
+<td>√</td>
+<td>√</td>
+</tr>
+<tr>
+<td>21</td>
+<td></td>
+<td>根据需要，定制银企对接，金融培训等服务</td>
+<td></td>
+<td></td>
+<td>√</td>
+<td>√</td>
+<td>√</td>
+</tr>
+<tr>
+<td>22</td>
+<td>咨询评估及知识产权申请</td>
+<td>优先或优惠获得应急产业等多种咨询评估服务</td>
+<td>√</td>
+<td>√</td>
+<td>√</td>
+<td>√</td>
+<td>√</td>
+</tr>
+<tr>
+<td>23</td>
+<td></td>
+<td>参加专委会的信用评价</td>
+<td>√</td>
+<td>√</td>
+<td>√</td>
+<td>√</td>
+<td>√</td>
+</tr>
+<tr>
+<td>24</td>
+<td></td>
+<td>知识产权专业知识培训、知识产权免费咨询、项目申报培训、行业资讯互通</td>
+<td></td>
+<td>√</td>
+<td>√</td>
+<td>√</td>
+<td>√</td>
+</tr>
+<tr>
+<td>25</td>
+<td></td>
+<td>根据需要，定制专题调研、协助定制各知识产权申报</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>√</td>
+</tr>
+<tr>
+<td>26</td>
+<td></td>
+<td>组织推动团标和行标制定,优先推荐参加各市、区、县组织的各项活动</td>
+<td></td>
+<td></td>
+<td>√</td>
+<td>√</td>
+<td>√</td>
+</tr>
+<tr>
+<td>27</td>
+<td>交流活动</td>
+<td>优先或优惠参加专委会组织的国内行业、企业交 流和游学考察活动</td>
+<td>√</td>
+<td>√</td>
+<td>√</td>
+<td>√</td>
+<td>√</td>
+</tr>
+<tr>
+<td>28</td>
+<td></td>
+<td>优先或优惠参加上级协会下各专委会各类展会、研讨会、对接会、大赛等活动</td>
+<td>√</td>
+<td>√</td>
+<td>√</td>
+<td>√</td>
+<td>√</td>
+</tr>
+<tr>
+<td>29</td>
+<td></td>
+<td>根据需要，定制行业对接和企业交流活动</td>
+<td></td>
+<td></td>
+<td>√</td>
+<td>√</td>
+<td>√</td>
+</tr>
+<tr>
+<td>30</td>
+<td></td>
+<td>经授权可代表专委会参加国内重大活动</td>
+<td></td>
+<td></td>
+<td></td>
+<td>√</td>
+<td>√</td>
+</tr>
+<tr>
+<td>31</td>
+<td>学习培训</td>
+<td>优先或优惠参加专委会培训</td>
+<td>√</td>
+<td>√</td>
+<td>√</td>
+<td>√</td>
+<td>√</td>
+</tr>
+<tr>
+<td>32</td>
+<td></td>
+<td>根据需要，定制培训活动</td>
+<td>√</td>
+<td>√</td>
+<td>√</td>
+<td>√</td>
+<td>√</td>
+</tr>
+<tr>
+<td>33</td>
+<td>荣誉推荐</td>
+<td>通过专委会推荐申报国家部委有关评选或奖项 （全国专利奖等）</td>
+<td>√</td>
+<td>√</td>
+<td>√</td>
+<td>√</td>
+<td>√</td>
+</tr>
+<tr>
+<td>34</td>
+<td></td>
+<td>通过专委会及上级协会推荐申报国家部委、省级市级资金和项目</td>
+<td></td>
+<td>√</td>
+<td>√</td>
+<td>√</td>
+<td>√</td>
+</tr>
+<tr>
+<td>35</td>
+<td></td>
+<td>择优参加专委会优秀会员表彰</td>
+<td>√</td>
+<td>√</td>
+<td>√</td>
+<td>√</td>
+<td>√</td>
+</tr>
+<tr>
+<td>36</td>
+<td></td>
+<td>获得专委会会员证书，理事、常务理事或副会长铜牌</td>
+<td>√</td>
+<td>√</td>
+<td>√</td>
+<td>√</td>
+<td>√</td>
+</tr>
+<tr>
+<td>37</td>
+<td>会员联络</td>
+<td>会员单位专属微信群、在线联系、电话联系</td>
+<td>√</td>
+<td>√</td>
+<td>√</td>
+<td>√</td>
+<td>√</td>
+</tr>
+<tr>
+<td>38</td>
+<td></td>
+<td>指派专人定期沟通联系</td>
+<td></td>
+<td>√</td>
+<td>√</td>
+<td>√</td>
+<td>√</td>
+</tr>
+<tr>
+<td>39</td>
+<td></td>
+<td>指派专委会相关部门负责人与副会长联络员重点联系</td>
+<td></td>
+<td></td>
+<td></td>
+<td>√</td>
+<td>√</td>
+</tr>
+<tr>
+<td>40</td>
+<td>教育培训</td>
+<td>提供教育类一手渠道及相关信息资料,人社、教育政策传达解读</td>
+<td>√</td>
+<td>√</td>
+<td>√</td>
+<td>√</td>
+<td>√</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>根据企业需求推荐人员就业</td>
+<td></td>
+<td></td>
+<td>√</td>
+<td>√</td>
+<td>√</td>
+</tr>
+<tr>
+<td>41</td>
+<td>科技技术</td>
+<td>现有模板的网站、小程序的一次免费搭建</td>
+<td>√</td>
+<td>√</td>
+<td>√</td>
+<td>√</td>
+<td>√</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>软件产品全渠道上线的技术指导</td>
+<td></td>
+<td>√</td>
+<td>√</td>
+<td>√</td>
+<td>√</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>企业的logo，海报，UI、等平面设计K（简版）免费制作</td>
+<td>√</td>
+<td>√</td>
+<td>√</td>
+<td>√</td>
+<td>√</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>其他软件定制类相关服务</td>
+<td>√</td>
+<td>√</td>
+<td>√</td>
+<td>√</td>
+<td>√</td>
+</tr>
+<tr>
+<td>42</td>
+<td>税务筹划</td>
+<td>提供会员单位涉税咨询</td>
+<td>√</td>
+<td>√</td>
+<td>√</td>
+<td>√</td>
+<td>√</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>企业相关层级税收及人力资源外部承接咨询</td>
+<td></td>
+<td>√</td>
+<td>√</td>
+<td>√</td>
+<td>√</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>企业税务优化</td>
+<td></td>
+<td></td>
+<td>√</td>
+<td>√</td>
+<td>√</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>定制类其他税筹咨询及计划</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>√</td>
+</tr>
+<tr>
+<td>43</td>
+<td>社区服务</td>
+<td>企业产品社区问卷调查</td>
+<td>√</td>
+<td>√</td>
+<td>√</td>
+<td>√</td>
+<td>√</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>闲置社区物品快速去库存</td>
+<td></td>
+<td>√</td>
+<td>√</td>
+<td>√</td>
+<td>√</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>企业产品社区精准推广、助力农副产品推广</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>√</td>
+</tr>
+</tbody>
+</table>
+
+</body>
+</html>

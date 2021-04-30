@@ -1,0 +1,18 @@
+type (
+	LoginReq {
+		Nickname string `json:"username"`
+		Gender   string `json:"password"`
+		Avar     string `json:"avar"`
+		City     string `json:"city"`
+	}
+
+	LoginReply {
+		Status string `json:"status"`
+		Mes    string `json:"mes"`
+	}
+)
+
+service user-api {
+	@handler login
+	post /user/login (LoginReq) returns (LoginReply)
+}

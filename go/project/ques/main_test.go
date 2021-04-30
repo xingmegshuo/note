@@ -14,7 +14,6 @@ import (
 	"time"
 )
 
-
 // api 测试
 func TestRun(t *testing.T) {
 	time.Sleep(time.Second * 1)
@@ -22,23 +21,19 @@ func TestRun(t *testing.T) {
 	d1 := []string{"a", "b", "a", "d", "b"}
 	t.Log(d1)
 	r, e := Run(d1)
-	t.Log(r)
-	if e != nil {
-		t.Fatal("test case error.", e)
+	t.Log(r, e)
+	if r[2] == true && r[4] == true && e == nil {
+		t.Log("test case success.")
 	} else {
-		if r[2] == true && r[4] == true {
-			t.Log("test case success.")
-		}
+		t.Error("test case Error")
 	}
 	d2 := []string{"早", "早上", "早上好", "早上", "b"}
 	t.Log(d2)
 	r, e = Run(d2)
-	t.Log(r)
-	if e != nil {
-		t.Fatal("test case error.", e)
+	t.Log(r, e)
+	if r[3] == true && r[4] == true && e == nil {
+		t.Log("test case success.")
 	} else {
-		if r[3] == true && r[4] == true {
-			t.Log("test case success.")
-		}
+		t.Error("test case Error")
 	}
 }

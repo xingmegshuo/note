@@ -1,0 +1,6 @@
+{
+    "go.gopath": "${workspaceFolder}",
+    "go.testEnvVars": {
+        "xx": "yy"
+    }
+}

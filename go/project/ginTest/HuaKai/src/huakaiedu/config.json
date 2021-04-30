@@ -1,0 +1,7 @@
+{
+    "port": "8080",
+    "sql": "education.db",
+    "pageSize": 20,
+    "superAccount": "superuser",
+    "password": "123456789"
+}

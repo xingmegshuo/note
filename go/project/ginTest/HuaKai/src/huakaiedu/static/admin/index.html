@@ -1,0 +1,1359 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>华开教育小程序管理</title>
+    <meta name="description" content="这是一个 index 页面">
+    <meta name="keywords" content="index">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="renderer" content="webkit">
+    <meta http-equiv="Cache-Control" content="no-siteapp" />
+    <link rel="icon" type="image/png" href="assets/i/favicon.png">
+    <link rel="apple-touch-icon-precomposed" href="assets/i/app-icon72x72@2x.png">
+    <meta name="apple-mobile-web-app-title" content="Amaze UI" />
+    <link rel="stylesheet" href="assets/css/amazeui.min.css" />
+    <link rel="stylesheet" href="assets/css/amazeui.datatables.min.css" />
+    <link rel="stylesheet" href="assets/css/app.css">
+    <script src="assets/js/jquery.min.js"></script>
+
+</head>
+
+<body data-type="widgets">
+<script src="assets/js/theme.js"></script>
+<div class="am-g tpl-g">
+    <!-- 头部 -->
+    <header>
+        <!-- logo -->
+        <div class="am-fl tpl-header-logo">
+            <a href="javascript:;"><img src="assets/img/logo.png" alt=""></a>
+        </div>
+        <!-- 右侧内容 -->
+        <div class="tpl-header-fluid">
+            <!-- 侧边切换 -->
+            <div class="am-fl tpl-header-switch-button am-icon-list">
+                    <span>
+
+                </span>
+            </div>
+            <!-- 搜索 -->
+            <div class="am-fl tpl-header-search">
+                <form class="tpl-header-search-form" action="javascript:;">
+                    <button class="tpl-header-search-btn am-icon-search"></button>
+                    <input class="tpl-header-search-box" type="text" placeholder="搜索内容...">
+                </form>
+            </div>
+            <!-- 其它功能-->
+            <div class="am-fr tpl-header-navbar">
+                <ul>
+                    <!-- 欢迎语 -->
+                    <li class="am-text-sm tpl-header-navbar-welcome">
+                        <a href="javascript:;">欢迎你, <span>管理员</span> </a>
+                    </li>
+
+<!--                    &lt;!&ndash; 新邮件 &ndash;&gt;-->
+<!--                    <li class="am-dropdown tpl-dropdown" data-am-dropdown>-->
+<!--                        <a href="javascript:;" class="am-dropdown-toggle tpl-dropdown-toggle" data-am-dropdown-toggle>-->
+<!--                            <i class="am-icon-envelope"></i>-->
+<!--                            <span class="am-badge am-badge-success am-round item-feed-badge">4</span>-->
+<!--                        </a>-->
+<!--                        &lt;!&ndash; 弹出列表 &ndash;&gt;-->
+<!--                        <ul class="am-dropdown-content tpl-dropdown-content">-->
+<!--                            <li class="tpl-dropdown-menu-messages">-->
+<!--                                <a href="javascript:;" class="tpl-dropdown-menu-messages-item am-cf">-->
+<!--                                    <div class="menu-messages-ico">-->
+<!--                                        <img src="assets/img/user04.png" alt="">-->
+<!--                                    </div>-->
+<!--                                    <div class="menu-messages-time">-->
+<!--                                        3小时前-->
+<!--                                    </div>-->
+<!--                                    <div class="menu-messages-content">-->
+<!--                                        <div class="menu-messages-content-title">-->
+<!--                                            <i class="am-icon-circle-o am-text-success"></i>-->
+<!--                                            <span>夕风色</span>-->
+<!--                                        </div>-->
+<!--                                        <div class="am-text-truncate"> Amaze UI 的诞生，依托于 GitHub 及其他技术社区上一些优秀的资源；Amaze UI 的成长，则离不开用户的支持。 </div>-->
+<!--                                        <div class="menu-messages-content-time">2016-09-21 下午 16:40</div>-->
+<!--                                    </div>-->
+<!--                                </a>-->
+<!--                            </li>-->
+
+<!--                            <li class="tpl-dropdown-menu-messages">-->
+<!--                                <a href="javascript:;" class="tpl-dropdown-menu-messages-item am-cf">-->
+<!--                                    <div class="menu-messages-ico">-->
+<!--                                        <img src="assets/img/user02.png" alt="">-->
+<!--                                    </div>-->
+<!--                                    <div class="menu-messages-time">-->
+<!--                                        5天前-->
+<!--                                    </div>-->
+<!--                                    <div class="menu-messages-content">-->
+<!--                                        <div class="menu-messages-content-title">-->
+<!--                                            <i class="am-icon-circle-o am-text-warning"></i>-->
+<!--                                            <span>禁言小张</span>-->
+<!--                                        </div>-->
+<!--                                        <div class="am-text-truncate"> 为了能最准确的传达所描述的问题， 建议你在反馈时附上演示，方便我们理解。 </div>-->
+<!--                                        <div class="menu-messages-content-time">2016-09-16 上午 09:23</div>-->
+<!--                                    </div>-->
+<!--                                </a>-->
+<!--                            </li>-->
+<!--                            <li class="tpl-dropdown-menu-messages">-->
+<!--                                <a href="javascript:;" class="tpl-dropdown-menu-messages-item am-cf">-->
+<!--                                    <i class="am-icon-circle-o"></i> 进入列表…-->
+<!--                                </a>-->
+<!--                            </li>-->
+<!--                        </ul>-->
+<!--                    </li>-->
+
+<!--                    &lt;!&ndash; 新提示 &ndash;&gt;-->
+<!--                    <li class="am-dropdown" data-am-dropdown>-->
+<!--                        <a href="javascript:;" class="am-dropdown-toggle" data-am-dropdown-toggle>-->
+<!--                            <i class="am-icon-bell"></i>-->
+<!--                            <span class="am-badge am-badge-warning am-round item-feed-badge">5</span>-->
+<!--                        </a>-->
+
+<!--                        &lt;!&ndash; 弹出列表 &ndash;&gt;-->
+<!--                        <ul class="am-dropdown-content tpl-dropdown-content">-->
+<!--                            <li class="tpl-dropdown-menu-notifications">-->
+<!--                                <a href="javascript:;" class="tpl-dropdown-menu-notifications-item am-cf">-->
+<!--                                    <div class="tpl-dropdown-menu-notifications-title">-->
+<!--                                        <i class="am-icon-line-chart"></i>-->
+<!--                                        <span> 有6笔新的销售订单</span>-->
+<!--                                    </div>-->
+<!--                                    <div class="tpl-dropdown-menu-notifications-time">-->
+<!--                                        12分钟前-->
+<!--                                    </div>-->
+<!--                                </a>-->
+<!--                            </li>-->
+<!--                            <li class="tpl-dropdown-menu-notifications">-->
+<!--                                <a href="javascript:;" class="tpl-dropdown-menu-notifications-item am-cf">-->
+<!--                                    <div class="tpl-dropdown-menu-notifications-title">-->
+<!--                                        <i class="am-icon-star"></i>-->
+<!--                                        <span> 有3个来自人事部的消息</span>-->
+<!--                                    </div>-->
+<!--                                    <div class="tpl-dropdown-menu-notifications-time">-->
+<!--                                        30分钟前-->
+<!--                                    </div>-->
+<!--                                </a>-->
+<!--                            </li>-->
+<!--                            <li class="tpl-dropdown-menu-notifications">-->
+<!--                                <a href="javascript:;" class="tpl-dropdown-menu-notifications-item am-cf">-->
+<!--                                    <div class="tpl-dropdown-menu-notifications-title">-->
+<!--                                        <i class="am-icon-folder-o"></i>-->
+<!--                                        <span> 上午开会记录存档</span>-->
+<!--                                    </div>-->
+<!--                                    <div class="tpl-dropdown-menu-notifications-time">-->
+<!--                                        1天前-->
+<!--                                    </div>-->
+<!--                                </a>-->
+<!--                            </li>-->
+
+
+<!--                            <li class="tpl-dropdown-menu-notifications">-->
+<!--                                <a href="javascript:;" class="tpl-dropdown-menu-notifications-item am-cf">-->
+<!--                                    <i class="am-icon-bell"></i> 进入列表…-->
+<!--                                </a>-->
+<!--                            </li>-->
+<!--                        </ul>-->
+<!--                    </li>-->
+
+                    <!-- 退出 -->
+                    <li class="am-text-sm">
+                        <a href="login.html">
+                            <span class="am-icon-sign-out"></span> 退出
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+    </header>
+    <!-- 风格切换 -->
+    <div class="tpl-skiner">
+        <div class="tpl-skiner-toggle am-icon-cog">
+        </div>
+        <div class="tpl-skiner-content">
+            <div class="tpl-skiner-content-title">
+                选择主题
+            </div>
+            <div class="tpl-skiner-content-bar">
+                <span class="skiner-color skiner-white" data-color="theme-white"></span>
+                <span class="skiner-color skiner-black" data-color="theme-black"></span>
+            </div>
+        </div>
+    </div>
+    <!-- 侧边导航栏 -->
+    <div class="left-sidebar">
+        <ul class="sidebar-nav">
+            <li class="sidebar-nav-link" >
+                <a href="javascript:;" class="sidebar-nav-sub-title active" >
+                    <i class="am-icon-table sidebar-nav-link-logo"></i> 用户管理
+                    <span class="am-icon-chevron-down am-fr am-margin-right-sm sidebar-nav-sub-ico sidebar-nav-sub-ico-rotate"></span>
+                </a>
+                <ul class="sidebar-nav sidebar-nav-sub" style="display: block;">
+                    <li class="sidebar-nav-link" onclick="addContent('用户',1)">
+                        <a >
+                            <span class="am-icon-angle-right sidebar-nav-link-logo"></span> 用户列表
+                        </a>
+                    </li>
+
+                    <li class="sidebar-nav-link" onclick="showTable(0,'user')">
+                        <a >
+                            <span class="am-icon-angle-right sidebar-nav-link-logo"></span> 用户操作
+                        </a>
+                    </li>
+                </ul>
+            </li>
+            <li class="sidebar-nav-link" ">
+                <a href="javascript:;" class="sidebar-nav-sub-title ">
+                    <i class="am-icon-table sidebar-nav-link-logo"></i> 会员管理
+                    <span class="am-icon-chevron-down am-fr am-margin-right-sm sidebar-nav-sub-ico" ></span>
+                </a>
+                <ul class="sidebar-nav sidebar-nav-sub" style="display: none;">
+                    <li class="sidebar-nav-link"  onclick="addContent('会员')">
+                        <a >
+                            <span class="am-icon-angle-right sidebar-nav-link-logo"></span> 会员申请列表
+                        </a>
+                    </li>
+
+                    <li class="sidebar-nav-link" onclick="NoCreate()" >
+                        <a >
+                            <span class="am-icon-angle-right sidebar-nav-link-logo"></span> 会员操作
+                        </a>
+                    </li>
+                </ul>
+            </li>
+            <li class="sidebar-nav-link" >
+                <a href="javascript:;" class="sidebar-nav-sub-title">
+                    <i class="am-icon-table sidebar-nav-link-logo"></i> 活动管理
+                    <span class="am-icon-chevron-down am-fr am-margin-right-sm sidebar-nav-sub-ico "></span>
+                </a>
+                <ul class="sidebar-nav sidebar-nav-sub" style="display: none;">
+                    <li class="sidebar-nav-link"  onclick="addContent('活动')">
+                        <a >
+                            <span class="am-icon-angle-right sidebar-nav-link-logo"></span> 活动列表
+                        </a>
+                    </li>
+
+                    <li class="sidebar-nav-link" onclick="showTable(0,'active')">
+                        <a >
+                            <span class="am-icon-angle-right sidebar-nav-link-logo"></span> 活动操作
+                        </a>
+                    </li>
+                </ul>
+            </li>
+            <li class="sidebar-nav-link" >
+                <a href="javascript:;" class="sidebar-nav-sub-title " >
+                    <i class="am-icon-table sidebar-nav-link-logo"></i> 活动申请管理
+                    <span class="am-icon-chevron-down am-fr am-margin-right-sm sidebar-nav-sub-ico "></span>
+                </a>
+                <ul class="sidebar-nav sidebar-nav-sub" style="display: none;">
+                    <li class="sidebar-nav-link" onclick="addContent('活动申请')">
+                        <a >
+                            <span class="am-icon-angle-right sidebar-nav-link-logo"></span> 活动申请列表
+                        </a>
+                    </li>
+
+                    <li class="sidebar-nav-link" onclick="NoCreate()">
+                        <a >
+                            <span class="am-icon-angle-right sidebar-nav-link-logo"></span> 活动申请操作
+                        </a>
+                    </li>
+                </ul>
+            </li>
+            <li class="sidebar-nav-link" >
+                <a href="javascript:;" class="sidebar-nav-sub-title ">
+                    <i class="am-icon-table sidebar-nav-link-logo"></i> 会员展示管理
+                    <span class="am-icon-chevron-down am-fr am-margin-right-sm sidebar-nav-sub-ico "></span>
+                </a>
+                <ul class="sidebar-nav sidebar-nav-sub" style="display: none;">
+                    <li class="sidebar-nav-link" onclick="addContent('会员展示')">
+                        <a >
+                            <span class="am-icon-angle-right sidebar-nav-link-logo"></span> 会员展示列表
+                        </a>
+                    </li>
+
+                    <li class="sidebar-nav-link" onclick="showTable(0,'member')">
+                        <a  >
+                            <span class="am-icon-angle-right sidebar-nav-link-logo"></span> 会员展示操作
+                        </a>
+                    </li>
+                </ul>
+            </li>
+            <li class="sidebar-nav-link" >
+                <a href="javascript:;" class="sidebar-nav-sub-title " >
+                    <i class="am-icon-table sidebar-nav-link-logo"></i> 轮播图管理
+                    <span class="am-icon-chevron-down am-fr am-margin-right-sm sidebar-nav-sub-ico "></span>
+                </a>
+                <ul class="sidebar-nav sidebar-nav-sub" style="display: none;">
+                    <li class="sidebar-nav-link" onclick="addContent('图片')">
+                        <a >
+                            <span class="am-icon-angle-right sidebar-nav-link-logo"></span> 轮播图列表
+                        </a>
+                    </li>
+
+                    <li class="sidebar-nav-link" onclick="showTable(0,'img')">
+                        <a >
+                            <span class="am-icon-angle-right sidebar-nav-link-logo"></span> 轮播图操作
+                        </a>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+    <div class="tpl-content-wrapper">
+        <div class="row-content am-cf">
+            <div class="row" id="table" style="display: none">
+                <div class="am-u-sm-12 am-u-md-12 am-u-lg-12">
+                    <div class="widget am-cf" id="content">
+
+                        <div class="widget-head am-cf">
+                            <div class="widget-title  am-cf" id="title"></div>
+                        </div>
+                        <div class="widget-body  am-fr">
+                            <div class="am-u-sm-12 am-u-md-6 am-u-lg-6">
+                                <div class="am-form-group">
+                                    <div class="am-btn-toolbar">
+                                        <div class="am-btn-group am-btn-group-xs" id="btn-add">
+                                            <button type="button" class="am-btn am-btn-default am-btn-success"><span class="am-icon-plus" ></span> 新增</button>
+<!--                                            <button type="button" class="am-btn am-btn-default am-btn-secondary"><span class="am-icon-save"></span> 保存</button>-->
+<!--                                            <button type="button" class="am-btn am-btn-default am-btn-danger"><span class="am-icon-trash-o"></span> 删除</button>-->
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="am-u-sm-12 am-u-md-6 am-u-lg-3">
+                                <div class="am-form-group tpl-table-list-select" id="ss">
+                                    <select data-am-selected="{btnSize: 'sm'}" id="option" class="op">
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="am-u-sm-12 am-u-md-12 am-u-lg-3">
+                                <div class="am-input-group am-input-group-sm tpl-form-border-form cl-p">
+                                    <input type="text" class="am-form-field ">
+                                    <span class="am-input-group-btn">
+            <button class="am-btn  am-btn-default am-btn-success tpl-table-list-field am-icon-search" type="button"></button>
+          </span>
+                                </div>
+                            </div>
+                            <div class="am-u-sm-12">
+                                <table width="100%" class="am-table am-table-compact am-table-striped tpl-table-black ">
+                                    <thead>
+                                    <tr id="line">
+
+                                    </tr>
+                                    </thead>
+                                    <tbody id="value">
+                                    </tbody>
+                                </table>
+                            </div>
+                            <div class="am-u-lg-12 am-cf">
+                                <div class="am-fr">
+                                    <ul class="am-pagination tpl-pagination" id="page">
+                                    </ul>
+                                </div>
+                            </div>
+                        </div></div>
+                </div>
+            </div>
+            <div class="row" style="display:none;" id="form" >
+                <div class="am-u-sm-12 am-u-md-12 am-u-lg-12">
+                    <div class="widget am-cf">
+                        <div class="widget-head am-cf">
+                            <div class="widget-title am-fl" id="form-title"></div>
+                            <div class="widget-function am-fr">
+                                <a href="javascript:;" class="am-icon-cog"></a>
+                            </div>
+                        </div>
+                        <div class="widget-body am-fr">
+
+                            <form class="am-form tpl-form-line-form" id="form-item">
+
+
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="assets/js/amazeui.min.js"></script>
+<script src="assets/js/app.js"></script>
+<script src="assets/js/jquery.min.js" type="text/javascript"></script>
+<script>
+    function addContent(name,page){
+        showOne('table')
+        var option,line,value,data,alldata,title
+        if (name=="用户"){
+            document.getElementById("btn-add").setAttribute('onclick','showTable(0,"user")')
+            title = "用户列表"
+            option =
+                "                                        <option value=\"普通用户\">普通用户</option>"+
+                "                                        <option value=\"会员\">会员</option>"+
+                "                                        <option value=\"admin\">admin</option>"
+            line = "<th>主键</th>" +
+                "<th>创建时间</th>"+
+                "<th>更新时间</th>"+
+                "<th>昵称</th>"+
+                "<th>性别</th>"+
+                "<th>头像</th>"+
+                "<th>城市</th>"+
+                "<th>手机号</th>"+
+                "<th>邮箱</th>"+
+                "<th>身份</th>"+
+                "<th>微信标识</th>"+
+                "<th>操作</th>"
+            value = ""
+            console.log($("#ss").innerText)
+            alldata = getData("/api/web/getUsers?page="+page)
+            data = alldata.data
+            for(var i=0;i<data.length;i++){
+                value = value +" <tr class=\"gradeX\" >" +
+                    "<td>"+data[i].ID+"</td>"+
+                    "<td>"+renderTime(data[i].CreatedAt)+"</td>"+
+                    "<td>"+renderTime(data[i].UpdatedAt)+"</td>"+
+                    "<td>"+data[i].NickName+"</td>"+
+                    "<td>"+data[i].Gender+"</td>"+
+                    "<td>\n" +
+                    "<img src='"+data[i].Avatar+"' class=\"tpl-table-line-img\" alt=\"\">\n" +
+                    "</td>\n" +
+                    "<td>"+data[i].City+"</td>"+
+                    "<td>"+data[i].Phone+"</td>"+
+                    "<td>"+data[i].Mail+"</td>"+
+                    "<td>"+data[i].Iden+"</td>"+
+                    "<td>"+data[i].OpenId+"</td>"
+
+                    if (data[i].Iden=="admin"){
+                        value = value +                    " <td class=\"am-text-middle\">\n" +
+                            "     <div class=\"tpl-table-black-operation\">\n" +
+                            "         <a href=\"javascript:;\" onclick='showTable("+data[i].ID+",\"user\")'>\n" +
+                            "              <i class=\"am-icon-pencil\"></i> 编辑\n" +
+                            "         </a>\n" +
+                            "         <a href=\"javascript:;\" class=\"tpl-table-black-operation-del\" onclick='Delete("+data[i].ID+",\"user\")'>" +
+                            "            <i class=\"am-icon-trash\"></i> 删除\n" +
+                            "          </a>\n" +
+                            "        </div>\n" +
+                            "  </td>\n" +
+                            " </tr>"
+                    }else{
+                        value = value +
+                        " <td class=\"am-text-middle\">\n" +
+                        "     <div class=\"tpl-table-black-operation\">\n" +
+                        "         <a href=\"javascript:;\" class=\"tpl-table-black-operation-del\" onclick='Delete("+data[i].ID+",\"user\")'>" +
+                        "            <i class=\"am-icon-trash\"></i> 删除\n" +
+                        "          </a>\n" +
+                        "        </div>\n" +
+                        "  </td>\n" +
+                        " </tr>"
+                    }
+
+            }
+        }
+        if (name=="会员"){
+            document.getElementById("btn-add").setAttribute('onclick','NoCreate()')
+            title = "会员申请列表"
+            option = "<option value=\"option1\">全部</option>"+
+                "<option value=\"option1\">审核通过</option>"+
+                "<option value=\"option1\">已经支付会费</option>"+
+                "<option value=\"option1\">未支付会费</option>"+
+                "<option value=\"option1\">未审核</option>"
+            line = "<th>主键</th>" +
+                "<th>创建时间</th>"+
+                "<th>更新时间</th>"+
+                "<th>用户</th>"+
+                "<th>数据</th>"+
+                "<th>审核状态</th>"+
+                "<th>缴纳会费状态</th>"+
+                "<th>操作</th>"
+            alldata = getData("/api/join?page="+page)
+            console.log(alldata)
+            data = alldata.data
+            value = ""
+            for(var i=0;i<data.length;i++){
+                value = value +" <tr class=\"gradeX\" >" +
+                    "<td>"+data[i].ID+"</td>"+
+                    "<td>"+renderTime(data[i].CreatedAt)+"</td>"+
+                    "<td>"+renderTime(data[i].UpdatedAt)+"</td>"+
+                    "<td>"+data[i].User.NickName+"</td>"+
+                    "<td>"+data[i].Data+"</td>"+
+                    "<td>"+data[i].Status+"</td>"+
+                    "<td>"+data[i].PayStatus+"</td>"+
+                    " <td class=\"am-text-middle\">\n" +
+                    "     <div class=\"tpl-table-black-operation\">\n" +
+                    "         <a href=\"javascript:;\">\n" +
+                    "              <i class=\"am-icon-pencil\"></i> 编辑\n" +
+                    "         </a>\n" +
+                    "         <a href=\"javascript:;\" class=\"tpl-table-black-operation-del\" onclick='Delete("+data[i].ID+",\"member\")'>" +
+                    "            <i class=\"am-icon-trash\"></i> 删除\n" +
+                    "          </a>\n" +
+                    "        </div>\n" +
+                    "  </td>\n" +
+                    " </tr>"
+            }
+        }
+        if (name=="活动"){
+            document.getElementById("btn-add").setAttribute('onclick','showTable(0,"active")')
+            title="活动列表"
+            option = "<option value=\"option1\">活动名称</option>"+"" +
+                "<option value=\"option1\">活动时间</option>"
+            line = "<th>主键</th>" +
+                "<th>创建时间</th>"+
+                "<th>更新时间</th>"+
+                "<th>活动名称</th>"+
+                "<th>活动内容</th>"+
+                "<th>活动图片</th>"+
+                "<th>活动地址</th>"+
+                "<th>联系方式</th>"+
+                "<th>活动时间</th>"+
+
+                "<th>操作</th>"
+            value = ""
+            alldata = getData("/api/active?page="+page)
+            data = alldata.data
+            for(var i=0;i<data.length;i++){
+                value = value +" <tr class=\"gradeX\" >" +
+                    "<td>"+data[i].ID+"</td>"+
+                    "<td>"+renderTime(data[i].CreatedAt)+"</td>"+
+                    "<td>"+renderTime(data[i].UpdatedAt)+"</td>"+
+                    "<td>"+data[i].Name+"</td>"+
+                    "<td>"+data[i].Content+"</td>"+
+                    "<td>\n" +
+                    "<img src='/"+data[i].Image+"' class=\"tpl-table-line-img\" alt=\"\">\n" +
+                    "</td>\n" +
+                    "<td>"+data[i].Address+"</td>"+
+                    "<td>"+data[i].Contact+"</td>"+
+                    "<td>"+data[i].Time+"</td>"+
+                    " <td class=\"am-text-middle\">\n" +
+                    "     <div class=\"tpl-table-black-operation\">\n" +
+                    "         <a href=\"javascript:;\"onclick='showTable("+data[i].ID+",\"active\")'>\n" +
+                    "              <i class=\"am-icon-pencil\"></i> 编辑\n" +
+                    "         </a>\n" +
+                    "         <a href=\"javascript:;\" class=\"tpl-table-black-operation-del\" onclick='Delete("+data[i].ID+",\"active\")'>"+
+                    "            <i class=\"am-icon-trash\"></i> 删除\n" +
+                    "          </a>\n" +
+                    "        </div>\n" +
+                    "  </td>\n" +
+                    " </tr>"
+            }
+        }
+        if (name=="活动申请"){
+            document.getElementById("btn-add").setAttribute('onclick','NoCreate()')
+            title = "活动申请列表"
+            option = "<option value=\"option1\">用户</option>"+
+                "                                        <option value=\"option2\">状态</option>"+
+                "                                        <option value=\"option3\">活动</option>"
+            line = "<th>主键</th>" +
+                "<th>创建时间</th>"+
+                "<th>更新时间</th>"+
+                "<th>活动名称</th>"+
+                "<th>用户</th>"+
+                "<th>状态</th>"+
+                "<th>操作</th>"
+            value = ""
+            alldata = getData("/api/sign?page="+page)
+            data = alldata.data
+            for(var i=0;i<data.length;i++){
+                value = value +" <tr class=\"gradeX\" >" +
+                    "<td>"+data[i].ID+"</td>"+
+                    "<td>"+renderTime(data[i].CreatedAt)+"</td>"+
+                    "<td>"+renderTime(data[i].UpdatedAt)+"</td>"+
+                    "<td>"+data[i].Active.Name+"</td>"+
+                    "<td>"+data[i].User.NickName+"</td>"+
+                    "<td>"+data[i].Status+"</td>"+
+                    " <td class=\"am-text-middle\">\n" +
+                    "     <div class=\"tpl-table-black-operation\">\n" +
+                    "         <a href=\"javascript:;\" onclick='showTable("+data[i].ID+",\"sign\")'>\n" +
+                    "              <i class=\"am-icon-pencil\"></i> 编辑\n" +
+                    "         </a>\n" +
+                    "         <a href=\"javascript:;\" class=\"tpl-table-black-operation-del\" onclick='Delete("+data[i].ID+",\"sign\")'>" +
+                    "            <i class=\"am-icon-trash\"></i> 删除\n" +
+                    "          </a>\n" +
+                    "        </div>\n" +
+                    "  </td>\n" +
+                    " </tr>"
+
+            }
+        }
+        if (name=="会员展示"){
+            title = "会员展示列表"
+            document.getElementById("btn-add").setAttribute('onclick','showTable(0,"member")')
+
+            option = "<option value=\"option1\">标题</option>"
+
+            line = "<th>主键</th>" +
+                "<th>创建时间</th>"+
+                "<th>更新时间</th>"+
+                "<th>标题</th>"+
+                "<th>内容</th>"+
+                "<th>图片</th>"+
+                "<th>会员</th>"+
+                "<th>操作</th>"
+            value = ""
+            alldata = getData("/api/member?page="+page)
+            data = alldata.data
+            for(var i=0;i<data.length;i++){
+                value = value +" <tr class=\"gradeX\" >" +
+                    "<td>"+data[i].ID+"</td>"+
+                    "<td>"+renderTime(data[i].CreatedAt)+"</td>"+
+                    "<td>"+renderTime(data[i].UpdatedAt)+"</td>"+
+                    "<td>"+data[i].Title+"</td>"+
+                    "<td>"+data[i].Content+"</td>"+
+                    "<td>\n" +
+                    "<img src=\"/"+data[i].ImgUrl+"\" class=\"tpl-table-line-img\" alt=\"\">\n" +
+                    "</td>\n" +
+                    "<td>"+data[i].Member.User.NickName+"</td>"+
+
+                    " <td class=\"am-text-middle\">\n" +
+                    "     <div class=\"tpl-table-black-operation\">\n" +
+                    "         <a href=\"javascript:;\" onclick='showTable("+data[i].ID+",\"member\")'>\n" +
+                    "              <i class=\"am-icon-pencil\"></i> 编辑\n" +
+                    "         </a>\n" +
+                    "         <a href=\"javascript:;\" class=\"tpl-table-black-operation-del\" onclick='Delete("+data[i].ID+",\"memberRes\")'>" +
+                    "            <i class=\"am-icon-trash\"></i> 删除\n" +
+                    "          </a>\n" +
+                    "        </div>\n" +
+                    "  </td>\n" +
+                    " </tr>"
+
+            }
+        }
+        if (name=="图片"){
+            document.getElementById("btn-add").setAttribute('onclick','showTable(0,"img")')
+            title="轮播图列表"
+            option = "<option value=\"option1\">是否展示</option>"+""
+            line = "<th>主键</th>" +
+                "<th>创建时间</th>"+
+                "<th>更新时间</th>"+
+                "<th>排序</th>"+
+                "<th>是否展示</th>"+
+                "<th>图片</th>"+
+                "<th>操作</th>"
+            value = ""
+            alldata = getData("/api/imgList?page="+page)
+            data = alldata.data
+            for(var i=0;i<data.length;i++){
+                value = value +" <tr class=\"gradeX\" >" +
+                    "<td>"+data[i].ID+"</td>"+
+                    "<td>"+renderTime(data[i].CreatedAt)+"</td>"+
+                    "<td>"+renderTime(data[i].UpdatedAt)+"</td>"+
+                    "<td>"+data[i].Ord+"</td>"+
+                    "<td>"+data[i].IsShow+"</td>"+
+                    "<td>\n" +
+                    "<img src='/"+data[i].ImgUrl+"' class=\"tpl-table-line-img\" alt=\"\">\n" +
+                    "</td>\n" +
+                    " <td class=\"am-text-middle\">\n" +
+                    "     <div class=\"tpl-table-black-operation\">\n" +
+                    "         <a href=\"javascript:;\"onclick='showTable("+data[i].ID+",\"img\")'>\n" +
+                    "              <i class=\"am-icon-pencil\"></i> 编辑\n" +
+                    "         </a>\n" +
+                    "         <a href=\"javascript:;\" class=\"tpl-table-black-operation-del\" onclick='Delete("+data[i].ID+",\"img\")'>"+
+                    "            <i class=\"am-icon-trash\"></i> 删除\n" +
+                    "          </a>\n" +
+                    "        </div>\n" +
+                    "  </td>\n" +
+                    " </tr>"
+            }
+        }
+        if (alldata.page.PageNum == 1 && alldata.count<20){
+            document.getElementById("page").innerHTML="不能分页"
+        }else{
+            p = page + 1
+            l = page -1
+            var page = "<li onclick='addContent(\""+name+"\","+l+")' className=\"am-disabled\"><a >«</a></li>"+
+                "<li onclick='addContent(\""+name+"\","+p+")'><a>»</a></li>"
+            document.getElementById("page").innerHTML=page
+        }
+        document.getElementById("title").innerHTML=title
+        document.getElementById("option").innerHTML=option
+        document.getElementById("line").innerHTML=line
+        document.getElementById("value").innerHTML=value
+    }
+
+    // 获取数据
+    function getData(url,param){
+        var data
+        $.ajax({
+            type:"GET",
+            url:url,
+            data:param,
+            dataType:"json",
+            async:false,
+            success:function(res){
+                data = res
+            }
+        })
+        return data
+    }
+
+
+    $(document).ready(function(){
+        addContent("用户",1)
+    })
+
+
+    // 转换时间
+    function renderTime(date) {
+        var dateee = new Date(date).toJSON();
+        return new Date(+new Date(dateee) + 8 * 3600 * 1000).toISOString().replace(/T/g, ' ').replace(/\.[\d]{3}Z/, '')
+    }
+
+
+    function Delete(Id,table){
+        $.ajax({
+            type:"DELETE",
+            url:"/api/delete?id="+Id+"&table="+table,
+            dataType:"json",
+            async:false,
+            success:function(res){
+                if (table=="user"){
+                    addContent("用户")
+                }
+                if (table=="active"){
+                    addContent("活动")
+                }
+                if (table=="sign"){
+                    addContent("活动申请")
+                }
+                if (table==("memberRes")){
+                    addContent("会员展示")
+                }
+                if (table=="member"){
+                    addContent("会员")
+                }
+                if (table=="img"){
+                    addContent("图片")
+                }
+            }
+        })
+    }
+
+    // 编辑数据
+    function showTable(Id,table){
+        showOne('form')
+        var title,item,end
+        if (Id==0){
+            if (table=='user'){
+                title = "新增管理员"
+                item = "                              <div class=\"am-form-group\">\n" +
+                    "                                    <label for=\"user-name\" class=\"am-u-sm-3 am-form-label\">账号 <span class=\"tpl-form-line-small-title\">Account</span></label>\n" +
+                    "                                    <div class=\"am-u-sm-9\">\n" +
+                    "                                        <input type=\"text\" class=\"tpl-form-input\" id=\"user-name\" placeholder=\"请输入账号\">\n" +
+                    "                                        <small>请填写账号8-13长度比较好记。</small>\n" +
+                    "                                    </div>\n" +
+                    "                                </div>\n"+
+                    "                              <div class=\"am-form-group\">\n" +
+                    "                                    <label for=\"user-name\" class=\"am-u-sm-3 am-form-label\">密码 <span class=\"tpl-form-line-small-title\">Password</span></label>\n" +
+                    "                                    <div class=\"am-u-sm-9\">\n" +
+                    "                                        <input type=\"password\" class=\"tpl-form-input\" id=\"user-pwd\" placeholder=\"请输入密码\">\n" +
+                    "                                        <small>请填写密码8-13长度比较好记。</small>\n" +
+                    "                                    </div>\n" +
+                    "                                </div>\n"
+                end = "                                <div class=\"am-form-group\">\n" +
+                    "                                    <div class=\"am-u-sm-9 am-u-sm-push-3\" onClick='createSuper()'>\n" +
+                    "                                        <button type=\"button\" class=\"am-btn am-btn-primary tpl-btn-bg-color-success \">提交</button>\n" +
+                    "                                    </div>\n" +
+                    "                                </div>"
+            }
+            if (table=='active'){
+                title = "新增活动"
+                item = "                              <div class=\"am-form-group\">\n" +
+                    "                                    <label for=\"user-name\" class=\"am-u-sm-3 am-form-label\">活动名称 <span class=\"tpl-form-line-small-title\">ActiveName</span></label>\n" +
+                    "                                    <div class=\"am-u-sm-9\">\n" +
+                    "                                        <input type=\"text\" class=\"tpl-form-input\" id=\"active-name\" placeholder=\"请输入活动名称\">\n" +
+                    "                                        <small>活动标题。</small>\n" +
+                    "                                    </div>\n" +
+                    "                                </div>\n"+
+                    "                              <div class=\"am-form-group\">\n" +
+                    "                                    <label for=\"user-name\" class=\"am-u-sm-3 am-form-label\">活动内容介绍 <span class=\"tpl-form-line-small-title\">ActiveDesc</span></label>\n" +
+                    "                                    <div class=\"am-u-sm-9\">\n" +
+                    "                                        <input type=\"text\" class=\"tpl-form-input\" id=\"active-content\" placeholder=\"请输入活动内容\">\n" +
+                    "                                        <small>活动内容介绍。</small>\n" +
+                    "                                    </div>\n" +
+                    "                                </div>\n"+
+                    "                                <div class=\"am-form-group\">\n" +
+                    "                                    <label for=\"user-weibo\" class=\"am-u-sm-3 am-form-label\">封面图 <span class=\"tpl-form-line-small-title\">Images</span></label>\n" +
+                    "                                    <div class=\"am-u-sm-9\">\n" +
+                    "                                        <div class=\"am-form-group am-form-file\">\n" +
+                    "                                            <div class=\"tpl-form-file-img\">\n" +
+                    "                                                <img  src=\"assets/img/a5.png\" id='img' style='width:600px;height:400px' alt=\"\">\n" +
+                    "                                            </div>\n" +
+                    "                                            <button type=\"button\" class=\"am-btn am-btn-danger am-btn-sm\">\n" +
+                    "                                                <i class=\"am-icon-cloud-upload\"></i> 添加封面图片</button>\n" +
+                    "                                            <input id=\"doc-form-file\" id='file' type=\"file\" multiple=\"\" onchange=\"filechange(event)\">\n" +
+                    "                                        </div>\n" +
+                    "                                    </div>\n" +
+                    "                                </div>"+
+                    "                              <div class=\"am-form-group\">\n" +
+                    "                                    <label for=\"user-name\" class=\"am-u-sm-3 am-form-label\">活动地址 <span class=\"tpl-form-line-small-title\">ActiveAddress</span></label>\n" +
+                    "                                    <div class=\"am-u-sm-9\">\n" +
+                    "                                        <input type=\"text\" class=\"tpl-form-input\" id=\"active-address\" placeholder=\"请输入活动地址\">\n" +
+                    "                                        <small>活动地址。</small>\n" +
+                    "                                    </div>\n" +
+                    "                                </div>\n"+
+                    "                              <div class=\"am-form-group\">\n" +
+                    "                                    <label for=\"user-name\" class=\"am-u-sm-3 am-form-label\">活动联系人 <span class=\"tpl-form-line-small-title\">ActiveContact</span></label>\n" +
+                    "                                    <div class=\"am-u-sm-9\">\n" +
+                    "                                        <input type=\"text\" class=\"tpl-form-input\" id=\"active-contact\" placeholder=\"请输入活动联系方式\">\n" +
+                    "                                        <small>活动联系人。</small>\n" +
+                    "                                    </div>\n" +
+                    "                              <div class=\"am-form-group\">\n" +
+                    "                                    <label for=\"user-name\" class=\"am-u-sm-3 am-form-label\">活动时间 <span class=\"tpl-form-line-small-title\">ActiveContact</span></label>\n" +
+                    "                                    <div class=\"am-u-sm-9\">\n" +
+                    "                                        <input type=\"text\" class=\"tpl-form-input\" id=\"active-time\" placeholder=\"请输入活动时间\">\n" +
+                    "                                        <small>活动时间。</small>\n" +
+                    "                                    </div>\n" +
+                    "                                </div>\n"
+                end = "                                <div class=\"am-form-group\">\n" +
+                    "                                    <div class=\"am-u-sm-9 am-u-sm-push-3\" onClick='createActive()'>\n" +
+                    "                                        <button type=\"button\" class=\"am-btn am-btn-primary tpl-btn-bg-color-success \">提交</button>\n" +
+                    "                                    </div>\n" +
+                    "                                </div>"
+            }
+            if (table=='member'){
+                member = getData("/api/memberUser").data
+                title = "新增会员展示"
+                item = "                              <div class=\"am-form-group\">\n" +
+                    "                                    <label for=\"user-name\" class=\"am-u-sm-3 am-form-label\">标题 <span class=\"tpl-form-line-small-title\">ActiveName</span></label>\n" +
+                    "                                    <div class=\"am-u-sm-9\">\n" +
+                    "                                        <input type=\"text\" class=\"tpl-form-input\" id=\"member-name\" placeholder=\"请输入展示标题\">\n" +
+                    "                                        <small>标题。</small>\n" +
+                    "                                    </div>\n" +
+                    "                                </div>\n"+
+                    "                              <div class=\"am-form-group\">\n" +
+                    "                                    <label for=\"user-name\" class=\"am-u-sm-3 am-form-label\">内容 <span class=\"tpl-form-line-small-title\">ActiveDesc</span></label>\n" +
+                    "                                    <div class=\"am-u-sm-9\">\n" +
+                    "                                        <input type=\"text\" class=\"tpl-form-input\" id=\"member-content\" placeholder=\"请输入展示内容\">\n" +
+                    "                                        <small>活动内容介绍。</small>\n" +
+                    "                                    </div>\n" +
+                    "                                </div>\n"+
+                    "                                <div class=\"am-form-group\">\n" +
+                    "                                    <label for=\"user-weibo\" class=\"am-u-sm-3 am-form-label\">封面图 <span class=\"tpl-form-line-small-title\">Images</span></label>\n" +
+                    "                                    <div class=\"am-u-sm-9\">\n" +
+                    "                                        <div class=\"am-form-group am-form-file\">\n" +
+                    "                                            <div class=\"tpl-form-file-img\">\n" +
+                    "                                                <img  src=\"assets/img/a5.png\" id='img' style='width:600px;height:400px' alt=\"\">\n" +
+                    "                                            </div>\n" +
+                    "                                            <button type=\"button\" class=\"am-btn am-btn-danger am-btn-sm\">\n" +
+                    "                                                <i class=\"am-icon-cloud-upload\"></i> 添加封面图片</button>\n" +
+                    "                                            <input id=\"doc-form-file\" id='file' type=\"file\" multiple=\"\" onchange=\"filechange(event)\">\n" +
+                    "                                        </div>\n" +
+                    "                                    </div>\n" +
+                    "                                </div>"+
+                    "                              <div class=\"am-form-group\">\n" +
+                    "                                    <label for=\"user-name\" class=\"am-u-sm-3 am-form-label\">会员 <span class=\"tpl-form-line-small-title\">ActiveAddress</span></label>\n" +
+                    "                                    <div class=\"am-u-sm-9\">\n" +
+                    "                               <select data-am-selected=\"{btnSize: 'sm'}\" id=\"options\">\n"
+                for (var i=0;i<member.length;i++){
+                    item = item +"<option value=\""+member[i].ID+"\">"+member[i].ID+"</option>"
+                }
+                item = item +
+                    "                                    </select>"+
+                    "                                        <small>会员展示。</small>\n" +
+                    "                                    </div>\n" +
+                    "                                </div>\n"
+                end = "                                <div class=\"am-form-group\">\n" +
+                    "                                    <div class=\"am-u-sm-9 am-u-sm-push-3\" onClick='createMemberRes()'>\n" +
+                    "                                        <button type=\"button\" class=\"am-btn am-btn-primary tpl-btn-bg-color-success \">提交</button>\n" +
+                    "                                    </div>\n" +
+                    "                                </div>"
+            }
+            if (table=='img'){
+                title = "新增轮播图"
+                item = "                              <div class=\"am-form-group\">\n" +
+                    "                                    <label for=\"user-name\" class=\"am-u-sm-3 am-form-label\">排序 <span class=\"tpl-form-line-small-title\">ActiveName</span></label>\n" +
+                    "                                    <div class=\"am-u-sm-9\">\n" +
+                    "                                        <input type=\"text\" class=\"tpl-form-input\" id=\"active-name\" placeholder=\"请输入排序\">\n" +
+                    "                                        <small>排序。</small>\n" +
+                    "                                    </div>\n" +
+                    "                                </div>\n"+
+                    "                              <div class=\"am-form-group\">\n" +
+                    "                                    <label for=\"user-name\" class=\"am-u-sm-3 am-form-label\">是否展示<span class=\"tpl-form-line-small-title\">ActiveDesc</span></label>\n" +
+                    "                                    <div class=\"am-u-sm-9\">\n" +
+                    "                                        <input type=\"text\" class=\"tpl-form-input\" id=\"active-content\" placeholder=\"请输入是否展示\">\n" +
+                    "                                        <small>活动内容介绍。</small>\n" +
+                    "                                    </div>\n" +
+                    "                                </div>\n"+
+                    "                                <div class=\"am-form-group\">\n" +
+                    "                                    <label for=\"user-weibo\" class=\"am-u-sm-3 am-form-label\">轮播图 <span class=\"tpl-form-line-small-title\">Images</span></label>\n" +
+                    "                                    <div class=\"am-u-sm-9\">\n" +
+                    "                                        <div class=\"am-form-group am-form-file\">\n" +
+                    "                                            <div class=\"tpl-form-file-img\">\n" +
+                    "                                                <img  src=\"assets/img/a5.png\" id='img' style='width:600px;height:400px' alt=\"\">\n" +
+                    "                                            </div>\n" +
+                    "                                            <button type=\"button\" class=\"am-btn am-btn-danger am-btn-sm\">\n" +
+                    "                                                <i class=\"am-icon-cloud-upload\"></i> 添加封面图片</button>\n" +
+                    "                                            <input id=\"doc-form-file\" id='file' type=\"file\" multiple=\"\" onchange=\"filechange(event)\">\n" +
+                    "                                        </div>\n" +
+                    "                                    </div>\n" +
+                    "                                </div>"
+
+                   end = "                                <div class=\"am-form-group\">\n" +
+                    "                                    <div class=\"am-u-sm-9 am-u-sm-push-3\" onClick='createImg()'>\n" +
+                    "                                        <button type=\"button\" class=\"am-btn am-btn-primary tpl-btn-bg-color-success \">提交</button>\n" +
+                    "                                    </div>\n" +
+                    "                                </div>"
+            }
+
+
+        }else{
+            var data
+            if (table=="user"){
+                data = getData("/api/web/getUsers",{'search.1.key':"ID","search.1.value":Id})
+                title = "修改管理员密码"
+                item = "                              <div class=\"am-form-group\">\n" +
+                    "                                    <label for=\"user-name\" class=\"am-u-sm-3 am-form-label\">账号 <span class=\"tpl-form-line-small-title\">Account</span></label>\n" +
+                    "                                    <div class=\"am-u-sm-9\">\n" +
+                    "                                        <input type=\"text\" class=\"tpl-form-input\" id=\"user-name\" placeholder=\""+data.data[0].NickName+"\" disabled=\"disabled\">\n" +
+                    "                                        <small>请填写账号8-13长度比较好记。</small>\n" +
+                    "                                    </div>\n" +
+                    "                                </div>\n"+
+                    "                              <div class=\"am-form-group\">\n" +
+                    "                                    <label for=\"user-name\" class=\"am-u-sm-3 am-form-label\">密码 <span class=\"tpl-form-line-small-title\">Password</span></label>\n" +
+                    "                                    <div class=\"am-u-sm-9\">\n" +
+                    "                                        <input type=\"password\" class=\"tpl-form-input\" id=\"user-pwd\" placeholder=\"请输入密码\">\n" +
+                    "                                        <small>请填写密码8-13长度比较好记。</small>\n" +
+                    "                                    </div>\n" +
+                    "                                </div>\n"
+                end = "                                <div class=\"am-form-group\">\n" +
+                    "                                    <div class=\"am-u-sm-9 am-u-sm-push-3\" onClick='changeSuper("+data.data[0].ID + ")'>\n" +
+                    "                                        <button type=\"button\" class=\"am-btn am-btn-primary tpl-btn-bg-color-success \">提交</button>\n" +
+                    "                                    </div>\n" +
+                    "                                </div>"
+            }
+            if (table=="join"){
+                title = "修改会员申请状态"
+                data = getData("/api/join",{'search.1.key':"ID","search.1.value":Id})
+                item = "                              <div class=\"am-form-group\">\n" +
+                    "                                    <label for=\"user-name\" class=\"am-u-sm-3 am-form-label\">账号 <span class=\"tpl-form-line-small-title\">Account</span></label>\n" +
+                    "                                    <div class=\"am-u-sm-9\">\n" +
+                    "                                        <input type=\"text\" class=\"tpl-form-input\" id=\"join-status\" placeholder=\""+data.data[0].Status+"\" disabled=\"disabled\">\n" +
+                    "                                        <small>填写审核通过</small>\n" +
+                    "                                    </div>\n" +
+                    "                                </div>\n"+
+                    "                              <div class=\"am-form-group\">\n" +
+                    "                                    <label for=\"user-name\" class=\"am-u-sm-3 am-form-label\">密码 <span class=\"tpl-form-line-small-title\">Password</span></label>\n" +
+                    "                                    <div class=\"am-u-sm-9\">\n" +
+                    "                                        <input type=\"password\" class=\"tpl-form-input\" id=\"join-paystatus\" placeholder=\""+data.data[0].PayStatus+"\">\n" +
+                    "                                        <small>填写已经支付</small>\n" +
+                    "                                    </div>\n" +
+                    "                                </div>\n"
+                end = "                                <div class=\"am-form-group\">\n" +
+                    "                                    <div class=\"am-u-sm-9 am-u-sm-push-3\" onClick='changeJoin("+data.data[0].ID + ")'>\n" +
+                    "                                        <button type=\"button\" class=\"am-btn am-btn-primary tpl-btn-bg-color-success \">提交</button>\n" +
+                    "                                    </div>\n" +
+                    "                                </div>"
+            }
+            if (table=="active"){
+                title = "修改活动"
+                data = getData("/api/active",{'search.1.key':"ID","search.1.value":Id}).data[0]
+                item = "                              <div class=\"am-form-group\">\n" +
+                    "                                    <label for=\"user-name\" class=\"am-u-sm-3 am-form-label\">活动名称 <span class=\"tpl-form-line-small-title\">ActiveName</span></label>\n" +
+                    "                                    <div class=\"am-u-sm-9\">\n" +
+                    "                                        <input type=\"text\" class=\"tpl-form-input\" id=\"active-name\" placeholder=\""+data.Name+"\">\n" +
+                    "                                        <small>活动标题。</small>\n" +
+                    "                                    </div>\n" +
+                    "                                </div>\n"+
+                    "                              <div class=\"am-form-group\">\n" +
+                    "                                    <label for=\"user-name\" class=\"am-u-sm-3 am-form-label\">活动内容介绍 <span class=\"tpl-form-line-small-title\">ActiveDesc</span></label>\n" +
+                    "                                    <div class=\"am-u-sm-9\">\n" +
+                    "                                        <input type=\"text\" class=\"tpl-form-input\" id=\"active-content\" placeholder=\""+data.Content+"\">\n" +
+                    "                                        <small>活动内容介绍。</small>\n" +
+                    "                                    </div>\n" +
+                    "                                </div>\n"+
+                    "                                <div class=\"am-form-group\">\n" +
+                    "                                    <label for=\"user-weibo\" class=\"am-u-sm-3 am-form-label\">封面图 <span class=\"tpl-form-line-small-title\">Images</span></label>\n" +
+                    "                                    <div class=\"am-u-sm-9\">\n" +
+                    "                                        <div class=\"am-form-group am-form-file\">\n" +
+                    "                                            <div class=\"tpl-form-file-img\">\n" +
+                    "                                                <img  src=\"/"+data.Image+"\" id='img' style='width:600px;height:400px' alt=\"\">\n" +
+                    "                                            </div>\n" +
+                    "                                            <button type=\"button\" class=\"am-btn am-btn-danger am-btn-sm\">\n" +
+                    "                                                <i class=\"am-icon-cloud-upload\"></i> 添加封面图片</button>\n" +
+                    "                                            <input id=\"doc-form-file\" id='file' type=\"file\" multiple=\"\" onchange=\"filechange(event)\">\n" +
+                    "                                        </div>\n" +
+                    "                                    </div>\n" +
+                    "                                </div>"+
+                    "                              <div class=\"am-form-group\">\n" +
+                    "                                    <label for=\"user-name\" class=\"am-u-sm-3 am-form-label\">活动地址 <span class=\"tpl-form-line-small-title\">ActiveAddress</span></label>\n" +
+                    "                                    <div class=\"am-u-sm-9\">\n" +
+                    "                                        <input type=\"text\" class=\"tpl-form-input\" id=\"active-address\" placeholder=\""+data.Address+"\">\n" +
+                    "                                        <small>活动地址。</small>\n" +
+                    "                                    </div>\n" +
+                    "                                </div>\n"+
+                    "                              <div class=\"am-form-group\">\n" +
+                    "                                    <label for=\"user-name\" class=\"am-u-sm-3 am-form-label\">活动联系人 <span class=\"tpl-form-line-small-title\">ActiveContact</span></label>\n" +
+                    "                                    <div class=\"am-u-sm-9\">\n" +
+                    "                                        <input type=\"text\" class=\"tpl-form-input\" id=\"active-contact\" placeholder=\""+data.Contact+"\">\n" +
+                    "                                        <small>活动联系人。</small>\n" +
+                    "                                    </div>\n" +
+                    "                              <div class=\"am-form-group\">\n" +
+                    "                                    <label for=\"user-name\" class=\"am-u-sm-3 am-form-label\">活动时间 <span class=\"tpl-form-line-small-title\">ActiveContact</span></label>\n" +
+                    "                                    <div class=\"am-u-sm-9\">\n" +
+                    "                                        <input type=\"text\" class=\"tpl-form-input\" id=\"active-time\" placeholder=\""+data.Time+"\">\n" +
+                    "                                        <small>活动时间。</small>\n" +
+                    "                                    </div>\n" +
+                    "                                </div>\n"
+                end = "                                <div class=\"am-form-group\">\n" +
+                    "                                    <div class=\"am-u-sm-9 am-u-sm-push-3\" onClick='updateActive("+data.ID+")'>\n" +
+                    "                                        <button type=\"button\" class=\"am-btn am-btn-primary tpl-btn-bg-color-success \">提交</button>\n" +
+                    "                                    </div>\n" +
+                    "                                </div>"
+            }
+            if (table=="sign"){
+                title = "审核申请"
+                data = getData("/api/sign",{'search.1.key':"ID","search.1.value":Id}).data[0]
+                item = "                              <div class=\"am-form-group\">\n" +
+                    "                                    <label for=\"user-name\" class=\"am-u-sm-3 am-form-label\">活动名称 <span class=\"tpl-form-line-small-title\">ActiveName</span></label>\n" +
+                    "                                    <div class=\"am-u-sm-9\">\n" +
+                    "                                        <input type=\"text\" readonly='true' class=\"tpl-form-input\" id=\"active-name\" placeholder=\""+data.Active.Name+"\">\n" +
+                    "                                        <small>活动标题。</small>\n" +
+                    "                                    </div>\n" +
+                    "                                </div>\n"+
+                    "                              <div class=\"am-form-group\">\n" +
+                    "                                    <label for=\"user-name\" class=\"am-u-sm-3 am-form-label\">用户 <span class=\"tpl-form-line-small-title\">ActiveDesc</span></label>\n" +
+                    "                                    <div class=\"am-u-sm-9\">\n" +
+                    "                                        <input type=\"text\" readonly='true' class=\"tpl-form-input\" id=\"active-content\" placeholder=\""+data.User.NickName+"\">\n" +
+                    "                                        <small>申请用户。</small>\n" +
+                    "                                    </div>\n" +
+                    "                                </div>\n"+
+                    "                              <div class=\"am-form-group\">\n" +
+                    "                                    <label for=\"user-name\" class=\"am-u-sm-3 am-form-label\">状态 <span class=\"tpl-form-line-small-title\">ActiveAddress</span></label>\n" +
+                    "                                    <div class=\"am-u-sm-9\">\n" +
+                    "                                        <input type=\"text\"  class=\"tpl-form-input\" id=\"sign-status\" placeholder=\""+data.Status+"\">\n" +
+                    "                                        <small>申请状态。</small>\n" +
+                    "                                    </div>\n" +
+                    "                                </div>\n"
+                end = "                                <div class=\"am-form-group\">\n" +
+                    "                                    <div class=\"am-u-sm-9 am-u-sm-push-3\" onClick='updateSign("+data.ID+")'>\n" +
+                    "                                        <button type=\"button\" class=\"am-btn am-btn-primary tpl-btn-bg-color-success \">提交</button>\n" +
+                    "                                    </div>\n" +
+                    "                                </div>"
+
+
+            }
+            if (table=='member'){
+                member = getData("/api/memberUser").data
+                data = getData("/api/member",{'search.1.key':"ID","search.1.value":Id}).data[0]
+                title = "修改会员展示"
+                item = "                              <div class=\"am-form-group\">\n" +
+                    "                                    <label for=\"user-name\" class=\"am-u-sm-3 am-form-label\">标题 <span class=\"tpl-form-line-small-title\">ActiveName</span></label>\n" +
+                    "                                    <div class=\"am-u-sm-9\">\n" +
+                    "                                        <input type=\"text\" class=\"tpl-form-input\" id=\"member-name\" placeholder=\""+data.Title+"\">\n" +
+                    "                                        <small>标题。</small>\n" +
+                    "                                    </div>\n" +
+                    "                                </div>\n"+
+                    "                              <div class=\"am-form-group\">\n" +
+                    "                                    <label for=\"user-name\" class=\"am-u-sm-3 am-form-label\">内容 <span class=\"tpl-form-line-small-title\">ActiveDesc</span></label>\n" +
+                    "                                    <div class=\"am-u-sm-9\">\n" +
+                    "                                        <input type=\"text\" class=\"tpl-form-input\" id=\"member-content\" placeholder=\""+data.Content+"\">\n" +
+                    "                                        <small>活动内容介绍。</small>\n" +
+                    "                                    </div>\n" +
+                    "                                </div>\n"+
+                    "                                <div class=\"am-form-group\">\n" +
+                    "                                    <label for=\"user-weibo\" class=\"am-u-sm-3 am-form-label\">封面图 <span class=\"tpl-form-line-small-title\">Images</span></label>\n" +
+                    "                                    <div class=\"am-u-sm-9\">\n" +
+                    "                                        <div class=\"am-form-group am-form-file\">\n" +
+                    "                                            <div class=\"tpl-form-file-img\">\n" +
+                    "                                                <img  src=\"/"+data.ImgUrl+"\" id='img' style='width:600px;height:400px' alt=\"\">\n" +
+                    "                                            </div>\n" +
+                    "                                            <button type=\"button\" class=\"am-btn am-btn-danger am-btn-sm\">\n" +
+                    "                                                <i class=\"am-icon-cloud-upload\"></i> 添加封面图片</button>\n" +
+                    "                                            <input id=\"doc-form-file\" id='file' type=\"file\" multiple=\"\" onchange=\"filechange(event)\">\n" +
+                    "                                        </div>\n" +
+                    "                                    </div>\n" +
+                    "                                </div>"+
+                    "                              <div class=\"am-form-group\">\n" +
+                    "                                    <label for=\"user-name\" class=\"am-u-sm-3 am-form-label\">会员 <span class=\"tpl-form-line-small-title\">ActiveAddress</span></label>\n" +
+                    "                                    <div class=\"am-u-sm-9\">\n" +
+                    "                               <select data-am-selected=\"{btnSize: 'sm'}\" id=\"options\">\n"
+                for (var i=0;i<member.length;i++){
+                    item = item +"<option value=\""+member[i].ID+"\">"+member[i].ID+"</option>"
+                }
+                item = item +
+                    "                                    </select>"+
+                    "                                        <small>会员展示。</small>\n" +
+                    "                                    </div>\n" +
+                    "                                </div>\n"
+                end = "                                <div class=\"am-form-group\">\n" +
+                    "                                    <div class=\"am-u-sm-9 am-u-sm-push-3\" onClick='changeMemberRes("+data.ID+")'>\n" +
+                    "                                        <button type=\"button\" class=\"am-btn am-btn-primary tpl-btn-bg-color-success \">提交</button>\n" +
+                    "                                    </div>\n" +
+                    "                                </div>"
+            }
+            if (table=='img'){
+                title = "修改轮播图"
+                data = getData("/api/imgList",{'search.1.key':"ID","search.1.value":Id}).data[0]
+                item = "                              <div class=\"am-form-group\">\n" +
+                    "                                    <label for=\"user-name\" class=\"am-u-sm-3 am-form-label\">排序 <span class=\"tpl-form-line-small-title\">ActiveName</span></label>\n" +
+                    "                                    <div class=\"am-u-sm-9\">\n" +
+                    "                                        <input type=\"text\" class=\"tpl-form-input\" id=\"active-name\" placeholder=\""+data.Ord+"\">\n" +
+                    "                                        <small>排序。</small>\n" +
+                    "                                    </div>\n" +
+                    "                                </div>\n"+
+                    "                              <div class=\"am-form-group\">\n" +
+                    "                                    <label for=\"user-name\" class=\"am-u-sm-3 am-form-label\">是否展示 <span class=\"tpl-form-line-small-title\">ActiveDesc</span></label>\n" +
+                    "                                    <div class=\"am-u-sm-9\">\n" +
+                    "                                        <input type=\"text\" class=\"tpl-form-input\" id=\"active-content\" placeholder=\""+data.IsShow+"\">\n" +
+                    "                                        <small>是否展示。</small>\n" +
+                    "                                    </div>\n" +
+                    "                                </div>\n"+
+                    "                                <div class=\"am-form-group\">\n" +
+                    "                                    <label for=\"user-weibo\" class=\"am-u-sm-3 am-form-label\">封面图 <span class=\"tpl-form-line-small-title\">Images</span></label>\n" +
+                    "                                    <div class=\"am-u-sm-9\">\n" +
+                    "                                        <div class=\"am-form-group am-form-file\">\n" +
+                    "                                            <div class=\"tpl-form-file-img\">\n" +
+                    "                                                <img  src=\"/"+data.ImgUrl+"\" id='img' style='width:600px;height:400px' alt=\"\">\n" +
+                    "                                            </div>\n" +
+                    "                                            <button type=\"button\" class=\"am-btn am-btn-danger am-btn-sm\">\n" +
+                    "                                                <i class=\"am-icon-cloud-upload\"></i> 添加封面图片</button>\n" +
+                    "                                            <input id=\"doc-form-file\" id='file' type=\"file\" multiple=\"\" onchange=\"filechange(event)\">\n" +
+                    "                                        </div>\n" +
+                    "                                    </div>\n" +
+                    "                                </div>"
+                end = "                                <div class=\"am-form-group\">\n" +
+                    "                                    <div class=\"am-u-sm-9 am-u-sm-push-3\" onClick='updateImg("+data.ID+")'>\n" +
+                    "                                        <button type=\"button\" class=\"am-btn am-btn-primary tpl-btn-bg-color-success \">提交</button>\n" +
+                    "                                    </div>\n" +
+                    "                                </div>"
+            }
+
+        }
+        document.getElementById("form-title").innerHTML=title
+        document.getElementById("form-item").innerHTML=item+end
+    }
+
+    // 隐藏内容
+    function showOne(name){
+        if (name=="table"){
+            document.getElementById("form").style.display="none"
+            document.getElementById("table").style.display="block"
+        }else{
+            document.getElementById("table").style.display="none"
+            document.getElementById("form").style.display="block"
+        }
+    }
+
+
+    function createSuper(){
+        PostData('/api/web/addSuper',{
+            'account':$("#user-name").val(),
+            'password':$("#user-pwd").val(),
+        })
+    }
+
+
+    function createActive(){
+        var formData = new FormData();
+        // var fileobj =  $('#file').file
+        // console.log(pic)
+        formData.append('image',pic)
+        formData.append('name',$("#active-name").val())
+        formData.append('content',$("#active-content").val())
+        formData.append('address',$("#active-address").val())
+        formData.append('contact',$("#active-contact").val())
+        formData.append('time',$("#active-time").val())
+        $.ajax({
+            url:"/api/active",
+            type:"POST",
+            data: formData,
+            async:false,
+            processData:false,
+            contentType:false,
+            success:function(res){
+                console.log(res)
+                alert(res.message)
+            }
+        })
+    }
+
+    function createImg(){
+        var formData = new FormData();
+        formData.append('image',pic)
+        formData.append('ord',$("#active-name").val())
+        formData.append('is_show',$("#active-content").val())
+        $.ajax({
+            url:"/api/createImg",
+            type:"POST",
+            data: formData,
+            async:false,
+            processData:false,
+            contentType:false,
+            success:function(res){
+                console.log(res)
+                alert(res.message)
+            }
+        })
+
+    }
+    function updateImg(ID){
+        var formData = new FormData();
+        // var fileobj =  $('#file').file
+        // console.log(pic)
+        formData.append('image',pic)
+        formData.append('id',ID)
+        formData.append('ord',$("#active-name").val())
+        formData.append('is_show',$("#active-content").val())
+
+        $.ajax({
+            url:"/api/changeImg",
+            type:"POST",
+            data: formData,
+            async:false,
+            processData:false,
+            contentType:false,
+            success:function(res){
+                alert(res.message)
+            }
+        })
+    }
+    var pic
+
+
+    function changeSuper(ID){
+        PutData('/api/web/changeUser?id='+ID+'&openid='+$("#user-pwd").val())
+    }
+
+
+    function changeJoin(ID){
+        PutData('/api/join?id='+ID+'&status='+$("#join-status").val()+'&payments='+$("#join-paystatus").val())
+    }
+
+
+    function updateSign(ID){
+        PutData('/api/sign?id='+ID+'&status='+$("#sign-status").val())
+    }
+
+
+    function PostData(url,param){
+        $.ajax({
+            type:"POST",
+            url:url,
+            data:param,
+            dataType:"json",
+            async:false,
+            success:function(res){
+                alert(res.message)
+            }
+        })
+    }
+
+
+    function createMemberRes(){
+        var formData = new FormData();
+        // var fileobj =  $('#file').file
+        formData.append('image',pic)
+        formData.append('title',$("#member-name").val())
+        formData.append('content',$("#member-content").val())
+        formData.append('id',$("#options").val())
+        console.log(formData,$("#options").val())
+        $.ajax({
+            url:"/api/member",
+            type:"POST",
+            data: formData,
+            async:false,
+            processData:false,
+            contentType:false,
+            success:function(res){
+                alert(res.message)
+            }
+        })
+    }
+
+
+    function changeMemberRes(ID){
+        var formData = new FormData();
+        // var fileobj =  $('#file').file
+        // console.log(pic)
+        formData.append('image',pic)
+        formData.append('id',ID)
+        formData.append('title',$("#member-name").val())
+        formData.append('content',$("#member-content").val())
+        formData.append('memberId',$("#options").val())
+        $.ajax({
+            url:"/api/change/member",
+            type:"POST",
+            data: formData,
+            async:false,
+            processData:false,
+            contentType:false,
+            success:function(res){
+                alert(res.message)
+            }
+        })
+    }
+
+
+    function PutData(url,param){
+        $.ajax({
+            type:"PUT",
+            url:url,
+            data:param,
+            dataType:"json",
+            async:false,
+            success:function(res){
+                alert(res.message)
+            }
+        })
+    }
+
+
+    function NoCreate(){
+        alert("该类型不支持新建!")
+    }
+
+
+
+    var filechange=function(event){
+        var files = event.target.files, file;
+        if (files && files.length > 0) {
+            // 获取目前上传的文件
+            file = files[0];// 文件大小校验的动作
+            if(file.size > 1024 * 1024 * 2) {
+                alert('图片大小不能超过 2MB!');
+                return false;
+            }
+            pic = file
+            // 获取 window 的 URL 工具
+            var URL = window.URL || window.webkitURL;
+            // 通过 file 生成目标 url
+            var imgURL = URL.createObjectURL(file);
+            //用attr将img的src属性改成获得的url
+            $("#img").attr("src",imgURL);
+            // 使用下面这句可以在内存中释放对此 url 的伺服，跑了之后那个 URL 就无效了
+            // URL.revokeObjectURL(imgURL);
+        }
+    };
+
+
+    function updateActive(ID){
+        var formData = new FormData();
+        // var fileobj =  $('#file').file
+        // console.log(pic)
+        formData.append('image',pic)
+        formData.append('id',ID)
+        formData.append('name',$("#active-name").val())
+        formData.append('content',$("#active-content").val())
+        formData.append('address',$("#active-address").val())
+        formData.append('contact',$("#active-contact").val())
+        formData.append('time',$("#active-time").val())
+        $.ajax({
+            url:"/api/change/active",
+            type:"POST",
+            data: formData,
+            async:false,
+            processData:false,
+            contentType:false,
+            success:function(res){
+                console.log(res)
+                alert(res.message)
+            }
+        })
+    }
+
+
+</script>
+</body>
+
+</html>

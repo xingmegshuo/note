@@ -1,0 +1,949 @@
+[GIN-debug] GET    /static/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (4 handlers)
+[GIN-debug] HEAD   /static/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (4 handlers)
+time="2021-04-28 11:35:29" level=info msg="Server Start ..."
+[GIN-debug] POST   /api/active               --> huakai/handler.CreateActive (4 handlers)
+[GIN-debug] GET    /api/active               --> huakai/handler.GetActive (5 handlers)
+[GIN-debug] POST   /api/change/active        --> huakai/handler.UpdateActive (4 handlers)
+[GIN-debug] POST   /api/sign                 --> huakai/handler.CreateSign (4 handlers)
+[GIN-debug] GET    /api/sign                 --> huakai/handler.GetSign (5 handlers)
+[GIN-debug] PUT    /api/sign                 --> huakai/handler.ChangeSign (4 handlers)
+[GIN-debug] POST   /api/join                 --> huakai/handler.CreateJoinTable (4 handlers)
+[GIN-debug] GET    /api/join                 --> huakai/handler.GetJoinMes (5 handlers)
+[GIN-debug] PUT    /api/join                 --> huakai/handler.ChangeJoinTable (4 handlers)
+[GIN-debug] POST   /api/member               --> huakai/handler.CreateMemberRes (4 handlers)
+[GIN-debug] GET    /api/member               --> huakai/handler.GetMemberRes (5 handlers)
+[GIN-debug] POST   /api/change/member        --> huakai/handler.ChangeMemberRes (4 handlers)
+[GIN-debug] GET    /api/memberUser           --> huakai/handler.GetMembers (5 handlers)
+[GIN-debug] DELETE /api/delete               --> huakai/handler.DeleteData (4 handlers)
+[GIN-debug] POST   /api/wx/user/login        --> huakai/handler.Login (4 handlers)
+[GIN-debug] POST   /api/web/user/login       --> huakai/handler.LoginWeb (4 handlers)
+[GIN-debug] GET    /api/web/getUsers         --> huakai/handler.GetUsers (5 handlers)
+[GIN-debug] POST   /api/web/addSuper         --> huakai/handler.AddSuperUser (4 handlers)
+[GIN-debug] PUT    /api/web/changeUser       --> huakai/handler.ChangeUser (4 handlers)
+[GIN-debug] GET    /                         --> main.main.func1 (4 handlers)
+[GIN-debug] GET    /doc                      --> main.main.func2 (4 handlers)
+time="2021-04-28 11:35:53" level=info msg="| 200 |     348.722µs |       127.0.0.1 | POST | /api/wx/user/login |"
+time="2021-04-28 11:35:54" level=info msg="| 200 |     228.575µs |       127.0.0.1 | POST | /api/wx/user/login |"
+time="2021-04-28 11:42:42" level=info msg="| 200 |     228.458µs |       127.0.0.1 | POST | /api/wx/user/login |"
+time="2021-04-28 11:42:43" level=info msg="| 200 |     225.443µs |       127.0.0.1 | POST | /api/wx/user/login |"
+time="2021-04-28 11:46:03" level=info msg="| 200 |     282.844µs |       127.0.0.1 | POST | /api/wx/user/login |"
+time="2021-04-28 11:46:03" level=info msg="| 200 |     236.822µs |       127.0.0.1 | POST | /api/wx/user/login |"
+time="2021-04-28 11:46:19" level=info msg="| 200 |      256.08µs |       127.0.0.1 | POST | /api/wx/user/login |"
+time="2021-04-28 11:46:19" level=info msg="| 200 |     265.828µs |       127.0.0.1 | POST | /api/wx/user/login |"
+time="2021-04-28 13:26:03" level=info msg="| 304 |     117.664µs |       127.0.0.1 | GET | /static/admin/login.html |"
+time="2021-04-28 13:26:03" level=info msg="| 304 |      60.595µs |       127.0.0.1 | GET | /static/admin/assets/js/app.js |"
+time="2021-04-28 13:26:12" level=info msg="| 200 |      325.07µs |       127.0.0.1 | POST | /api/web/user/login |"
+time="2021-04-28 13:26:12" level=info msg="| 304 |       109.2µs |       127.0.0.1 | GET | /static/admin/ |"
+time="2021-04-28 13:26:12" level=info msg="| 200 |     729.425µs |       127.0.0.1 | GET | /api/web/getUsers?page=1 |"
+time="2021-04-28 13:26:41" level=info msg="| 200 |     631.077µs |       127.0.0.1 | GET | /api/web/getUsers?page=undefined |"
+time="2021-04-28 13:26:42" level=info msg="| 200 |     587.373µs |       127.0.0.1 | GET | /api/web/getUsers?page=undefined |"
+time="2021-04-28 13:26:48" level=info msg="| 200 |     593.597µs |       127.0.0.1 | GET | /api/web/getUsers?page=undefined |"
+time="2021-04-28 13:26:59" level=info msg="| 200 |   14.926201ms |       127.0.0.1 | GET | /api/join?page=undefined |"
+time="2021-04-28 13:27:03" level=info msg="| 200 |     256.137µs |       127.0.0.1 | GET | /api/join?page=undefined |"
+time="2021-04-28 13:27:05" level=info msg="| 200 |   23.010304ms |       127.0.0.1 | GET | /api/active?page=undefined |"
+time="2021-04-28 13:27:05" level=info msg="| 304 |      85.488µs |       127.0.0.1 | GET | /static/img/20210425171130.png |"
+time="2021-04-28 13:27:36" level=info msg="| 200 |     622.109µs |       127.0.0.1 | GET | /api/web/getUsers?page=undefined |"
+time="2021-04-28 13:27:59" level=info msg="| 200 |     308.277µs |       127.0.0.1 | GET | /api/join?page=undefined |"
+time="2021-04-28 13:28:28" level=info msg="| 200 |     310.325µs |       127.0.0.1 | GET | /api/join?page=undefined |"
+time="2021-04-28 13:28:31" level=info msg="| 200 |     280.725µs |       127.0.0.1 | GET | /api/join?page=undefined |"
+time="2021-04-28 13:29:06" level=info msg="| 200 |     338.606µs |       127.0.0.1 | GET | /api/active?page=undefined |"
+time="2021-04-28 13:29:15" level=info msg="| 200 |     327.207µs |       127.0.0.1 | GET | /api/active?page=undefined |"
+time="2021-04-28 13:29:18" level=info msg="| 200 |   30.900629ms |       127.0.0.1 | GET | /api/sign?page=undefined |"
+time="2021-04-28 13:29:22" level=info msg="| 200 |     663.438µs |       127.0.0.1 | GET | /api/memberUser |"
+time="2021-04-28 13:29:23" level=info msg="| 200 |     772.734µs |       127.0.0.1 | GET | /api/member?page=undefined |"
+time="2021-04-28 13:29:23" level=info msg="| 304 |      66.403µs |       127.0.0.1 | GET | /static/img/20210426163609.png |"
+time="2021-04-28 13:29:35" level=info msg="| 200 |     357.038µs |       127.0.0.1 | GET | /api/member?page=undefined |"
+time="2021-04-28 13:29:36" level=info msg="| 200 |     288.289µs |       127.0.0.1 | GET | /api/member?page=undefined |"
+time="2021-04-28 13:29:48" level=info msg="| 200 |     628.908µs |       127.0.0.1 | GET | /api/web/getUsers?page=undefined |"
+time="2021-04-28 13:29:53" level=info msg="| 200 |     608.338µs |       127.0.0.1 | GET | /api/web/getUsers?page=undefined |"
+time="2021-04-28 13:29:56" level=info msg="| 200 |     552.094µs |       127.0.0.1 | GET | /api/web/getUsers?page=undefined |"
+time="2021-04-28 13:29:58" level=info msg="| 200 |     561.646µs |       127.0.0.1 | GET | /api/web/getUsers?page=undefined |"
+time="2021-04-28 13:30:15" level=info msg="| 200 |     365.221µs |       127.0.0.1 | GET | /api/member?page=undefined |"
+time="2021-04-28 13:31:02" level=info msg="| 200 |     338.122µs |       127.0.0.1 | GET | /api/active?page=undefined |"
+time="2021-04-28 13:31:03" level=info msg="| 200 |     316.224µs |       127.0.0.1 | GET | /api/active?page=undefined |"
+time="2021-04-28 13:31:08" level=info msg="| 200 |     300.624µs |       127.0.0.1 | GET | /api/active?page=undefined |"
+time="2021-04-28 13:31:09" level=info msg="| 200 |     321.298µs |       127.0.0.1 | GET | /api/active?page=undefined |"
+time="2021-04-28 13:31:10" level=info msg="| 200 |     299.677µs |       127.0.0.1 | GET | /api/active?page=undefined |"
+time="2021-04-28 13:31:11" level=info msg="| 200 |     292.711µs |       127.0.0.1 | GET | /api/active?page=undefined |"
+time="2021-04-28 13:31:12" level=info msg="| 200 |     286.912µs |       127.0.0.1 | GET | /api/active?page=undefined |"
+time="2021-04-28 13:31:13" level=info msg="| 200 |     285.511µs |       127.0.0.1 | GET | /api/active?page=undefined |"
+time="2021-04-28 13:31:14" level=info msg="| 200 |     296.099µs |       127.0.0.1 | GET | /api/active?page=undefined |"
+time="2021-04-28 13:33:19" level=info msg="| 200 |     704.235µs |       127.0.0.1 | GET | /api/web/getUsers?page=undefined |"
+time="2021-04-28 13:35:16" level=info msg="| 200 |     617.034µs |       127.0.0.1 | GET | /api/web/getUsers?page=NaN |"
+time="2021-04-28 13:35:18" level=info msg="| 200 |     576.277µs |       127.0.0.1 | GET | /api/web/getUsers?page=NaN |"
+time="2021-04-28 13:35:21" level=info msg="| 304 |       88.79µs |       127.0.0.1 | GET | /static/admin/ |"
+time="2021-04-28 13:35:21" level=info msg="| 200 |     465.161µs |       127.0.0.1 | GET | /api/web/getUsers?page=1 |"
+time="2021-04-28 13:35:21" level=info msg="| 200 |   50.359309ms |       127.0.0.1 | GET | /static/admin/assets/i/favicon.png |"
+time="2021-04-28 13:35:24" level=info msg="| 200 |     343.759µs |       127.0.0.1 | GET | /api/web/getUsers?page=2 |"
+time="2021-04-28 13:35:26" level=info msg="| 200 |     552.917µs |       127.0.0.1 | GET | /api/web/getUsers?page=1 |"
+time="2021-04-28 13:49:29" level=info msg="| 304 |     111.454µs |       127.0.0.1 | GET | /static/doc/ |"
+time="2021-04-28 13:49:29" level=info msg="| 304 |      66.899µs |       127.0.0.1 | GET | /static/doc/vendor/prism.css |"
+time="2021-04-28 13:49:29" level=info msg="| 304 |      73.897µs |       127.0.0.1 | GET | /static/doc/vendor/polyfill.js |"
+time="2021-04-28 13:49:29" level=info msg="| 304 |      67.517µs |       127.0.0.1 | GET | /static/doc/vendor/bootstrap.min.css |"
+time="2021-04-28 13:49:29" level=info msg="| 304 |      68.207µs |       127.0.0.1 | GET | /static/doc/css/style.css |"
+time="2021-04-28 13:49:29" level=info msg="| 304 |       60.87µs |       127.0.0.1 | GET | /static/doc/vendor/require.min.js |"
+time="2021-04-28 13:49:30" level=info msg="| 304 |      85.115µs |       127.0.0.1 | GET | /static/doc/main.js |"
+time="2021-04-28 13:49:30" level=info msg="| 200 |   16.469064ms |       127.0.0.1 | GET | /static/doc/locales/locale.js?v=1619588970279 |"
+time="2021-04-28 13:49:30" level=info msg="| 200 |   16.124133ms |       127.0.0.1 | GET | /static/doc/utils/send_sample_request.js?v=1619588970279 |"
+time="2021-04-28 13:49:30" level=info msg="| 200 |   21.167677ms |       127.0.0.1 | GET | /static/doc/vendor/lodash.custom.min.js?v=1619588970279 |"
+time="2021-04-28 13:49:30" level=info msg="| 200 |    4.343903ms |       127.0.0.1 | GET | /static/doc/vendor/semver.min.js?v=1619588970279 |"
+time="2021-04-28 13:49:30" level=info msg="| 200 |   29.137383ms |       127.0.0.1 | GET | /static/doc/api_project.js?v=1619588970279 |"
+time="2021-04-28 13:49:30" level=info msg="| 200 |   31.548039ms |       127.0.0.1 | GET | /static/doc/vendor/jquery.min.js?v=1619588970279 |"
+time="2021-04-28 13:49:30" level=info msg="| 200 |   31.064177ms |       127.0.0.1 | GET | /static/doc/api_data.js?v=1619588970279 |"
+time="2021-04-28 13:49:30" level=info msg="| 200 |   12.045564ms |       127.0.0.1 | GET | /static/doc/vendor/path-to-regexp/index.js?v=1619588970279 |"
+time="2021-04-28 13:49:30" level=info msg="| 200 |   12.598294ms |       127.0.0.1 | GET | /static/doc/vendor/webfontloader.js?v=1619588970279 |"
+time="2021-04-28 13:49:30" level=info msg="| 200 |   12.530592ms |       127.0.0.1 | GET | /static/doc/vendor/list.min.js?v=1619588970279 |"
+time="2021-04-28 13:49:30" level=info msg="| 200 |   12.455368ms |       127.0.0.1 | GET | /static/doc/vendor/handlebars.min.js?v=1619588970279 |"
+time="2021-04-28 13:49:30" level=info msg="| 200 |   12.756515ms |       127.0.0.1 | GET | /static/doc/vendor/prism.js?v=1619588970279 |"
+time="2021-04-28 13:49:30" level=info msg="| 200 |   22.861705ms |       127.0.0.1 | GET | /static/doc/locales/ca.js?v=1619588970279 |"
+time="2021-04-28 13:49:30" level=info msg="| 200 |   12.469438ms |       127.0.0.1 | GET | /static/doc/locales/cs.js?v=1619588970279 |"
+time="2021-04-28 13:49:30" level=info msg="| 200 |   11.721501ms |       127.0.0.1 | GET | /static/doc/locales/de.js?v=1619588970279 |"
+time="2021-04-28 13:49:30" level=info msg="| 200 |   11.389624ms |       127.0.0.1 | GET | /static/doc/locales/es.js?v=1619588970279 |"
+time="2021-04-28 13:49:30" level=info msg="| 200 |   11.424115ms |       127.0.0.1 | GET | /static/doc/locales/fr.js?v=1619588970279 |"
+time="2021-04-28 13:49:30" level=info msg="| 200 |   11.430001ms |       127.0.0.1 | GET | /static/doc/locales/it.js?v=1619588970279 |"
+time="2021-04-28 13:49:30" level=info msg="| 200 |   11.489522ms |       127.0.0.1 | GET | /static/doc/locales/nl.js?v=1619588970279 |"
+time="2021-04-28 13:49:30" level=info msg="| 200 |      213.11µs |       127.0.0.1 | GET | /static/doc/locales/pl.js?v=1619588970279 |"
+time="2021-04-28 13:49:30" level=info msg="| 200 |     177.096µs |       127.0.0.1 | GET | /static/doc/locales/pt_br.js?v=1619588970279 |"
+time="2021-04-28 13:49:30" level=info msg="| 200 |     154.929µs |       127.0.0.1 | GET | /static/doc/locales/ro.js?v=1619588970279 |"
+time="2021-04-28 13:49:30" level=info msg="| 200 |     165.884µs |       127.0.0.1 | GET | /static/doc/locales/tr.js?v=1619588970279 |"
+time="2021-04-28 13:49:30" level=info msg="| 200 |      549.93µs |       127.0.0.1 | GET | /static/doc/locales/ru.js?v=1619588970279 |"
+time="2021-04-28 13:49:30" level=info msg="| 200 |     184.759µs |       127.0.0.1 | GET | /static/doc/locales/vi.js?v=1619588970279 |"
+time="2021-04-28 13:49:30" level=info msg="| 200 |     267.878µs |       127.0.0.1 | GET | /static/doc/utils/send_sample_request_utils.js?v=1619588970279 |"
+time="2021-04-28 13:49:30" level=info msg="| 200 |     414.995µs |       127.0.0.1 | GET | /static/doc/utils/handlebars_helper.js?v=1619588970279 |"
+time="2021-04-28 13:49:30" level=info msg="| 200 |     379.698µs |       127.0.0.1 | GET | /static/doc/locales/zh.js?v=1619588970279 |"
+time="2021-04-28 13:49:30" level=info msg="| 200 |     493.494µs |       127.0.0.1 | GET | /static/doc/locales/zh_cn.js?v=1619588970279 |"
+time="2021-04-28 13:49:30" level=info msg="| 200 |   11.808951ms |       127.0.0.1 | GET | /static/doc/vendor/bootstrap.min.js?v=1619588970279 |"
+time="2021-04-28 13:49:30" level=info msg="| 200 |    8.548189ms |       127.0.0.1 | GET | /static/doc/vendor/diff_match_patch.min.js?v=1619588970279 |"
+time="2021-04-28 13:52:32" level=info msg="| 200 |     234.921µs |       127.0.0.1 | POST | /api/wx/user/login |"
+time="2021-04-28 13:52:57" level=info msg="| 200 |      295.78µs |       127.0.0.1 | POST | /api/web/user/login |"
+time="2021-04-28 13:52:57" level=info msg="| 200 |     477.606µs |       127.0.0.1 | GET | /api/web/getUsers?page=1 |"
+time="2021-04-28 13:53:01" level=info msg="| 200 |     346.059µs |       127.0.0.1 | GET | /api/web/getUsers?page=2 |"
+time="2021-04-28 13:53:05" level=info msg="| 304 |      85.106µs |       127.0.0.1 | GET | /static/admin/ |"
+time="2021-04-28 13:53:05" level=info msg="| 200 |     450.196µs |       127.0.0.1 | GET | /api/web/getUsers?page=1 |"
+time="2021-04-28 13:53:05" level=info msg="| 200 |    8.205476ms |       127.0.0.1 | GET | /static/admin/assets/i/favicon.png |"
+time="2021-04-28 13:53:07" level=info msg="| 200 |    1.512908ms |       127.0.0.1 | DELETE | /api/delete?id=6&table=user |"
+time="2021-04-28 13:53:07" level=info msg="| 200 |     607.549µs |       127.0.0.1 | GET | /api/web/getUsers?page=undefined |"
+time="2021-04-28 13:53:07" level=info msg="| 200 |    1.344917ms |       127.0.0.1 | DELETE | /api/delete?id=7&table=user |"
+time="2021-04-28 13:53:07" level=info msg="| 200 |      567.91µs |       127.0.0.1 | GET | /api/web/getUsers?page=undefined |"
+time="2021-04-28 13:53:07" level=info msg="| 200 |    1.725559ms |       127.0.0.1 | DELETE | /api/delete?id=8&table=user |"
+time="2021-04-28 13:53:07" level=info msg="| 200 |     587.527µs |       127.0.0.1 | GET | /api/web/getUsers?page=undefined |"
+time="2021-04-28 13:53:08" level=info msg="| 200 |     1.17331ms |       127.0.0.1 | DELETE | /api/delete?id=9&table=user |"
+time="2021-04-28 13:53:08" level=info msg="| 200 |     574.164µs |       127.0.0.1 | GET | /api/web/getUsers?page=undefined |"
+time="2021-04-28 13:53:08" level=info msg="| 200 |    1.267922ms |       127.0.0.1 | DELETE | /api/delete?id=10&table=user |"
+time="2021-04-28 13:53:08" level=info msg="| 200 |     592.127µs |       127.0.0.1 | GET | /api/web/getUsers?page=undefined |"
+time="2021-04-28 13:53:08" level=info msg="| 200 |    1.252469ms |       127.0.0.1 | DELETE | /api/delete?id=11&table=user |"
+time="2021-04-28 13:53:08" level=info msg="| 200 |     519.958µs |       127.0.0.1 | GET | /api/web/getUsers?page=undefined |"
+time="2021-04-28 13:53:08" level=info msg="| 200 |    1.333085ms |       127.0.0.1 | DELETE | /api/delete?id=12&table=user |"
+time="2021-04-28 13:53:08" level=info msg="| 200 |     515.536µs |       127.0.0.1 | GET | /api/web/getUsers?page=undefined |"
+time="2021-04-28 13:53:08" level=info msg="| 200 |    1.329854ms |       127.0.0.1 | DELETE | /api/delete?id=13&table=user |"
+time="2021-04-28 13:53:08" level=info msg="| 200 |     511.355µs |       127.0.0.1 | GET | /api/web/getUsers?page=undefined |"
+time="2021-04-28 13:53:08" level=info msg="| 200 |     1.32053ms |       127.0.0.1 | DELETE | /api/delete?id=14&table=user |"
+time="2021-04-28 13:53:08" level=info msg="| 200 |     525.681µs |       127.0.0.1 | GET | /api/web/getUsers?page=undefined |"
+time="2021-04-28 13:53:08" level=info msg="| 200 |    1.372127ms |       127.0.0.1 | DELETE | /api/delete?id=15&table=user |"
+time="2021-04-28 13:53:08" level=info msg="| 200 |     489.823µs |       127.0.0.1 | GET | /api/web/getUsers?page=undefined |"
+time="2021-04-28 13:53:09" level=info msg="| 200 |     1.28605ms |       127.0.0.1 | DELETE | /api/delete?id=16&table=user |"
+time="2021-04-28 13:53:09" level=info msg="| 200 |      486.12µs |       127.0.0.1 | GET | /api/web/getUsers?page=undefined |"
+time="2021-04-28 13:53:09" level=info msg="| 200 |    1.331868ms |       127.0.0.1 | DELETE | /api/delete?id=17&table=user |"
+time="2021-04-28 13:53:09" level=info msg="| 200 |     484.446µs |       127.0.0.1 | GET | /api/web/getUsers?page=undefined |"
+time="2021-04-28 13:53:09" level=info msg="| 200 |    1.280574ms |       127.0.0.1 | DELETE | /api/delete?id=18&table=user |"
+time="2021-04-28 13:53:09" level=info msg="| 200 |     435.389µs |       127.0.0.1 | GET | /api/web/getUsers?page=undefined |"
+time="2021-04-28 13:53:10" level=info msg="| 200 |    1.283991ms |       127.0.0.1 | DELETE | /api/delete?id=19&table=user |"
+time="2021-04-28 13:53:10" level=info msg="| 200 |     434.493µs |       127.0.0.1 | GET | /api/web/getUsers?page=undefined |"
+time="2021-04-28 13:53:10" level=info msg="| 200 |     1.43068ms |       127.0.0.1 | DELETE | /api/delete?id=20&table=user |"
+time="2021-04-28 13:53:10" level=info msg="| 200 |     430.439µs |       127.0.0.1 | GET | /api/web/getUsers?page=undefined |"
+time="2021-04-28 13:53:12" level=info msg="| 304 |      89.762µs |       127.0.0.1 | GET | /static/admin/ |"
+time="2021-04-28 13:53:12" level=info msg="| 200 |     348.213µs |       127.0.0.1 | GET | /api/web/getUsers?page=1 |"
+time="2021-04-28 13:53:12" level=info msg="| 200 |      94.162µs |       127.0.0.1 | GET | /static/admin/assets/i/favicon.png |"
+time="2021-04-28 13:53:17" level=info msg="| 200 |    1.312518ms |       127.0.0.1 | DELETE | /api/delete?id=21&table=user |"
+time="2021-04-28 13:53:17" level=info msg="| 200 |     421.033µs |       127.0.0.1 | GET | /api/web/getUsers?page=undefined |"
+time="2021-04-28 13:53:17" level=info msg="| 200 |    1.292307ms |       127.0.0.1 | DELETE | /api/delete?id=22&table=user |"
+time="2021-04-28 13:53:17" level=info msg="| 200 |     395.332µs |       127.0.0.1 | GET | /api/web/getUsers?page=undefined |"
+time="2021-04-28 13:53:17" level=info msg="| 200 |    1.331755ms |       127.0.0.1 | DELETE | /api/delete?id=23&table=user |"
+time="2021-04-28 13:53:17" level=info msg="| 200 |     400.905µs |       127.0.0.1 | GET | /api/web/getUsers?page=undefined |"
+time="2021-04-28 13:53:19" level=info msg="| 200 |    1.352121ms |       127.0.0.1 | DELETE | /api/delete?id=5&table=user |"
+time="2021-04-28 13:53:19" level=info msg="| 200 |      382.45µs |       127.0.0.1 | GET | /api/web/getUsers?page=undefined |"
+time="2021-04-28 13:53:22" level=info msg="| 200 |    1.190894ms |       127.0.0.1 | DELETE | /api/delete?id=4&table=user |"
+time="2021-04-28 13:53:22" level=info msg="| 200 |     388.809µs |       127.0.0.1 | GET | /api/web/getUsers?page=undefined |"
+time="2021-04-28 13:53:22" level=info msg="| 200 |    1.263138ms |       127.0.0.1 | DELETE | /api/delete?id=3&table=user |"
+time="2021-04-28 13:53:22" level=info msg="| 200 |     392.324µs |       127.0.0.1 | GET | /api/web/getUsers?page=undefined |"
+time="2021-04-28 13:53:24" level=info msg="| 200 |    1.299959ms |       127.0.0.1 | DELETE | /api/delete?id=2&table=user |"
+time="2021-04-28 13:53:24" level=info msg="| 200 |     304.953µs |       127.0.0.1 | GET | /api/web/getUsers?page=undefined |"
+time="2021-04-28 13:54:22" level=info msg="| 200 |     376.106µs |       127.0.0.1 | POST | /api/wx/user/login |"
+time="2021-04-28 13:55:41" level=info msg="| 304 |      96.875µs |       127.0.0.1 | GET | /static/admin/ |"
+time="2021-04-28 13:55:41" level=info msg="| 200 |     323.438µs |       127.0.0.1 | GET | /api/web/getUsers?page=1 |"
+time="2021-04-28 13:55:41" level=info msg="| 200 |      83.623µs |       127.0.0.1 | GET | /static/admin/assets/i/favicon.png |"
+time="2021-04-28 13:55:42" level=info msg="| 304 |      89.648µs |       127.0.0.1 | GET | /static/admin/ |"
+time="2021-04-28 13:55:42" level=info msg="| 200 |     279.883µs |       127.0.0.1 | GET | /api/web/getUsers?page=1 |"
+time="2021-04-28 13:55:42" level=info msg="| 200 |      68.978µs |       127.0.0.1 | GET | /static/admin/assets/i/favicon.png |"
+time="2021-04-28 13:56:03" level=info msg="| 200 |     256.975µs |       127.0.0.1 | POST | /api/wx/user/login |"
+[GIN-debug] GET    /static/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (4 handlers)
+[GIN-debug] HEAD   /static/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (4 handlers)
+time="2021-04-28 13:57:49" level=info msg="Server Start ..."
+[GIN-debug] POST   /api/active               --> huakai/handler.CreateActive (4 handlers)
+[GIN-debug] GET    /api/active               --> huakai/handler.GetActive (5 handlers)
+[GIN-debug] POST   /api/change/active        --> huakai/handler.UpdateActive (4 handlers)
+[GIN-debug] POST   /api/sign                 --> huakai/handler.CreateSign (4 handlers)
+[GIN-debug] GET    /api/sign                 --> huakai/handler.GetSign (5 handlers)
+[GIN-debug] PUT    /api/sign                 --> huakai/handler.ChangeSign (4 handlers)
+[GIN-debug] POST   /api/join                 --> huakai/handler.CreateJoinTable (4 handlers)
+[GIN-debug] GET    /api/join                 --> huakai/handler.GetJoinMes (5 handlers)
+[GIN-debug] PUT    /api/join                 --> huakai/handler.ChangeJoinTable (4 handlers)
+[GIN-debug] POST   /api/member               --> huakai/handler.CreateMemberRes (4 handlers)
+[GIN-debug] GET    /api/member               --> huakai/handler.GetMemberRes (5 handlers)
+[GIN-debug] POST   /api/change/member        --> huakai/handler.ChangeMemberRes (4 handlers)
+[GIN-debug] GET    /api/memberUser           --> huakai/handler.GetMembers (5 handlers)
+[GIN-debug] DELETE /api/delete               --> huakai/handler.DeleteData (4 handlers)
+[GIN-debug] POST   /api/wx/user/login        --> huakai/handler.Login (4 handlers)
+[GIN-debug] POST   /api/web/user/login       --> huakai/handler.LoginWeb (4 handlers)
+[GIN-debug] GET    /api/web/getUsers         --> huakai/handler.GetUsers (5 handlers)
+[GIN-debug] POST   /api/web/addSuper         --> huakai/handler.AddSuperUser (4 handlers)
+[GIN-debug] PUT    /api/web/changeUser       --> huakai/handler.ChangeUser (4 handlers)
+[GIN-debug] GET    /                         --> main.main.func1 (4 handlers)
+[GIN-debug] GET    /doc                      --> main.main.func2 (4 handlers)
+time="2021-04-28 13:57:53" level=info msg="| 200 |       452.7µs |       127.0.0.1 | POST | /api/wx/user/login |"
+time="2021-04-28 13:59:26" level=info msg="| 200 |     414.504µs |       127.0.0.1 | POST | /api/wx/user/login |"
+time="2021-04-28 13:59:46" level=info msg="| 304 |     159.117µs |       127.0.0.1 | GET | /static/admin/ |"
+time="2021-04-28 13:59:47" level=info msg="| 200 |     443.307µs |       127.0.0.1 | GET | /api/web/getUsers?page=1 |"
+time="2021-04-28 13:59:47" level=info msg="| 200 |    20.18783ms |       127.0.0.1 | GET | /static/admin/assets/i/favicon.png |"
+time="2021-04-28 13:59:47" level=info msg="| 304 |     126.864µs |       127.0.0.1 | GET | /static/admin/ |"
+time="2021-04-28 13:59:47" level=info msg="| 200 |     332.561µs |       127.0.0.1 | GET | /api/web/getUsers?page=1 |"
+time="2021-04-28 13:59:47" level=info msg="| 200 |     108.836µs |       127.0.0.1 | GET | /static/admin/assets/i/favicon.png |"
+time="2021-04-28 13:59:47" level=info msg="| 304 |      86.005µs |       127.0.0.1 | GET | /static/admin/ |"
+time="2021-04-28 13:59:47" level=info msg="| 200 |     299.185µs |       127.0.0.1 | GET | /api/web/getUsers?page=1 |"
+time="2021-04-28 13:59:47" level=info msg="| 200 |      77.496µs |       127.0.0.1 | GET | /static/admin/assets/i/favicon.png |"
+[GIN-debug] GET    /static/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (4 handlers)
+[GIN-debug] HEAD   /static/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (4 handlers)
+time="2021-04-28 14:02:15" level=info msg="Server Start ..."
+[GIN-debug] POST   /api/active               --> huakai/handler.CreateActive (4 handlers)
+[GIN-debug] GET    /api/active               --> huakai/handler.GetActive (5 handlers)
+[GIN-debug] POST   /api/change/active        --> huakai/handler.UpdateActive (4 handlers)
+[GIN-debug] POST   /api/sign                 --> huakai/handler.CreateSign (4 handlers)
+[GIN-debug] GET    /api/sign                 --> huakai/handler.GetSign (5 handlers)
+[GIN-debug] PUT    /api/sign                 --> huakai/handler.ChangeSign (4 handlers)
+[GIN-debug] POST   /api/join                 --> huakai/handler.CreateJoinTable (4 handlers)
+[GIN-debug] GET    /api/join                 --> huakai/handler.GetJoinMes (5 handlers)
+[GIN-debug] PUT    /api/join                 --> huakai/handler.ChangeJoinTable (4 handlers)
+[GIN-debug] POST   /api/member               --> huakai/handler.CreateMemberRes (4 handlers)
+[GIN-debug] GET    /api/member               --> huakai/handler.GetMemberRes (5 handlers)
+[GIN-debug] POST   /api/change/member        --> huakai/handler.ChangeMemberRes (4 handlers)
+[GIN-debug] GET    /api/memberUser           --> huakai/handler.GetMembers (5 handlers)
+[GIN-debug] DELETE /api/delete               --> huakai/handler.DeleteData (4 handlers)
+[GIN-debug] POST   /api/wx/user/login        --> huakai/handler.Login (4 handlers)
+[GIN-debug] POST   /api/web/user/login       --> huakai/handler.LoginWeb (4 handlers)
+[GIN-debug] GET    /api/web/getUsers         --> huakai/handler.GetUsers (5 handlers)
+[GIN-debug] POST   /api/web/addSuper         --> huakai/handler.AddSuperUser (4 handlers)
+[GIN-debug] PUT    /api/web/changeUser       --> huakai/handler.ChangeUser (4 handlers)
+[GIN-debug] GET    /                         --> main.main.func1 (4 handlers)
+[GIN-debug] GET    /doc                      --> main.main.func2 (4 handlers)
+[GIN-debug] GET    /static/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (4 handlers)
+[GIN-debug] HEAD   /static/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (4 handlers)
+time="2021-04-28 14:02:42" level=info msg="Server Start ..."
+[GIN-debug] POST   /api/active               --> huakai/handler.CreateActive (4 handlers)
+[GIN-debug] GET    /api/active               --> huakai/handler.GetActive (5 handlers)
+[GIN-debug] POST   /api/change/active        --> huakai/handler.UpdateActive (4 handlers)
+[GIN-debug] POST   /api/sign                 --> huakai/handler.CreateSign (4 handlers)
+[GIN-debug] GET    /api/sign                 --> huakai/handler.GetSign (5 handlers)
+[GIN-debug] PUT    /api/sign                 --> huakai/handler.ChangeSign (4 handlers)
+[GIN-debug] POST   /api/join                 --> huakai/handler.CreateJoinTable (4 handlers)
+[GIN-debug] GET    /api/join                 --> huakai/handler.GetJoinMes (5 handlers)
+[GIN-debug] PUT    /api/join                 --> huakai/handler.ChangeJoinTable (4 handlers)
+[GIN-debug] POST   /api/member               --> huakai/handler.CreateMemberRes (4 handlers)
+[GIN-debug] GET    /api/member               --> huakai/handler.GetMemberRes (5 handlers)
+[GIN-debug] POST   /api/change/member        --> huakai/handler.ChangeMemberRes (4 handlers)
+[GIN-debug] GET    /api/memberUser           --> huakai/handler.GetMembers (5 handlers)
+[GIN-debug] DELETE /api/delete               --> huakai/handler.DeleteData (4 handlers)
+[GIN-debug] POST   /api/wx/user/login        --> huakai/handler.Login (4 handlers)
+[GIN-debug] POST   /api/web/user/login       --> huakai/handler.LoginWeb (4 handlers)
+[GIN-debug] GET    /api/web/getUsers         --> huakai/handler.GetUsers (5 handlers)
+[GIN-debug] POST   /api/web/addSuper         --> huakai/handler.AddSuperUser (4 handlers)
+[GIN-debug] PUT    /api/web/changeUser       --> huakai/handler.ChangeUser (4 handlers)
+[GIN-debug] GET    /                         --> main.main.func1 (4 handlers)
+[GIN-debug] GET    /doc                      --> main.main.func2 (4 handlers)
+time="2021-04-28 14:02:53" level=info msg="| 200 |   11.436349ms |       127.0.0.1 | POST | /api/wx/user/login |"
+time="2021-04-28 14:03:11" level=info msg="| 304 |     156.998µs |       127.0.0.1 | GET | /static/admin/ |"
+time="2021-04-28 14:03:12" level=info msg="| 200 |      475.05µs |       127.0.0.1 | GET | /api/web/getUsers?page=1 |"
+time="2021-04-28 14:03:12" level=info msg="| 200 |    2.975188ms |       127.0.0.1 | GET | /static/admin/assets/i/favicon.png |"
+time="2021-04-28 14:03:51" level=info msg="| 200 |     338.585µs |       127.0.0.1 | POST | /api/wx/user/login |"
+time="2021-04-28 14:15:33" level=info msg="| 200 |     332.967µs |       127.0.0.1 | POST | /api/wx/user/login |"
+time="2021-04-28 14:15:42" level=info msg="| 304 |     113.392µs |       127.0.0.1 | GET | /static/admin/ |"
+time="2021-04-28 14:15:42" level=info msg="| 200 |     309.806µs |       127.0.0.1 | GET | /api/web/getUsers?page=1 |"
+time="2021-04-28 14:15:42" level=info msg="| 200 |      88.545µs |       127.0.0.1 | GET | /static/admin/assets/i/favicon.png |"
+time="2021-04-28 14:15:43" level=info msg="| 304 |       93.95µs |       127.0.0.1 | GET | /static/admin/ |"
+time="2021-04-28 14:15:43" level=info msg="| 200 |     286.261µs |       127.0.0.1 | GET | /api/web/getUsers?page=1 |"
+time="2021-04-28 14:15:43" level=info msg="| 200 |      83.048µs |       127.0.0.1 | GET | /static/admin/assets/i/favicon.png |"
+time="2021-04-28 14:15:44" level=info msg="| 304 |      96.443µs |       127.0.0.1 | GET | /static/admin/ |"
+time="2021-04-28 14:15:44" level=info msg="| 200 |     276.752µs |       127.0.0.1 | GET | /api/web/getUsers?page=1 |"
+time="2021-04-28 14:15:44" level=info msg="| 200 |      93.811µs |       127.0.0.1 | GET | /static/admin/assets/i/favicon.png |"
+[GIN-debug] GET    /static/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (4 handlers)
+[GIN-debug] HEAD   /static/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (4 handlers)
+time="2021-04-28 14:18:54" level=info msg="Server Start ..."
+[GIN-debug] POST   /api/active               --> huakai/handler.CreateActive (4 handlers)
+[GIN-debug] GET    /api/active               --> huakai/handler.GetActive (5 handlers)
+[GIN-debug] POST   /api/change/active        --> huakai/handler.UpdateActive (4 handlers)
+[GIN-debug] POST   /api/sign                 --> huakai/handler.CreateSign (4 handlers)
+[GIN-debug] GET    /api/sign                 --> huakai/handler.GetSign (5 handlers)
+[GIN-debug] PUT    /api/sign                 --> huakai/handler.ChangeSign (4 handlers)
+[GIN-debug] POST   /api/join                 --> huakai/handler.CreateJoinTable (4 handlers)
+[GIN-debug] GET    /api/join                 --> huakai/handler.GetJoinMes (5 handlers)
+[GIN-debug] PUT    /api/join                 --> huakai/handler.ChangeJoinTable (4 handlers)
+[GIN-debug] POST   /api/member               --> huakai/handler.CreateMemberRes (4 handlers)
+[GIN-debug] GET    /api/member               --> huakai/handler.GetMemberRes (5 handlers)
+[GIN-debug] POST   /api/change/member        --> huakai/handler.ChangeMemberRes (4 handlers)
+[GIN-debug] GET    /api/memberUser           --> huakai/handler.GetMembers (5 handlers)
+[GIN-debug] DELETE /api/delete               --> huakai/handler.DeleteData (4 handlers)
+[GIN-debug] POST   /api/wx/user/login        --> huakai/handler.Login (4 handlers)
+[GIN-debug] POST   /api/web/user/login       --> huakai/handler.LoginWeb (4 handlers)
+[GIN-debug] GET    /api/web/getUsers         --> huakai/handler.GetUsers (5 handlers)
+[GIN-debug] POST   /api/web/addSuper         --> huakai/handler.AddSuperUser (4 handlers)
+[GIN-debug] PUT    /api/web/changeUser       --> huakai/handler.ChangeUser (4 handlers)
+[GIN-debug] GET    /                         --> main.main.func1 (4 handlers)
+[GIN-debug] GET    /doc                      --> main.main.func2 (4 handlers)
+time="2021-04-28 14:19:05" level=info msg="| 200 |     405.439µs |       127.0.0.1 | POST | /api/wx/user/login |"
+[GIN-debug] GET    /static/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (4 handlers)
+[GIN-debug] HEAD   /static/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (4 handlers)
+time="2021-04-28 14:22:02" level=info msg="Server Start ..."
+[GIN-debug] POST   /api/active               --> huakai/handler.CreateActive (4 handlers)
+[GIN-debug] GET    /api/active               --> huakai/handler.GetActive (5 handlers)
+[GIN-debug] POST   /api/change/active        --> huakai/handler.UpdateActive (4 handlers)
+[GIN-debug] POST   /api/sign                 --> huakai/handler.CreateSign (4 handlers)
+[GIN-debug] GET    /api/sign                 --> huakai/handler.GetSign (5 handlers)
+[GIN-debug] PUT    /api/sign                 --> huakai/handler.ChangeSign (4 handlers)
+[GIN-debug] POST   /api/join                 --> huakai/handler.CreateJoinTable (4 handlers)
+[GIN-debug] GET    /api/join                 --> huakai/handler.GetJoinMes (5 handlers)
+[GIN-debug] PUT    /api/join                 --> huakai/handler.ChangeJoinTable (4 handlers)
+[GIN-debug] POST   /api/member               --> huakai/handler.CreateMemberRes (4 handlers)
+[GIN-debug] GET    /api/member               --> huakai/handler.GetMemberRes (5 handlers)
+[GIN-debug] POST   /api/change/member        --> huakai/handler.ChangeMemberRes (4 handlers)
+[GIN-debug] GET    /api/memberUser           --> huakai/handler.GetMembers (5 handlers)
+[GIN-debug] DELETE /api/delete               --> huakai/handler.DeleteData (4 handlers)
+[GIN-debug] POST   /api/wx/user/login        --> huakai/handler.Login (4 handlers)
+[GIN-debug] POST   /api/web/user/login       --> huakai/handler.LoginWeb (4 handlers)
+[GIN-debug] GET    /api/web/getUsers         --> huakai/handler.GetUsers (5 handlers)
+[GIN-debug] POST   /api/web/addSuper         --> huakai/handler.AddSuperUser (4 handlers)
+[GIN-debug] PUT    /api/web/changeUser       --> huakai/handler.ChangeUser (4 handlers)
+[GIN-debug] GET    /                         --> main.main.func1 (4 handlers)
+[GIN-debug] GET    /doc                      --> main.main.func2 (4 handlers)
+time="2021-04-28 14:22:15" level=info msg="| 200 |     428.135µs |       127.0.0.1 | POST | /api/wx/user/login |"
+[GIN-debug] GET    /static/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (4 handlers)
+[GIN-debug] HEAD   /static/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (4 handlers)
+time="2021-04-28 14:22:44" level=info msg="Server Start ..."
+[GIN-debug] POST   /api/active               --> huakai/handler.CreateActive (4 handlers)
+[GIN-debug] GET    /api/active               --> huakai/handler.GetActive (5 handlers)
+[GIN-debug] POST   /api/change/active        --> huakai/handler.UpdateActive (4 handlers)
+[GIN-debug] POST   /api/sign                 --> huakai/handler.CreateSign (4 handlers)
+[GIN-debug] GET    /api/sign                 --> huakai/handler.GetSign (5 handlers)
+[GIN-debug] PUT    /api/sign                 --> huakai/handler.ChangeSign (4 handlers)
+[GIN-debug] POST   /api/join                 --> huakai/handler.CreateJoinTable (4 handlers)
+[GIN-debug] GET    /api/join                 --> huakai/handler.GetJoinMes (5 handlers)
+[GIN-debug] PUT    /api/join                 --> huakai/handler.ChangeJoinTable (4 handlers)
+[GIN-debug] POST   /api/member               --> huakai/handler.CreateMemberRes (4 handlers)
+[GIN-debug] GET    /api/member               --> huakai/handler.GetMemberRes (5 handlers)
+[GIN-debug] POST   /api/change/member        --> huakai/handler.ChangeMemberRes (4 handlers)
+[GIN-debug] GET    /api/memberUser           --> huakai/handler.GetMembers (5 handlers)
+[GIN-debug] DELETE /api/delete               --> huakai/handler.DeleteData (4 handlers)
+[GIN-debug] POST   /api/wx/user/login        --> huakai/handler.Login (4 handlers)
+[GIN-debug] POST   /api/web/user/login       --> huakai/handler.LoginWeb (4 handlers)
+[GIN-debug] GET    /api/web/getUsers         --> huakai/handler.GetUsers (5 handlers)
+[GIN-debug] POST   /api/web/addSuper         --> huakai/handler.AddSuperUser (4 handlers)
+[GIN-debug] PUT    /api/web/changeUser       --> huakai/handler.ChangeUser (4 handlers)
+[GIN-debug] GET    /                         --> main.main.func1 (4 handlers)
+[GIN-debug] GET    /doc                      --> main.main.func2 (4 handlers)
+time="2021-04-28 14:23:04" level=info msg="| 200 |     440.813µs |       127.0.0.1 | POST | /api/wx/user/login |"
+time="2021-04-28 14:27:28" level=info msg="| 200 |     355.285µs |       127.0.0.1 | POST | /api/wx/user/login |"
+time="2021-04-28 14:27:49" level=info msg="| 200 |     285.712µs |       127.0.0.1 | POST | /api/wx/user/login |"
+[GIN-debug] GET    /static/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (4 handlers)
+[GIN-debug] HEAD   /static/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (4 handlers)
+time="2021-04-28 14:35:12" level=info msg="Server Start ..."
+[GIN-debug] POST   /api/active               --> huakai/handler.CreateActive (4 handlers)
+[GIN-debug] GET    /api/active               --> huakai/handler.GetActive (5 handlers)
+[GIN-debug] POST   /api/change/active        --> huakai/handler.UpdateActive (4 handlers)
+[GIN-debug] POST   /api/sign                 --> huakai/handler.CreateSign (4 handlers)
+[GIN-debug] GET    /api/sign                 --> huakai/handler.GetSign (5 handlers)
+[GIN-debug] PUT    /api/sign                 --> huakai/handler.ChangeSign (4 handlers)
+[GIN-debug] POST   /api/join                 --> huakai/handler.CreateJoinTable (4 handlers)
+[GIN-debug] GET    /api/join                 --> huakai/handler.GetJoinMes (5 handlers)
+[GIN-debug] PUT    /api/join                 --> huakai/handler.ChangeJoinTable (4 handlers)
+[GIN-debug] POST   /api/member               --> huakai/handler.CreateMemberRes (4 handlers)
+[GIN-debug] GET    /api/member               --> huakai/handler.GetMemberRes (5 handlers)
+[GIN-debug] POST   /api/change/member        --> huakai/handler.ChangeMemberRes (4 handlers)
+[GIN-debug] GET    /api/memberUser           --> huakai/handler.GetMembers (5 handlers)
+[GIN-debug] DELETE /api/delete               --> huakai/handler.DeleteData (4 handlers)
+[GIN-debug] POST   /api/wx/user/login        --> huakai/handler.Login (4 handlers)
+[GIN-debug] POST   /api/web/user/login       --> huakai/handler.LoginWeb (4 handlers)
+[GIN-debug] GET    /api/web/getUsers         --> huakai/handler.GetUsers (5 handlers)
+[GIN-debug] POST   /api/web/addSuper         --> huakai/handler.AddSuperUser (4 handlers)
+[GIN-debug] PUT    /api/web/changeUser       --> huakai/handler.ChangeUser (4 handlers)
+[GIN-debug] GET    /                         --> main.main.func1 (4 handlers)
+[GIN-debug] GET    /doc                      --> main.main.func2 (4 handlers)
+time="2021-04-28 14:35:22" level=info msg="| 200 |     424.354µs |       127.0.0.1 | POST | /api/wx/user/login |"
+time="2021-04-28 14:37:03" level=info msg="| 200 |     338.043µs |       127.0.0.1 | POST | /api/wx/user/login |"
+[GIN-debug] GET    /static/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (4 handlers)
+[GIN-debug] HEAD   /static/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (4 handlers)
+time="2021-04-28 14:37:10" level=info msg="Server Start ..."
+[GIN-debug] POST   /api/active               --> huakai/handler.CreateActive (4 handlers)
+[GIN-debug] GET    /api/active               --> huakai/handler.GetActive (5 handlers)
+[GIN-debug] POST   /api/change/active        --> huakai/handler.UpdateActive (4 handlers)
+[GIN-debug] POST   /api/sign                 --> huakai/handler.CreateSign (4 handlers)
+[GIN-debug] GET    /api/sign                 --> huakai/handler.GetSign (5 handlers)
+[GIN-debug] PUT    /api/sign                 --> huakai/handler.ChangeSign (4 handlers)
+[GIN-debug] POST   /api/join                 --> huakai/handler.CreateJoinTable (4 handlers)
+[GIN-debug] GET    /api/join                 --> huakai/handler.GetJoinMes (5 handlers)
+[GIN-debug] PUT    /api/join                 --> huakai/handler.ChangeJoinTable (4 handlers)
+[GIN-debug] POST   /api/member               --> huakai/handler.CreateMemberRes (4 handlers)
+[GIN-debug] GET    /api/member               --> huakai/handler.GetMemberRes (5 handlers)
+[GIN-debug] POST   /api/change/member        --> huakai/handler.ChangeMemberRes (4 handlers)
+[GIN-debug] GET    /api/memberUser           --> huakai/handler.GetMembers (5 handlers)
+[GIN-debug] DELETE /api/delete               --> huakai/handler.DeleteData (4 handlers)
+[GIN-debug] POST   /api/wx/user/login        --> huakai/handler.Login (4 handlers)
+[GIN-debug] POST   /api/web/user/login       --> huakai/handler.LoginWeb (4 handlers)
+[GIN-debug] GET    /api/web/getUsers         --> huakai/handler.GetUsers (5 handlers)
+[GIN-debug] POST   /api/web/addSuper         --> huakai/handler.AddSuperUser (4 handlers)
+[GIN-debug] PUT    /api/web/changeUser       --> huakai/handler.ChangeUser (4 handlers)
+[GIN-debug] GET    /                         --> main.main.func1 (4 handlers)
+[GIN-debug] GET    /doc                      --> main.main.func2 (4 handlers)
+time="2021-04-28 14:37:22" level=info msg="| 200 |     427.757µs |       127.0.0.1 | POST | /api/wx/user/login |"
+time="2021-04-28 14:39:28" level=info msg="| 200 |     344.293µs |       127.0.0.1 | POST | /api/wx/user/login?nickname=small%20ant |"
+time="2021-04-28 14:40:09" level=info msg="| 200 |    1.713313ms |       127.0.0.1 | POST | /api/wx/user/login |"
+time="2021-04-28 14:40:33" level=info msg="| 304 |     155.504µs |       127.0.0.1 | GET | /static/admin/ |"
+time="2021-04-28 14:40:33" level=info msg="| 200 |      842.61µs |       127.0.0.1 | GET | /api/web/getUsers?page=1 |"
+time="2021-04-28 14:40:34" level=info msg="| 200 |   22.962576ms |       127.0.0.1 | GET | /static/admin/assets/i/favicon.png |"
+[GIN-debug] GET    /static/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (4 handlers)
+[GIN-debug] HEAD   /static/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (4 handlers)
+time="2021-04-28 14:41:24" level=info msg="Server Start ..."
+[GIN-debug] POST   /api/active               --> huakai/handler.CreateActive (4 handlers)
+[GIN-debug] GET    /api/active               --> huakai/handler.GetActive (5 handlers)
+[GIN-debug] POST   /api/change/active        --> huakai/handler.UpdateActive (4 handlers)
+[GIN-debug] POST   /api/sign                 --> huakai/handler.CreateSign (4 handlers)
+[GIN-debug] GET    /api/sign                 --> huakai/handler.GetSign (5 handlers)
+[GIN-debug] PUT    /api/sign                 --> huakai/handler.ChangeSign (4 handlers)
+[GIN-debug] POST   /api/join                 --> huakai/handler.CreateJoinTable (4 handlers)
+[GIN-debug] GET    /api/join                 --> huakai/handler.GetJoinMes (5 handlers)
+[GIN-debug] PUT    /api/join                 --> huakai/handler.ChangeJoinTable (4 handlers)
+[GIN-debug] POST   /api/member               --> huakai/handler.CreateMemberRes (4 handlers)
+[GIN-debug] GET    /api/member               --> huakai/handler.GetMemberRes (5 handlers)
+[GIN-debug] POST   /api/change/member        --> huakai/handler.ChangeMemberRes (4 handlers)
+[GIN-debug] GET    /api/memberUser           --> huakai/handler.GetMembers (5 handlers)
+[GIN-debug] DELETE /api/delete               --> huakai/handler.DeleteData (4 handlers)
+[GIN-debug] POST   /api/wx/user/login        --> huakai/handler.Login (4 handlers)
+[GIN-debug] POST   /api/web/user/login       --> huakai/handler.LoginWeb (4 handlers)
+[GIN-debug] GET    /api/web/getUsers         --> huakai/handler.GetUsers (5 handlers)
+[GIN-debug] POST   /api/web/addSuper         --> huakai/handler.AddSuperUser (4 handlers)
+[GIN-debug] PUT    /api/web/changeUser       --> huakai/handler.ChangeUser (4 handlers)
+[GIN-debug] GET    /                         --> main.main.func1 (4 handlers)
+[GIN-debug] GET    /doc                      --> main.main.func2 (4 handlers)
+[GIN-debug] GET    /static/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (4 handlers)
+[GIN-debug] HEAD   /static/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (4 handlers)
+time="2021-04-28 14:41:33" level=info msg="Server Start ..."
+[GIN-debug] POST   /api/active               --> huakai/handler.CreateActive (4 handlers)
+[GIN-debug] GET    /api/active               --> huakai/handler.GetActive (5 handlers)
+[GIN-debug] POST   /api/change/active        --> huakai/handler.UpdateActive (4 handlers)
+[GIN-debug] POST   /api/sign                 --> huakai/handler.CreateSign (4 handlers)
+[GIN-debug] GET    /api/sign                 --> huakai/handler.GetSign (5 handlers)
+[GIN-debug] PUT    /api/sign                 --> huakai/handler.ChangeSign (4 handlers)
+[GIN-debug] POST   /api/join                 --> huakai/handler.CreateJoinTable (4 handlers)
+[GIN-debug] GET    /api/join                 --> huakai/handler.GetJoinMes (5 handlers)
+[GIN-debug] PUT    /api/join                 --> huakai/handler.ChangeJoinTable (4 handlers)
+[GIN-debug] POST   /api/member               --> huakai/handler.CreateMemberRes (4 handlers)
+[GIN-debug] GET    /api/member               --> huakai/handler.GetMemberRes (5 handlers)
+[GIN-debug] POST   /api/change/member        --> huakai/handler.ChangeMemberRes (4 handlers)
+[GIN-debug] GET    /api/memberUser           --> huakai/handler.GetMembers (5 handlers)
+[GIN-debug] DELETE /api/delete               --> huakai/handler.DeleteData (4 handlers)
+[GIN-debug] POST   /api/wx/user/login        --> huakai/handler.Login (4 handlers)
+[GIN-debug] POST   /api/web/user/login       --> huakai/handler.LoginWeb (4 handlers)
+[GIN-debug] GET    /api/web/getUsers         --> huakai/handler.GetUsers (5 handlers)
+[GIN-debug] POST   /api/web/addSuper         --> huakai/handler.AddSuperUser (4 handlers)
+[GIN-debug] PUT    /api/web/changeUser       --> huakai/handler.ChangeUser (4 handlers)
+[GIN-debug] GET    /                         --> main.main.func1 (4 handlers)
+[GIN-debug] GET    /doc                      --> main.main.func2 (4 handlers)
+time="2021-04-28 14:41:37" level=info msg="| 304 |       95.75µs |       127.0.0.1 | GET | /static/admin/ |"
+time="2021-04-28 14:41:37" level=info msg="| 200 |     562.429µs |       127.0.0.1 | GET | /api/web/getUsers?page=1 |"
+time="2021-04-28 14:41:37" level=info msg="| 200 |    7.186862ms |       127.0.0.1 | GET | /static/admin/assets/i/favicon.png |"
+time="2021-04-28 14:41:39" level=info msg="| 200 |    1.559095ms |       127.0.0.1 | DELETE | /api/delete?id=2&table=user |"
+time="2021-04-28 14:41:39" level=info msg="| 200 |      443.53µs |       127.0.0.1 | GET | /api/web/getUsers?page=undefined |"
+time="2021-04-28 14:41:40" level=info msg="| 200 |    1.331279ms |       127.0.0.1 | DELETE | /api/delete?id=3&table=user |"
+time="2021-04-28 14:41:40" level=info msg="| 200 |     404.149µs |       127.0.0.1 | GET | /api/web/getUsers?page=undefined |"
+time="2021-04-28 14:41:50" level=info msg="| 200 |    1.550686ms |       127.0.0.1 | POST | /api/wx/user/login |"
+time="2021-04-28 14:45:11" level=info msg="| 200 |  120.768075ms |       127.0.0.1 | POST | /api/wx/user/login |"
+time="2021-04-28 14:45:38" level=info msg="| 200 |     341.117µs |       127.0.0.1 | POST | /api/web/user/login |"
+time="2021-04-28 14:45:38" level=info msg="| 200 |      329.65µs |       127.0.0.1 | GET | /api/web/getUsers?page=1 |"
+time="2021-04-28 14:47:47" level=info msg="| 200 |       307.2µs |       127.0.0.1 | POST | /api/wx/user/login |"
+time="2021-04-28 14:49:14" level=info msg="| 200 |     272.844µs |       127.0.0.1 | POST | /api/wx/user/login |"
+time="2021-04-28 14:49:25" level=info msg="| 200 |     307.443µs |       127.0.0.1 | POST | /api/wx/user/login |"
+time="2021-04-28 14:49:41" level=info msg="| 200 |     312.165µs |       127.0.0.1 | POST | /api/wx/user/login |"
+time="2021-04-28 14:51:29" level=info msg="| 200 |     353.434µs |       127.0.0.1 | POST | /api/wx/user/login |"
+time="2021-04-28 14:52:02" level=info msg="| 200 |     357.509µs |       127.0.0.1 | POST | /api/wx/user/login |"
+time="2021-04-28 14:52:20" level=info msg="| 200 |     311.191µs |       127.0.0.1 | POST | /api/wx/user/login |"
+time="2021-04-28 14:53:33" level=info msg="| 200 |     313.003µs |       127.0.0.1 | POST | /api/wx/user/login |"
+time="2021-04-28 14:53:47" level=info msg="| 200 |     323.643µs |       127.0.0.1 | POST | /api/wx/user/login |"
+time="2021-04-28 14:55:00" level=info msg="| 200 |     329.639µs |       127.0.0.1 | POST | /api/wx/user/login |"
+time="2021-04-28 14:57:15" level=info msg="| 200 |     343.873µs |       127.0.0.1 | POST | /api/wx/user/login |"
+time="2021-04-28 14:57:40" level=info msg="| 200 |     298.988µs |       127.0.0.1 | POST | /api/wx/user/login |"
+time="2021-04-28 14:58:25" level=info msg="| 200 |     292.417µs |       127.0.0.1 | POST | /api/wx/user/login |"
+time="2021-04-28 14:59:21" level=info msg="| 200 |      279.17µs |       127.0.0.1 | POST | /api/wx/user/login |"
+time="2021-04-28 14:59:42" level=info msg="| 200 |     315.896µs |       127.0.0.1 | POST | /api/wx/user/login |"
+time="2021-04-28 15:00:24" level=info msg="| 200 |      321.41µs |       127.0.0.1 | POST | /api/wx/user/login |"
+time="2021-04-28 15:00:37" level=info msg="| 304 |     141.981µs |       127.0.0.1 | GET | /static/admin/ |"
+time="2021-04-28 15:00:37" level=info msg="| 200 |     442.542µs |       127.0.0.1 | GET | /api/web/getUsers?page=1 |"
+time="2021-04-28 15:00:37" level=info msg="| 200 |    8.401524ms |       127.0.0.1 | GET | /static/admin/assets/i/favicon.png |"
+time="2021-04-28 15:00:39" level=info msg="| 304 |      87.398µs |       127.0.0.1 | GET | /static/admin/ |"
+time="2021-04-28 15:00:39" level=info msg="| 200 |     282.794µs |       127.0.0.1 | GET | /api/web/getUsers?page=1 |"
+time="2021-04-28 15:00:39" level=info msg="| 200 |      87.879µs |       127.0.0.1 | GET | /static/admin/assets/i/favicon.png |"
+time="2021-04-28 15:00:41" level=info msg="| 200 |    7.177385ms |       127.0.0.1 | DELETE | /api/delete?id=4&table=user |"
+time="2021-04-28 15:00:41" level=info msg="| 200 |     346.898µs |       127.0.0.1 | GET | /api/web/getUsers?page=undefined |"
+[GIN-debug] GET    /static/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (4 handlers)
+[GIN-debug] HEAD   /static/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (4 handlers)
+time="2021-04-28 15:43:16" level=info msg="Server Start ..."
+[GIN-debug] POST   /api/active               --> huakai/handler.CreateActive (4 handlers)
+[GIN-debug] GET    /api/active               --> huakai/handler.GetActive (5 handlers)
+[GIN-debug] POST   /api/change/active        --> huakai/handler.UpdateActive (4 handlers)
+[GIN-debug] POST   /api/sign                 --> huakai/handler.CreateSign (4 handlers)
+[GIN-debug] GET    /api/sign                 --> huakai/handler.GetSign (5 handlers)
+[GIN-debug] PUT    /api/sign                 --> huakai/handler.ChangeSign (4 handlers)
+[GIN-debug] POST   /api/join                 --> huakai/handler.CreateJoinTable (4 handlers)
+[GIN-debug] GET    /api/join                 --> huakai/handler.GetJoinMes (5 handlers)
+[GIN-debug] PUT    /api/join                 --> huakai/handler.ChangeJoinTable (4 handlers)
+[GIN-debug] POST   /api/member               --> huakai/handler.CreateMemberRes (4 handlers)
+[GIN-debug] GET    /api/member               --> huakai/handler.GetMemberRes (5 handlers)
+[GIN-debug] POST   /api/change/member        --> huakai/handler.ChangeMemberRes (4 handlers)
+[GIN-debug] GET    /api/memberUser           --> huakai/handler.GetMembers (5 handlers)
+[GIN-debug] DELETE /api/delete               --> huakai/handler.DeleteData (4 handlers)
+[GIN-debug] GET    /api/imgList              --> huakai/handler.GetImg (5 handlers)
+[GIN-debug] POST   /api/createImg            --> huakai/handler.CreateImage (4 handlers)
+[GIN-debug] POST   /api/changeImg            --> huakai/handler.ChangeImage (4 handlers)
+[GIN-debug] POST   /api/wx/user/login        --> huakai/handler.Login (4 handlers)
+[GIN-debug] POST   /api/web/user/login       --> huakai/handler.LoginWeb (4 handlers)
+[GIN-debug] GET    /api/web/getUsers         --> huakai/handler.GetUsers (5 handlers)
+[GIN-debug] POST   /api/web/addSuper         --> huakai/handler.AddSuperUser (4 handlers)
+[GIN-debug] PUT    /api/web/changeUser       --> huakai/handler.ChangeUser (4 handlers)
+[GIN-debug] GET    /                         --> main.main.func1 (4 handlers)
+[GIN-debug] GET    /doc                      --> main.main.func2 (4 handlers)
+time="2021-04-28 15:43:19" level=info msg="| 200 |   15.006233ms |       127.0.0.1 | GET | /static/admin/ |"
+time="2021-04-28 15:43:19" level=info msg="| 200 |    5.642307ms |       127.0.0.1 | GET | /static/admin/assets/i/favicon.png |"
+time="2021-04-28 15:44:09" level=info msg="| 200 |     233.492µs |       127.0.0.1 | GET | /static/admin/ |"
+time="2021-04-28 15:44:10" level=info msg="| 200 |    39.08008ms |       127.0.0.1 | GET | /static/admin/assets/i/favicon.png |"
+time="2021-04-28 15:44:10" level=info msg="| 304 |      73.461µs |       127.0.0.1 | GET | /static/admin/ |"
+time="2021-04-28 15:44:10" level=info msg="| 200 |     101.566µs |       127.0.0.1 | GET | /static/admin/assets/i/favicon.png |"
+time="2021-04-28 15:44:10" level=info msg="| 304 |      69.525µs |       127.0.0.1 | GET | /static/admin/ |"
+time="2021-04-28 15:44:10" level=info msg="| 200 |     107.978µs |       127.0.0.1 | GET | /static/admin/assets/i/favicon.png |"
+time="2021-04-28 15:46:12" level=info msg="| 200 |     249.778µs |       127.0.0.1 | GET | /static/admin/ |"
+time="2021-04-28 15:46:12" level=info msg="| 200 |    3.907367ms |       127.0.0.1 | GET | /static/admin/assets/i/favicon.png |"
+time="2021-04-28 15:46:14" level=info msg="| 304 |      98.347µs |       127.0.0.1 | GET | /static/admin/ |"
+time="2021-04-28 15:46:14" level=info msg="| 200 |      87.495µs |       127.0.0.1 | GET | /static/admin/assets/i/favicon.png |"
+time="2021-04-28 15:46:15" level=info msg="| 304 |      95.321µs |       127.0.0.1 | GET | /static/admin/ |"
+time="2021-04-28 15:46:15" level=info msg="| 200 |     102.587µs |       127.0.0.1 | GET | /static/admin/assets/i/favicon.png |"
+time="2021-04-28 15:47:08" level=info msg="| 304 |     122.446µs |       127.0.0.1 | GET | /static/admin/ |"
+time="2021-04-28 15:47:08" level=info msg="| 200 |      86.722µs |       127.0.0.1 | GET | /static/admin/assets/i/favicon.png |"
+time="2021-04-28 15:47:08" level=info msg="| 304 |      78.187µs |       127.0.0.1 | GET | /static/admin/ |"
+time="2021-04-28 15:47:08" level=info msg="| 200 |     109.671µs |       127.0.0.1 | GET | /static/admin/assets/i/favicon.png |"
+time="2021-04-28 15:47:09" level=info msg="| 304 |      70.443µs |       127.0.0.1 | GET | /static/admin/ |"
+time="2021-04-28 15:47:09" level=info msg="| 200 |     108.037µs |       127.0.0.1 | GET | /static/admin/assets/i/favicon.png |"
+time="2021-04-28 15:47:39" level=info msg="| 200 |     217.342µs |       127.0.0.1 | GET | /static/admin/ |"
+time="2021-04-28 15:47:39" level=info msg="| 200 |     527.198µs |       127.0.0.1 | GET | /api/web/getUsers?page=1 |"
+time="2021-04-28 15:47:39" level=info msg="| 200 |      83.856µs |       127.0.0.1 | GET | /static/admin/assets/i/favicon.png |"
+time="2021-04-28 15:47:43" level=info msg="| 200 |     451.655µs |       127.0.0.1 | GET | /api/imgList?page=undefined |"
+time="2021-04-28 15:47:52" level=info msg="| 200 |     419.454µs |       127.0.0.1 | GET | /api/web/getUsers?page=1 |"
+time="2021-04-28 15:47:54" level=info msg="| 200 |     350.076µs |       127.0.0.1 | GET | /api/web/getUsers?page=1 |"
+time="2021-04-28 15:47:55" level=info msg="| 200 |    9.613023ms |       127.0.0.1 | GET | /api/join?page=undefined |"
+time="2021-04-28 15:47:57" level=info msg="| 200 |     748.561µs |       127.0.0.1 | GET | /api/active?page=undefined |"
+time="2021-04-28 15:47:58" level=info msg="| 200 |     689.473µs |       127.0.0.1 | GET | /api/sign?page=undefined |"
+time="2021-04-28 15:48:00" level=info msg="| 200 |     614.684µs |       127.0.0.1 | GET | /api/member?page=undefined |"
+time="2021-04-28 15:48:02" level=info msg="| 200 |     240.901µs |       127.0.0.1 | GET | /api/imgList?page=undefined |"
+[GIN-debug] GET    /static/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (4 handlers)
+[GIN-debug] HEAD   /static/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (4 handlers)
+time="2021-04-28 15:50:06" level=info msg="Server Start ..."
+[GIN-debug] POST   /api/active               --> huakai/handler.CreateActive (4 handlers)
+[GIN-debug] GET    /api/active               --> huakai/handler.GetActive (5 handlers)
+[GIN-debug] POST   /api/change/active        --> huakai/handler.UpdateActive (4 handlers)
+[GIN-debug] POST   /api/sign                 --> huakai/handler.CreateSign (4 handlers)
+[GIN-debug] GET    /api/sign                 --> huakai/handler.GetSign (5 handlers)
+[GIN-debug] PUT    /api/sign                 --> huakai/handler.ChangeSign (4 handlers)
+[GIN-debug] POST   /api/join                 --> huakai/handler.CreateJoinTable (4 handlers)
+[GIN-debug] GET    /api/join                 --> huakai/handler.GetJoinMes (5 handlers)
+[GIN-debug] PUT    /api/join                 --> huakai/handler.ChangeJoinTable (4 handlers)
+[GIN-debug] POST   /api/member               --> huakai/handler.CreateMemberRes (4 handlers)
+[GIN-debug] GET    /api/member               --> huakai/handler.GetMemberRes (5 handlers)
+[GIN-debug] POST   /api/change/member        --> huakai/handler.ChangeMemberRes (4 handlers)
+[GIN-debug] GET    /api/memberUser           --> huakai/handler.GetMembers (5 handlers)
+[GIN-debug] DELETE /api/delete               --> huakai/handler.DeleteData (4 handlers)
+[GIN-debug] GET    /api/imgList              --> huakai/handler.GetImg (5 handlers)
+[GIN-debug] POST   /api/createImg            --> huakai/handler.CreateImage (4 handlers)
+[GIN-debug] POST   /api/changeImg            --> huakai/handler.ChangeImage (4 handlers)
+[GIN-debug] POST   /api/wx/user/login        --> huakai/handler.Login (4 handlers)
+[GIN-debug] POST   /api/web/user/login       --> huakai/handler.LoginWeb (4 handlers)
+[GIN-debug] GET    /api/web/getUsers         --> huakai/handler.GetUsers (5 handlers)
+[GIN-debug] POST   /api/web/addSuper         --> huakai/handler.AddSuperUser (4 handlers)
+[GIN-debug] PUT    /api/web/changeUser       --> huakai/handler.ChangeUser (4 handlers)
+[GIN-debug] GET    /                         --> main.main.func1 (4 handlers)
+[GIN-debug] GET    /doc                      --> main.main.func2 (4 handlers)
+time="2021-04-28 15:50:25" level=info msg="| 200 |   36.545538ms |       127.0.0.1 | GET | /static/admin/ |"
+time="2021-04-28 15:50:25" level=info msg="| 200 |     579.342µs |       127.0.0.1 | GET | /api/web/getUsers?page=1 |"
+time="2021-04-28 15:50:26" level=info msg="| 200 |   19.402359ms |       127.0.0.1 | GET | /static/admin/assets/i/favicon.png |"
+time="2021-04-28 15:50:27" level=info msg="| 200 |       350.8µs |       127.0.0.1 | GET | /api/imgList?page=undefined |"
+time="2021-04-28 15:50:32" level=info msg="| 200 |     312.372µs |       127.0.0.1 | GET | /api/imgList?page=undefined |"
+time="2021-04-28 15:50:53" level=info msg="| 200 |    3.799043ms |       127.0.0.1 | POST | /api/createImg |"
+time="2021-04-28 15:50:55" level=info msg="| 200 |     338.836µs |       127.0.0.1 | GET | /api/imgList?page=undefined |"
+time="2021-04-28 15:50:55" level=info msg="| 200 |     309.717µs |       127.0.0.1 | GET | /static/img/20210428155053.png |"
+time="2021-04-28 15:51:29" level=info msg="| 200 |     302.175µs |       127.0.0.1 | POST | /api/web/user/login |"
+time="2021-04-28 15:51:29" level=info msg="| 304 |      92.196µs |       127.0.0.1 | GET | /static/admin/ |"
+time="2021-04-28 15:51:29" level=info msg="| 200 |     303.612µs |       127.0.0.1 | GET | /api/web/getUsers?page=1 |"
+time="2021-04-28 15:51:34" level=info msg="| 304 |      76.268µs |       127.0.0.1 | GET | /static/admin/ |"
+time="2021-04-28 15:51:34" level=info msg="| 200 |     307.642µs |       127.0.0.1 | GET | /api/web/getUsers?page=1 |"
+time="2021-04-28 15:51:34" level=info msg="| 200 |   36.288696ms |       127.0.0.1 | GET | /static/admin/assets/i/favicon.png |"
+time="2021-04-28 15:51:36" level=info msg="| 304 |      88.177µs |       127.0.0.1 | GET | /static/admin/ |"
+time="2021-04-28 15:51:36" level=info msg="| 200 |     307.617µs |       127.0.0.1 | GET | /api/web/getUsers?page=1 |"
+time="2021-04-28 15:51:36" level=info msg="| 200 |       70.39µs |       127.0.0.1 | GET | /static/admin/assets/i/favicon.png |"
+time="2021-04-28 15:51:46" level=info msg="| 200 |      330.27µs |       127.0.0.1 | GET | /api/web/getUsers?page=1 |"
+time="2021-04-28 15:51:53" level=info msg="| 200 |     315.508µs |       127.0.0.1 | GET | /api/imgList?page=undefined |"
+time="2021-04-28 15:51:53" level=info msg="| 304 |      81.056µs |       127.0.0.1 | GET | /static/img/20210428155053.png |"
+time="2021-04-28 15:57:04" level=info msg="| 200 |     345.719µs |       127.0.0.1 | GET | /api/imgList |"
+time="2021-04-28 15:58:19" level=info msg="| 200 |     340.404µs |       127.0.0.1 | GET | /api/imgList |"
+time="2021-04-28 15:59:32" level=info msg="| 200 |     314.907µs |       127.0.0.1 | GET | /api/imgList |"
+time="2021-04-28 15:59:34" level=info msg="| 200 |      347.55µs |       127.0.0.1 | GET | /api/imgList |"
+time="2021-04-28 16:03:25" level=info msg="| 200 |     525.577µs |       127.0.0.1 | GET | /api/imgList |"
+time="2021-04-28 16:04:08" level=info msg="| 200 |     551.318µs |       127.0.0.1 | GET | /api/imgList |"
+time="2021-04-28 16:04:08" level=info msg="| 200 |    6.024605ms |       127.0.0.1 | GET | /static/img/20210428155053.png |"
+time="2021-04-28 16:04:08" level=info msg="| 404 |          83ns |       127.0.0.1 | GET | /undefined |"
+time="2021-04-28 16:04:28" level=info msg="| 200 |    2.703262ms |       127.0.0.1 | POST | /api/createImg |"
+time="2021-04-28 16:04:31" level=info msg="| 200 |     299.035µs |       127.0.0.1 | GET | /api/imgList?page=undefined |"
+time="2021-04-28 16:04:31" level=info msg="| 200 |     276.628µs |       127.0.0.1 | GET | /static/img/20210428160428.png |"
+time="2021-04-28 16:04:51" level=info msg="| 200 |      335.85µs |       127.0.0.1 | GET | /api/imgList |"
+time="2021-04-28 16:04:51" level=info msg="| 200 |     263.691µs |       127.0.0.1 | GET | /static/img/20210428160428.png |"
+time="2021-04-28 16:04:52" level=info msg="| 404 |          87ns |       127.0.0.1 | GET | /undefined |"
+time="2021-04-28 16:06:58" level=info msg="| 200 |     557.942µs |       127.0.0.1 | GET | /api/imgList?search.1.key=ID&search.1.value=1 |"
+time="2021-04-28 16:07:03" level=info msg="| 200 |    2.788028ms |       127.0.0.1 | POST | /api/changeImg |"
+time="2021-04-28 16:07:05" level=info msg="| 200 |     293.176µs |       127.0.0.1 | GET | /api/imgList?page=undefined |"
+time="2021-04-28 16:07:05" level=info msg="| 200 |     211.597µs |       127.0.0.1 | GET | /static/img/20210428160703.png |"
+time="2021-04-28 16:07:13" level=info msg="| 200 |     276.474µs |       127.0.0.1 | GET | /api/imgList?search.1.key=IsShow&search.1.value=true |"
+time="2021-04-28 16:07:14" level=info msg="| 404 |          84ns |       127.0.0.1 | GET | /undefined |"
+time="2021-04-28 16:07:53" level=info msg="| 200 |     289.388µs |       127.0.0.1 | GET | /api/imgList?search.1.key=IsShow&search.1.value=true |"
+time="2021-04-28 16:07:53" level=info msg="| 404 |          91ns |       127.0.0.1 | GET | /undefined |"
+time="2021-04-28 16:08:11" level=info msg="| 304 |      137.42µs |       127.0.0.1 | GET | /static/admin/ |"
+time="2021-04-28 16:08:11" level=info msg="| 200 |     315.485µs |       127.0.0.1 | GET | /api/web/getUsers?page=1 |"
+time="2021-04-28 16:08:11" level=info msg="| 200 |    4.735151ms |       127.0.0.1 | GET | /static/admin/assets/i/favicon.png |"
+time="2021-04-28 16:08:13" level=info msg="| 200 |     310.114µs |       127.0.0.1 | GET | /api/imgList?page=undefined |"
+time="2021-04-28 16:08:13" level=info msg="| 304 |      83.249µs |       127.0.0.1 | GET | /static/img/20210428160703.png |"
+time="2021-04-28 16:08:13" level=info msg="| 304 |      59.263µs |       127.0.0.1 | GET | /static/img/20210428160428.png |"
+time="2021-04-28 16:08:56" level=info msg="| 404 |          86ns |       127.0.0.1 | POST | /api/imgList?search.1.key=IsShow&search.1.value=true |"
+time="2021-04-28 16:09:04" level=info msg="| 200 |     713.581µs |       127.0.0.1 | GET | /api/imgList?search.1.key=IsShow&search.1.value=true |"
+time="2021-04-28 16:10:10" level=info msg="| 200 |     337.427µs |       127.0.0.1 | GET | /api/imgList?search.1.value=true&search.1.key=is_show |"
+time="2021-04-28 16:10:36" level=info msg="| 200 |     308.695µs |       127.0.0.1 | GET | /api/imgList?search.1.key=is_show&search.1.value=true |"
+time="2021-04-28 16:10:37" level=info msg="| 404 |          84ns |       127.0.0.1 | GET | /undefined |"
+time="2021-04-28 16:10:37" level=info msg="| 304 |      87.438µs |       127.0.0.1 | GET | /static/img/20210428160428.png |"
+time="2021-04-28 16:10:40" level=info msg="| 200 |     340.715µs |       127.0.0.1 | GET | /api/imgList?search.1.key=ID&search.1.value=1 |"
+time="2021-04-28 16:10:45" level=info msg="| 200 |      1.2193ms |       127.0.0.1 | POST | /api/changeImg |"
+time="2021-04-28 16:10:48" level=info msg="| 200 |     327.942µs |       127.0.0.1 | GET | /api/imgList?page=undefined |"
+time="2021-04-28 16:10:55" level=info msg="| 200 |     445.618µs |       127.0.0.1 | GET | /api/imgList?search.1.key=is_show&search.1.value=true |"
+time="2021-04-28 16:10:55" level=info msg="| 200 |     282.313µs |       127.0.0.1 | GET | /static/img/20210428160703.png |"
+time="2021-04-28 16:10:55" level=info msg="| 404 |          91ns |       127.0.0.1 | GET | /undefined |"
+time="2021-04-28 16:11:07" level=info msg="| 200 |     355.059µs |       127.0.0.1 | GET | /api/imgList?search.1.key=ID&search.1.value=1 |"
+time="2021-04-28 16:11:13" level=info msg="| 200 |     2.33615ms |       127.0.0.1 | POST | /api/changeImg |"
+time="2021-04-28 16:11:16" level=info msg="| 200 |     275.771µs |       127.0.0.1 | GET | /api/imgList?page=undefined |"
+time="2021-04-28 16:11:16" level=info msg="| 200 |     172.787µs |       127.0.0.1 | GET | /static/img/20210428161113.png |"
+time="2021-04-28 16:11:26" level=info msg="| 200 |     373.316µs |       127.0.0.1 | GET | /api/imgList?search.1.key=is_show&search.1.value=true |"
+time="2021-04-28 16:11:26" level=info msg="| 200 |     216.974µs |       127.0.0.1 | GET | /static/img/20210428161113.png |"
+time="2021-04-28 16:11:26" level=info msg="| 304 |      83.088µs |       127.0.0.1 | GET | /static/img/20210428160428.png |"
+time="2021-04-28 16:11:26" level=info msg="| 404 |          90ns |       127.0.0.1 | GET | /undefined |"
+time="2021-04-28 16:12:55" level=info msg="| 200 |     411.989µs |       127.0.0.1 | GET | /api/imgList?search.1.key=is_show&search.1.value=true |"
+time="2021-04-28 16:12:56" level=info msg="| 304 |      92.969µs |       127.0.0.1 | GET | /static/img/20210428161113.png |"
+time="2021-04-28 16:12:56" level=info msg="| 304 |      61.818µs |       127.0.0.1 | GET | /static/img/20210428160428.png |"
+time="2021-04-28 16:12:56" level=info msg="| 404 |          95ns |       127.0.0.1 | GET | /undefined |"
+time="2021-04-28 16:13:30" level=info msg="| 200 |     353.961µs |       127.0.0.1 | GET | /api/imgList?search.1.key=is_show&search.1.value=true |"
+time="2021-04-28 16:13:30" level=info msg="| 404 |          85ns |       127.0.0.1 | GET | /undefined |"
+time="2021-04-28 16:13:41" level=info msg="| 200 |     322.889µs |       127.0.0.1 | GET | /api/imgList?search.1.key=is_show&search.1.value=true |"
+time="2021-04-28 16:13:41" level=info msg="| 404 |          90ns |       127.0.0.1 | GET | /undefined |"
+time="2021-04-28 16:16:18" level=info msg="| 404 |          88ns |       127.0.0.1 | GET | /undefined |"
+time="2021-04-28 16:18:34" level=info msg="| 200 |     408.839µs |       127.0.0.1 | GET | /api/imgList?search.1.key=is_show&search.1.value=true |"
+time="2021-04-28 16:18:34" level=info msg="| 404 |          94ns |       127.0.0.1 | GET | /undefined |"
+time="2021-04-28 16:18:34" level=info msg="| 304 |      68.126µs |       127.0.0.1 | GET | /static/img/20210428161113.png |"
+time="2021-04-28 16:18:34" level=info msg="| 304 |     106.525µs |       127.0.0.1 | GET | /static/img/20210428160428.png |"
+time="2021-04-28 16:20:51" level=info msg="| 200 |     438.456µs |       127.0.0.1 | GET | /api/imgList?search.1.key=is_show&search.1.value=true |"
+time="2021-04-28 16:20:51" level=info msg="| 304 |     106.995µs |       127.0.0.1 | GET | /static/img/20210428161113.png |"
+time="2021-04-28 16:20:51" level=info msg="| 304 |     104.801µs |       127.0.0.1 | GET | /static/img/20210428160428.png |"
+time="2021-04-28 16:20:51" level=info msg="| 404 |          97ns |       127.0.0.1 | GET | /undefined |"
+time="2021-04-28 16:21:28" level=info msg="| 200 |     643.112µs |       127.0.0.1 | GET | /api/imgList?search.1.key=is_show&search.1.value=true |"
+time="2021-04-28 16:28:04" level=info msg="| 200 |     319.028µs |       127.0.0.1 | POST | /api/wx/user/login |"
+time="2021-04-28 16:32:58" level=info msg="| 200 |     385.305µs |       127.0.0.1 | GET | /api/imgList?search.1.key=is_show&search.1.value=true |"
+time="2021-04-28 16:32:58" level=info msg="| 304 |      87.818µs |       127.0.0.1 | GET | /static/img/20210428161113.png |"
+time="2021-04-28 16:32:58" level=info msg="| 304 |      71.478µs |       127.0.0.1 | GET | /static/img/20210428160428.png |"
+time="2021-04-28 16:33:27" level=info msg="| 200 |     322.519µs |       127.0.0.1 | GET | /api/imgList?search.1.key=is_show&search.1.value=true |"
+time="2021-04-28 16:33:27" level=info msg="| 200 |   12.975798ms |       127.0.0.1 | GET | /static/img/20210428161113.png |"
+time="2021-04-28 16:33:27" level=info msg="| 200 |    19.89777ms |       127.0.0.1 | GET | /static/img/20210428160428.png |"
+time="2021-04-28 16:33:33" level=info msg="| 200 |     270.272µs |       127.0.0.1 | POST | /api/wx/user/login |"
+time="2021-04-28 16:33:37" level=info msg="| 200 |     331.369µs |       127.0.0.1 | GET | /api/imgList?search.1.key=is_show&search.1.value=true |"
+time="2021-04-28 16:34:46" level=info msg="| 200 |     470.908µs |       127.0.0.1 | GET | /api/imgList?search.1.key=is_show&search.1.value=true |"
+time="2021-04-28 16:35:37" level=info msg="| 200 |   69.432081ms |       127.0.0.1 | GET | /api/active?page=undefined |"
+time="2021-04-28 16:37:00" level=info msg="| 200 |     347.703µs |       127.0.0.1 | GET | /api/imgList?search.1.key=is_show&search.1.value=true |"
+time="2021-04-28 16:37:01" level=info msg="| 304 |      85.163µs |       127.0.0.1 | GET | /static/img/20210428161113.png |"
+time="2021-04-28 16:37:01" level=info msg="| 304 |       77.82µs |       127.0.0.1 | GET | /static/img/20210428160428.png |"
+time="2021-04-28 16:37:10" level=info msg="| 200 |     342.777µs |       127.0.0.1 | GET | /api/imgList?search.1.key=is_show&search.1.value=true |"
+time="2021-04-28 16:37:13" level=info msg="| 200 |     327.522µs |       127.0.0.1 | GET | /api/active |"
+time="2021-04-28 16:37:27" level=info msg="| 200 |     319.161µs |       127.0.0.1 | GET | /api/active |"
+time="2021-04-28 16:37:31" level=info msg="| 200 |     354.604µs |       127.0.0.1 | GET | /api/imgList?search.1.key=is_show&search.1.value=true |"
+time="2021-04-28 16:37:33" level=info msg="| 200 |     291.924µs |       127.0.0.1 | GET | /api/active |"
+time="2021-04-28 16:38:01" level=info msg="| 200 |     345.562µs |       127.0.0.1 | GET | /api/imgList?search.1.key=is_show&search.1.value=true |"
+time="2021-04-28 16:38:08" level=info msg="| 200 |     286.836µs |       127.0.0.1 | GET | /api/active |"
+time="2021-04-28 16:38:48" level=info msg="| 200 |     391.664µs |       127.0.0.1 | GET | /api/imgList?search.1.key=is_show&search.1.value=true |"
+time="2021-04-28 16:38:50" level=info msg="| 200 |     306.092µs |       127.0.0.1 | GET | /api/active |"
+time="2021-04-28 16:41:44" level=info msg="| 200 |     375.011µs |       127.0.0.1 | GET | /api/imgList?search.1.key=is_show&search.1.value=true |"
+time="2021-04-28 16:41:44" level=info msg="| 304 |      98.515µs |       127.0.0.1 | GET | /static/img/20210428161113.png |"
+time="2021-04-28 16:41:44" level=info msg="| 304 |      69.409µs |       127.0.0.1 | GET | /static/img/20210428160428.png |"
+time="2021-04-28 16:42:21" level=info msg="| 200 |     362.688µs |       127.0.0.1 | GET | /api/imgList?search.1.key=is_show&search.1.value=true |"
+time="2021-04-28 16:42:22" level=info msg="| 200 |     272.136µs |       127.0.0.1 | GET | /api/active |"
+time="2021-04-28 16:45:37" level=info msg="| 200 |     376.307µs |       127.0.0.1 | GET | /api/imgList?search.1.key=is_show&search.1.value=true |"
+time="2021-04-28 16:45:52" level=info msg="| 200 |     349.954µs |       127.0.0.1 | GET | /api/imgList?search.1.key=is_show&search.1.value=true |"
+time="2021-04-28 16:45:54" level=info msg="| 200 |     355.597µs |       127.0.0.1 | GET | /api/imgList?search.1.key=is_show&search.1.value=true |"
+time="2021-04-28 16:47:32" level=info msg="| 200 |     811.581µs |       127.0.0.1 | GET | /api/imgList?search.1.key=is_show&search.1.value=true |"
+time="2021-04-28 16:47:32" level=info msg="| 200 |     347.446µs |       127.0.0.1 | GET | /api/imgList?search.1.key=is_show&search.1.value=true |"
+time="2021-04-28 16:47:32" level=info msg="| 304 |      81.879µs |       127.0.0.1 | GET | /static/img/20210428161113.png |"
+time="2021-04-28 16:47:32" level=info msg="| 304 |      74.397µs |       127.0.0.1 | GET | /static/img/20210428160428.png |"
+time="2021-04-28 16:47:42" level=info msg="| 200 |      393.11µs |       127.0.0.1 | GET | /api/imgList?search.1.key=is_show&search.1.value=true |"
+time="2021-04-28 16:48:38" level=info msg="| 200 |     334.293µs |       127.0.0.1 | GET | /api/imgList?search.1.key=is_show&search.1.value=true |"
+time="2021-04-28 16:48:40" level=info msg="| 200 |     375.551µs |       127.0.0.1 | GET | /api/active |"
+time="2021-04-28 16:48:40" level=info msg="| 200 |   44.377816ms |       127.0.0.1 | GET | /static/img/20210425171130.png |"
+time="2021-04-28 16:51:16" level=info msg="| 200 |     358.782µs |       127.0.0.1 | GET | /api/imgList?search.1.key=is_show&search.1.value=true |"
+time="2021-04-28 16:51:17" level=info msg="| 304 |      84.736µs |       127.0.0.1 | GET | /static/img/20210428161113.png |"
+time="2021-04-28 16:51:21" level=info msg="| 200 |     319.809µs |       127.0.0.1 | GET | /api/active |"
+time="2021-04-28 16:51:41" level=info msg="| 200 |     370.634µs |       127.0.0.1 | GET | /api/imgList?search.1.key=is_show&search.1.value=true |"
+time="2021-04-28 16:51:47" level=info msg="| 200 |     294.285µs |       127.0.0.1 | GET | /api/active |"
+time="2021-04-28 16:52:04" level=info msg="| 200 |     414.941µs |       127.0.0.1 | GET | /api/imgList?search.1.key=is_show&search.1.value=true |"
+time="2021-04-28 16:52:04" level=info msg="| 304 |      83.778µs |       127.0.0.1 | GET | /static/img/20210428160428.png |"
+time="2021-04-28 16:52:06" level=info msg="| 200 |     315.731µs |       127.0.0.1 | GET | /api/active |"
+time="2021-04-28 16:53:01" level=info msg="| 200 |     380.604µs |       127.0.0.1 | GET | /api/imgList?search.1.key=is_show&search.1.value=true |"
+time="2021-04-28 16:53:03" level=info msg="| 200 |     317.257µs |       127.0.0.1 | GET | /api/active |"
+time="2021-04-28 16:53:16" level=info msg="| 200 |      465.86µs |       127.0.0.1 | GET | /api/imgList?search.1.key=is_show&search.1.value=true |"
+time="2021-04-28 16:53:18" level=info msg="| 200 |     277.265µs |       127.0.0.1 | GET | /api/active |"
+time="2021-04-28 16:54:12" level=info msg="| 200 |     388.818µs |       127.0.0.1 | GET | /api/imgList?search.1.key=is_show&search.1.value=true |"
+time="2021-04-28 16:54:14" level=info msg="| 200 |     500.622µs |       127.0.0.1 | GET | /api/active |"
+time="2021-04-28 16:55:41" level=info msg="| 200 |     400.288µs |       127.0.0.1 | GET | /api/imgList?search.1.key=is_show&search.1.value=true |"
+time="2021-04-28 16:55:42" level=info msg="| 304 |      97.758µs |       127.0.0.1 | GET | /static/img/20210428161113.png |"
+time="2021-04-28 16:55:47" level=info msg="| 200 |     324.914µs |       127.0.0.1 | GET | /api/active |"
+time="2021-04-28 16:56:47" level=info msg="| 200 |     682.143µs |       127.0.0.1 | GET | /api/imgList?search.1.key=is_show&search.1.value=true |"
+time="2021-04-28 16:56:55" level=info msg="| 200 |     303.421µs |       127.0.0.1 | GET | /api/active |"
+time="2021-04-28 16:57:49" level=info msg="| 200 |     337.741µs |       127.0.0.1 | GET | /api/imgList?search.1.key=is_show&search.1.value=true |"
+time="2021-04-28 16:57:49" level=info msg="| 304 |      96.946µs |       127.0.0.1 | GET | /static/img/20210428160428.png |"
+time="2021-04-28 16:58:10" level=info msg="| 200 |     358.839µs |       127.0.0.1 | GET | /api/imgList?search.1.key=is_show&search.1.value=true |"
+time="2021-04-28 16:58:12" level=info msg="| 200 |     301.178µs |       127.0.0.1 | GET | /api/active |"
+time="2021-04-28 16:58:50" level=info msg="| 200 |     413.099µs |       127.0.0.1 | GET | /api/imgList?search.1.key=is_show&search.1.value=true |"
+time="2021-04-28 16:58:53" level=info msg="| 200 |     324.979µs |       127.0.0.1 | GET | /api/active |"
+time="2021-04-28 16:59:27" level=info msg="| 200 |     441.872µs |       127.0.0.1 | GET | /api/imgList?search.1.key=is_show&search.1.value=true |"
+time="2021-04-28 16:59:30" level=info msg="| 200 |     295.598µs |       127.0.0.1 | GET | /api/active |"
+time="2021-04-28 17:00:09" level=info msg="| 200 |      380.83µs |       127.0.0.1 | GET | /api/imgList?search.1.key=is_show&search.1.value=true |"
+time="2021-04-28 17:00:09" level=info msg="| 304 |     117.028µs |       127.0.0.1 | GET | /static/img/20210428161113.png |"
+time="2021-04-28 17:00:11" level=info msg="| 200 |     331.962µs |       127.0.0.1 | GET | /api/active |"
+time="2021-04-28 17:00:27" level=info msg="| 200 |     392.038µs |       127.0.0.1 | GET | /api/imgList?search.1.key=is_show&search.1.value=true |"
+time="2021-04-28 17:00:28" level=info msg="| 200 |     294.384µs |       127.0.0.1 | GET | /api/active |"
+time="2021-04-28 17:00:42" level=info msg="| 200 |     339.682µs |       127.0.0.1 | GET | /api/imgList?search.1.key=is_show&search.1.value=true |"
+time="2021-04-28 17:00:45" level=info msg="| 200 |     315.972µs |       127.0.0.1 | GET | /api/active |"
+time="2021-04-28 17:00:57" level=info msg="| 200 |     370.181µs |       127.0.0.1 | GET | /api/imgList?search.1.key=is_show&search.1.value=true |"
+time="2021-04-28 17:01:01" level=info msg="| 200 |     330.381µs |       127.0.0.1 | GET | /api/imgList?search.1.key=is_show&search.1.value=true |"
+time="2021-04-28 17:01:02" level=info msg="| 200 |     269.325µs |       127.0.0.1 | GET | /api/active |"
+time="2021-04-28 17:01:28" level=info msg="| 200 |     348.602µs |       127.0.0.1 | GET | /api/imgList?search.1.key=is_show&search.1.value=true |"
+time="2021-04-28 17:01:30" level=info msg="| 200 |     310.921µs |       127.0.0.1 | GET | /api/active |"
+time="2021-04-28 17:02:39" level=info msg="| 200 |     385.306µs |       127.0.0.1 | GET | /api/imgList?search.1.key=is_show&search.1.value=true |"
+time="2021-04-28 17:02:42" level=info msg="| 200 |     316.971µs |       127.0.0.1 | GET | /api/active |"
+time="2021-04-28 17:03:25" level=info msg="| 200 |     528.255µs |       127.0.0.1 | GET | /api/imgList?search.1.key=is_show&search.1.value=true |"
+time="2021-04-28 17:03:26" level=info msg="| 304 |      94.231µs |       127.0.0.1 | GET | /static/img/20210428160428.png |"
+time="2021-04-28 17:03:31" level=info msg="| 200 |     476.981µs |       127.0.0.1 | GET | /api/active |"
+time="2021-04-28 17:05:53" level=info msg="| 200 |     395.007µs |       127.0.0.1 | GET | /api/imgList?search.1.key=is_show&search.1.value=true |"
+time="2021-04-28 17:05:53" level=info msg="| 304 |      96.297µs |       127.0.0.1 | GET | /static/img/20210428161113.png |"
+time="2021-04-28 17:05:55" level=info msg="| 200 |     486.864µs |       127.0.0.1 | GET | /api/active |"
+time="2021-04-28 17:06:24" level=info msg="| 200 |     405.467µs |       127.0.0.1 | GET | /api/imgList?search.1.key=is_show&search.1.value=true |"
+time="2021-04-28 17:06:27" level=info msg="| 200 |     285.758µs |       127.0.0.1 | GET | /api/active |"
+time="2021-04-28 17:07:22" level=info msg="| 200 |       351.3µs |       127.0.0.1 | GET | /api/imgList?search.1.key=is_show&search.1.value=true |"
+time="2021-04-28 17:07:25" level=info msg="| 200 |     337.952µs |       127.0.0.1 | GET | /api/active |"
+time="2021-04-28 17:07:42" level=info msg="| 200 |     524.027µs |       127.0.0.1 | GET | /api/imgList?search.1.key=is_show&search.1.value=true |"
+time="2021-04-28 17:08:28" level=info msg="| 200 |     477.631µs |       127.0.0.1 | GET | /api/imgList?search.1.key=is_show&search.1.value=true |"
+time="2021-04-28 17:08:33" level=info msg="| 200 |     344.094µs |       127.0.0.1 | GET | /api/active |"
+time="2021-04-28 17:09:04" level=info msg="| 200 |     400.127µs |       127.0.0.1 | GET | /api/imgList?search.1.key=is_show&search.1.value=true |"
+time="2021-04-28 17:09:08" level=info msg="| 200 |     290.601µs |       127.0.0.1 | GET | /api/active |"
+time="2021-04-28 17:10:00" level=info msg="| 200 |     660.561µs |       127.0.0.1 | GET | /api/imgList?search.1.key=is_show&search.1.value=true |"
+time="2021-04-28 17:10:00" level=info msg="| 304 |     127.814µs |       127.0.0.1 | GET | /static/img/20210428160428.png |"
+time="2021-04-28 17:10:04" level=info msg="| 200 |     362.779µs |       127.0.0.1 | GET | /api/active |"
+time="2021-04-28 17:10:35" level=info msg="| 200 |     370.216µs |       127.0.0.1 | GET | /api/imgList?search.1.key=is_show&search.1.value=true |"
+time="2021-04-28 17:10:40" level=info msg="| 200 |     437.287µs |       127.0.0.1 | GET | /api/active |"
+time="2021-04-28 17:11:23" level=info msg="| 200 |     366.895µs |       127.0.0.1 | GET | /api/imgList?search.1.key=is_show&search.1.value=true |"
+time="2021-04-28 17:11:23" level=info msg="| 304 |      81.622µs |       127.0.0.1 | GET | /static/img/20210428161113.png |"
+time="2021-04-28 17:11:26" level=info msg="| 200 |     341.808µs |       127.0.0.1 | GET | /api/active |"
+time="2021-04-28 17:11:58" level=info msg="| 200 |     367.161µs |       127.0.0.1 | GET | /api/imgList?search.1.key=is_show&search.1.value=true |"
+time="2021-04-28 17:12:00" level=info msg="| 200 |     293.601µs |       127.0.0.1 | GET | /api/active |"
+time="2021-04-28 17:12:20" level=info msg="| 200 |     359.849µs |       127.0.0.1 | GET | /api/imgList?search.1.key=is_show&search.1.value=true |"
+time="2021-04-28 17:12:22" level=info msg="| 200 |     273.792µs |       127.0.0.1 | GET | /api/active |"
+time="2021-04-28 17:12:42" level=info msg="| 200 |     409.304µs |       127.0.0.1 | GET | /api/imgList?search.1.key=is_show&search.1.value=true |"
+time="2021-04-28 17:12:45" level=info msg="| 200 |     270.797µs |       127.0.0.1 | GET | /api/active |"
+time="2021-04-28 17:13:09" level=info msg="| 200 |     398.535µs |       127.0.0.1 | GET | /api/imgList?search.1.key=is_show&search.1.value=true |"
+time="2021-04-28 17:13:11" level=info msg="| 200 |     307.824µs |       127.0.0.1 | GET | /api/active |"
+time="2021-04-28 17:14:18" level=info msg="| 200 |     346.101µs |       127.0.0.1 | GET | /api/imgList?search.1.key=is_show&search.1.value=true |"
+time="2021-04-28 17:14:20" level=info msg="| 200 |     447.528µs |       127.0.0.1 | GET | /api/active |"
+time="2021-04-28 17:14:52" level=info msg="| 200 |     363.563µs |       127.0.0.1 | GET | /api/imgList?search.1.key=is_show&search.1.value=true |"
+time="2021-04-28 17:14:54" level=info msg="| 200 |     405.855µs |       127.0.0.1 | GET | /api/active |"
+time="2021-04-28 17:15:47" level=info msg="| 200 |     385.042µs |       127.0.0.1 | GET | /api/imgList?search.1.key=is_show&search.1.value=true |"
+time="2021-04-28 17:15:49" level=info msg="| 200 |     417.816µs |       127.0.0.1 | GET | /api/active |"
+time="2021-04-28 17:15:56" level=info msg="| 200 |      408.58µs |       127.0.0.1 | GET | /api/imgList?search.1.key=is_show&search.1.value=true |"
+time="2021-04-28 17:15:58" level=info msg="| 200 |     287.573µs |       127.0.0.1 | GET | /api/active |"
+time="2021-04-28 17:16:23" level=info msg="| 200 |      329.29µs |       127.0.0.1 | GET | /api/imgList?search.1.key=is_show&search.1.value=true |"
+time="2021-04-28 17:16:27" level=info msg="| 200 |     316.891µs |       127.0.0.1 | GET | /api/active |"
+time="2021-04-28 17:16:58" level=info msg="| 200 |     360.946µs |       127.0.0.1 | GET | /api/imgList?search.1.key=is_show&search.1.value=true |"
+time="2021-04-28 17:16:58" level=info msg="| 304 |      89.162µs |       127.0.0.1 | GET | /static/img/20210428160428.png |"
+time="2021-04-28 17:17:00" level=info msg="| 200 |     290.324µs |       127.0.0.1 | GET | /api/active |"
+time="2021-04-28 17:17:09" level=info msg="| 200 |      357.66µs |       127.0.0.1 | GET | /api/imgList?search.1.key=is_show&search.1.value=true |"
+time="2021-04-28 17:17:15" level=info msg="| 200 |     478.801µs |       127.0.0.1 | GET | /api/active |"
+time="2021-04-28 17:17:21" level=info msg="| 200 |     319.571µs |       127.0.0.1 | GET | /api/imgList?search.1.key=is_show&search.1.value=true |"
+time="2021-04-28 17:17:37" level=info msg="| 200 |     359.073µs |       127.0.0.1 | GET | /api/imgList?search.1.key=is_show&search.1.value=true |"
+time="2021-04-28 17:17:37" level=info msg="| 304 |     104.846µs |       127.0.0.1 | GET | /static/img/20210428161113.png |"
+time="2021-04-28 17:17:39" level=info msg="| 200 |     270.106µs |       127.0.0.1 | GET | /api/active |"
+time="2021-04-28 17:18:00" level=info msg="| 200 |     416.579µs |       127.0.0.1 | GET | /api/imgList?search.1.key=is_show&search.1.value=true |"
+time="2021-04-28 17:18:02" level=info msg="| 200 |     271.522µs |       127.0.0.1 | GET | /api/active |"
+time="2021-04-28 17:18:36" level=info msg="| 200 |     453.153µs |       127.0.0.1 | GET | /api/imgList?search.1.key=is_show&search.1.value=true |"
+time="2021-04-28 17:18:38" level=info msg="| 200 |     294.515µs |       127.0.0.1 | GET | /api/active |"
+time="2021-04-28 17:20:31" level=info msg="| 200 |     367.717µs |       127.0.0.1 | GET | /api/imgList?search.1.key=is_show&search.1.value=true |"
+time="2021-04-28 17:20:33" level=info msg="| 200 |     306.612µs |       127.0.0.1 | GET | /api/active |"
+time="2021-04-28 17:21:28" level=info msg="| 200 |     348.351µs |       127.0.0.1 | GET | /api/imgList?search.1.key=is_show&search.1.value=true |"
+time="2021-04-28 17:21:30" level=info msg="| 200 |     612.312µs |       127.0.0.1 | GET | /api/active |"
+time="2021-04-28 17:22:17" level=info msg="| 200 |    1.225676ms |       127.0.0.1 | GET | /api/imgList?search.1.key=is_show&search.1.value=true |"
+time="2021-04-28 17:22:19" level=info msg="| 200 |     260.625µs |       127.0.0.1 | GET | /api/active |"
+time="2021-04-28 17:22:57" level=info msg="| 200 |     453.896µs |       127.0.0.1 | GET | /api/imgList?search.1.key=is_show&search.1.value=true |"
+time="2021-04-28 17:23:00" level=info msg="| 200 |     359.926µs |       127.0.0.1 | GET | /api/active |"
+time="2021-04-28 17:23:30" level=info msg="| 200 |     398.361µs |       127.0.0.1 | GET | /api/imgList?search.1.key=is_show&search.1.value=true |"
+time="2021-04-28 17:23:33" level=info msg="| 200 |     406.147µs |       127.0.0.1 | GET | /api/active |"
+time="2021-04-28 17:24:11" level=info msg="| 200 |     346.324µs |       127.0.0.1 | GET | /api/imgList?search.1.key=is_show&search.1.value=true |"
+time="2021-04-28 17:24:13" level=info msg="| 200 |     331.803µs |       127.0.0.1 | GET | /api/active |"
+time="2021-04-28 17:26:02" level=info msg="| 200 |     410.118µs |       127.0.0.1 | GET | /api/imgList?search.1.key=is_show&search.1.value=true |"
+time="2021-04-28 17:26:02" level=info msg="| 304 |      85.592µs |       127.0.0.1 | GET | /static/img/20210428161113.png |"
+time="2021-04-28 17:26:02" level=info msg="| 304 |      61.016µs |       127.0.0.1 | GET | /static/img/20210428160428.png |"
+time="2021-04-28 17:26:06" level=info msg="| 200 |     282.182µs |       127.0.0.1 | GET | /api/active |"
+time="2021-04-28 17:26:39" level=info msg="| 200 |     340.629µs |       127.0.0.1 | GET | /api/imgList?search.1.key=is_show&search.1.value=true |"
+time="2021-04-28 17:26:41" level=info msg="| 200 |     412.884µs |       127.0.0.1 | GET | /api/active |"
+time="2021-04-28 17:26:53" level=info msg="| 200 |     478.903µs |       127.0.0.1 | GET | /api/imgList?search.1.key=is_show&search.1.value=true |"
+time="2021-04-28 17:27:03" level=info msg="| 200 |     360.577µs |       127.0.0.1 | GET | /api/imgList?search.1.key=is_show&search.1.value=true |"
+time="2021-04-28 17:27:05" level=info msg="| 200 |     297.265µs |       127.0.0.1 | GET | /api/active |"
+time="2021-04-28 17:27:20" level=info msg="| 200 |     324.067µs |       127.0.0.1 | GET | /api/imgList?search.1.key=is_show&search.1.value=true |"
+time="2021-04-28 17:27:21" level=info msg="| 200 |     283.416µs |       127.0.0.1 | GET | /api/active |"
+time="2021-04-28 17:27:29" level=info msg="| 200 |    1.013212ms |       127.0.0.1 | GET | /api/imgList?search.1.key=is_show&search.1.value=true |"
+time="2021-04-28 17:27:30" level=info msg="| 200 |     314.871µs |       127.0.0.1 | GET | /api/active |"
+time="2021-04-28 17:27:40" level=info msg="| 200 |     344.837µs |       127.0.0.1 | GET | /api/imgList?search.1.key=is_show&search.1.value=true |"
+time="2021-04-28 17:27:44" level=info msg="| 200 |     305.994µs |       127.0.0.1 | GET | /api/imgList?search.1.key=is_show&search.1.value=true |"
+time="2021-04-28 17:27:45" level=info msg="| 200 |     284.448µs |       127.0.0.1 | GET | /api/active |"
+time="2021-04-28 17:28:49" level=info msg="| 200 |     330.724µs |       127.0.0.1 | GET | /api/imgList?search.1.key=is_show&search.1.value=true |"
+time="2021-04-28 17:28:52" level=info msg="| 200 |     361.793µs |       127.0.0.1 | GET | /api/active |"
+time="2021-04-28 17:31:24" level=info msg="| 200 |     371.484µs |       127.0.0.1 | GET | /api/imgList?search.1.key=is_show&search.1.value=true |"
+time="2021-04-28 17:31:44" level=info msg="| 200 |     414.334µs |       127.0.0.1 | GET | /api/imgList?search.1.key=is_show&search.1.value=true |"
+time="2021-04-28 17:31:47" level=info msg="| 200 |     284.644µs |       127.0.0.1 | GET | /api/active |"
+time="2021-04-28 17:32:21" level=info msg="| 200 |     475.989µs |       127.0.0.1 | GET | /api/imgList?search.1.key=is_show&search.1.value=true |"
+time="2021-04-28 17:32:23" level=info msg="| 200 |     265.596µs |       127.0.0.1 | GET | /api/active |"
+time="2021-04-28 17:33:19" level=info msg="| 200 |     384.481µs |       127.0.0.1 | GET | /api/imgList?search.1.key=is_show&search.1.value=true |"
+time="2021-04-28 17:33:20" level=info msg="| 200 |      300.71µs |       127.0.0.1 | GET | /api/active |"
+time="2021-04-28 17:37:05" level=info msg="| 200 |     362.702µs |       127.0.0.1 | GET | /api/imgList?search.1.key=is_show&search.1.value=true |"
+time="2021-04-28 17:37:06" level=info msg="| 304 |     106.931µs |       127.0.0.1 | GET | /static/img/20210428161113.png |"
+time="2021-04-28 17:37:06" level=info msg="| 304 |     112.123µs |       127.0.0.1 | GET | /static/img/20210428160428.png |"
+time="2021-04-28 17:37:08" level=info msg="| 200 |     300.994µs |       127.0.0.1 | GET | /api/active |"
+time="2021-04-28 17:37:42" level=info msg="| 200 |     371.211µs |       127.0.0.1 | GET | /api/imgList?search.1.key=is_show&search.1.value=true |"
+time="2021-04-28 17:37:43" level=info msg="| 200 |     286.303µs |       127.0.0.1 | GET | /api/active |"
+time="2021-04-28 17:37:56" level=info msg="| 200 |     396.708µs |       127.0.0.1 | GET | /api/imgList?search.1.key=is_show&search.1.value=true |"
+time="2021-04-28 17:37:58" level=info msg="| 200 |      274.38µs |       127.0.0.1 | GET | /api/active |"
+time="2021-04-28 17:38:04" level=info msg="| 200 |     321.106µs |       127.0.0.1 | GET | /api/imgList?search.1.key=is_show&search.1.value=true |"
+time="2021-04-28 17:38:08" level=info msg="| 200 |     266.845µs |       127.0.0.1 | GET | /api/active |"
+time="2021-04-28 17:38:21" level=info msg="| 200 |     496.726µs |       127.0.0.1 | GET | /api/imgList?search.1.key=is_show&search.1.value=true |"
+time="2021-04-28 17:38:25" level=info msg="| 200 |     279.766µs |       127.0.0.1 | GET | /api/active |"
+time="2021-04-28 17:38:35" level=info msg="| 200 |     551.739µs |       127.0.0.1 | GET | /api/imgList?search.1.key=is_show&search.1.value=true |"
+time="2021-04-28 17:38:38" level=info msg="| 200 |      313.37µs |       127.0.0.1 | GET | /api/active |"
+time="2021-04-28 17:38:46" level=info msg="| 200 |     380.597µs |       127.0.0.1 | GET | /api/imgList?search.1.key=is_show&search.1.value=true |"
+time="2021-04-28 17:38:48" level=info msg="| 200 |     280.269µs |       127.0.0.1 | GET | /api/active |"
+time="2021-04-28 17:38:57" level=info msg="| 200 |     330.974µs |       127.0.0.1 | GET | /api/imgList?search.1.key=is_show&search.1.value=true |"
+time="2021-04-28 17:39:02" level=info msg="| 200 |     311.471µs |       127.0.0.1 | GET | /api/active |"
+time="2021-04-28 17:39:08" level=info msg="| 200 |     385.055µs |       127.0.0.1 | GET | /api/imgList?search.1.key=is_show&search.1.value=true |"
+time="2021-04-28 17:39:10" level=info msg="| 200 |     291.073µs |       127.0.0.1 | GET | /api/active |"
+time="2021-04-28 17:39:43" level=info msg="| 200 |     328.745µs |       127.0.0.1 | GET | /api/imgList?search.1.key=is_show&search.1.value=true |"
+time="2021-04-28 17:39:46" level=info msg="| 200 |      353.26µs |       127.0.0.1 | GET | /api/active |"
+time="2021-04-28 17:40:29" level=info msg="| 200 |     353.884µs |       127.0.0.1 | GET | /api/imgList?search.1.key=is_show&search.1.value=true |"
+time="2021-04-28 17:40:31" level=info msg="| 200 |     350.679µs |       127.0.0.1 | GET | /api/active |"
+time="2021-04-28 17:41:14" level=info msg="| 200 |     369.822µs |       127.0.0.1 | GET | /api/imgList?search.1.key=is_show&search.1.value=true |"
+time="2021-04-28 17:41:15" level=info msg="| 200 |     354.624µs |       127.0.0.1 | GET | /api/active |"
+time="2021-04-28 17:42:12" level=info msg="| 200 |     363.627µs |       127.0.0.1 | GET | /api/imgList?search.1.key=is_show&search.1.value=true |"
+time="2021-04-28 17:42:14" level=info msg="| 200 |     393.019µs |       127.0.0.1 | GET | /api/active |"
+time="2021-04-28 17:43:08" level=info msg="| 200 |     379.469µs |       127.0.0.1 | GET | /api/imgList?search.1.key=is_show&search.1.value=true |"
+time="2021-04-28 17:43:10" level=info msg="| 200 |     303.022µs |       127.0.0.1 | GET | /api/active |"
+time="2021-04-28 17:43:25" level=info msg="| 200 |     360.653µs |       127.0.0.1 | GET | /api/imgList?search.1.key=is_show&search.1.value=true |"
+time="2021-04-28 17:43:28" level=info msg="| 200 |     262.737µs |       127.0.0.1 | GET | /api/active |"
+time="2021-04-28 17:43:51" level=info msg="| 200 |     322.958µs |       127.0.0.1 | GET | /api/imgList?search.1.key=is_show&search.1.value=true |"
+time="2021-04-28 17:43:57" level=info msg="| 200 |      306.38µs |       127.0.0.1 | GET | /api/active |"
+time="2021-04-28 17:44:46" level=info msg="| 200 |     431.692µs |       127.0.0.1 | GET | /api/imgList?search.1.key=is_show&search.1.value=true |"
+time="2021-04-28 17:44:50" level=info msg="| 200 |     399.828µs |       127.0.0.1 | GET | /api/active |"
+time="2021-04-28 17:45:23" level=info msg="| 200 |     333.931µs |       127.0.0.1 | GET | /api/imgList?search.1.key=is_show&search.1.value=true |"
+time="2021-04-28 17:45:27" level=info msg="| 200 |     313.653µs |       127.0.0.1 | GET | /api/active |"
+time="2021-04-28 17:45:35" level=info msg="| 200 |     326.238µs |       127.0.0.1 | GET | /api/imgList?search.1.key=is_show&search.1.value=true |"
+time="2021-04-28 17:45:38" level=info msg="| 200 |     291.902µs |       127.0.0.1 | GET | /api/active |"
+time="2021-04-28 17:46:14" level=info msg="| 200 |     358.042µs |       127.0.0.1 | GET | /api/imgList?search.1.key=is_show&search.1.value=true |"
+time="2021-04-28 17:46:14" level=info msg="| 304 |      82.045µs |       127.0.0.1 | GET | /static/img/20210428161113.png |"
+time="2021-04-28 17:46:16" level=info msg="| 200 |     289.136µs |       127.0.0.1 | GET | /api/active |"
+time="2021-04-28 17:48:56" level=info msg="| 200 |     408.838µs |       127.0.0.1 | GET | /api/imgList?search.1.key=is_show&search.1.value=true |"
+time="2021-04-28 17:48:57" level=info msg="| 304 |      89.035µs |       127.0.0.1 | GET | /static/img/20210428160428.png |"
+time="2021-04-28 17:49:02" level=info msg="| 200 |     311.431µs |       127.0.0.1 | GET | /api/active |"
+time="2021-04-28 17:50:29" level=info msg="| 200 |     342.926µs |       127.0.0.1 | GET | /api/imgList?search.1.key=is_show&search.1.value=true |"
+time="2021-04-28 17:50:31" level=info msg="| 200 |     274.198µs |       127.0.0.1 | GET | /api/active |"
+time="2021-04-28 17:51:43" level=info msg="| 200 |     384.276µs |       127.0.0.1 | GET | /api/imgList?search.1.key=is_show&search.1.value=true |"
+time="2021-04-28 17:51:46" level=info msg="| 200 |     360.017µs |       127.0.0.1 | GET | /api/active |"
+time="2021-04-28 17:51:56" level=info msg="| 200 |     357.519µs |       127.0.0.1 | GET | /api/imgList?search.1.key=is_show&search.1.value=true |"
+time="2021-04-28 17:52:01" level=info msg="| 200 |     343.542µs |       127.0.0.1 | GET | /api/active |"
+time="2021-04-28 17:52:33" level=info msg="| 200 |    1.547943ms |       127.0.0.1 | GET | /api/imgList?search.1.key=is_show&search.1.value=true |"
+time="2021-04-28 17:53:00" level=info msg="| 200 |     387.004µs |       127.0.0.1 | GET | /api/imgList?search.1.key=is_show&search.1.value=true |"
+time="2021-04-28 17:53:01" level=info msg="| 200 |     266.693µs |       127.0.0.1 | GET | /api/active |"
+time="2021-04-28 17:53:22" level=info msg="| 200 |     386.123µs |       127.0.0.1 | GET | /api/imgList?search.1.key=is_show&search.1.value=true |"
+time="2021-04-28 17:53:25" level=info msg="| 200 |     310.545µs |       127.0.0.1 | GET | /api/active |"
+time="2021-04-28 17:53:59" level=info msg="| 200 |     366.068µs |       127.0.0.1 | GET | /api/imgList?search.1.key=is_show&search.1.value=true |"
+time="2021-04-28 17:54:01" level=info msg="| 200 |     361.785µs |       127.0.0.1 | GET | /api/active |"
+time="2021-04-28 17:56:08" level=info msg="| 200 |     370.416µs |       127.0.0.1 | GET | /api/imgList?search.1.key=is_show&search.1.value=true |"
+time="2021-04-28 17:56:09" level=info msg="| 304 |     103.349µs |       127.0.0.1 | GET | /static/img/20210428161113.png |"
+time="2021-04-28 17:56:10" level=info msg="| 200 |     571.522µs |       127.0.0.1 | GET | /api/active |"
+time="2021-04-28 17:56:56" level=info msg="| 200 |     388.806µs |       127.0.0.1 | GET | /api/imgList?search.1.key=is_show&search.1.value=true |"
+time="2021-04-28 17:56:57" level=info msg="| 200 |     313.693µs |       127.0.0.1 | GET | /api/active |"
+time="2021-04-28 17:57:15" level=info msg="| 200 |     1.57941ms |       127.0.0.1 | GET | /api/imgList?search.1.key=is_show&search.1.value=true |"
+time="2021-04-28 17:57:18" level=info msg="| 200 |     278.182µs |       127.0.0.1 | GET | /api/active |"
+time="2021-04-28 17:57:48" level=info msg="| 200 |     336.573µs |       127.0.0.1 | GET | /api/imgList?search.1.key=is_show&search.1.value=true |"
+time="2021-04-28 17:57:51" level=info msg="| 200 |     329.409µs |       127.0.0.1 | GET | /api/active |"
+time="2021-04-28 17:58:02" level=info msg="| 200 |     330.809µs |       127.0.0.1 | GET | /api/imgList?search.1.key=is_show&search.1.value=true |"
+time="2021-04-28 17:58:06" level=info msg="| 200 |     287.168µs |       127.0.0.1 | GET | /api/active |"
+time="2021-04-28 17:58:30" level=info msg="| 200 |     406.522µs |       127.0.0.1 | GET | /api/imgList?search.1.key=is_show&search.1.value=true |"
+time="2021-04-28 17:58:32" level=info msg="| 200 |     289.906µs |       127.0.0.1 | GET | /api/active |"
+time="2021-04-28 17:59:26" level=info msg="| 200 |     366.059µs |       127.0.0.1 | GET | /api/imgList?search.1.key=is_show&search.1.value=true |"
+time="2021-04-28 17:59:26" level=info msg="| 304 |       86.38µs |       127.0.0.1 | GET | /static/img/20210428160428.png |"
+time="2021-04-28 17:59:28" level=info msg="| 200 |     334.696µs |       127.0.0.1 | GET | /api/active |"
+time="2021-04-28 18:00:01" level=info msg="| 200 |     380.381µs |       127.0.0.1 | GET | /api/imgList?search.1.key=is_show&search.1.value=true |"
+time="2021-04-28 18:00:03" level=info msg="| 200 |     298.157µs |       127.0.0.1 | GET | /api/active |"
+time="2021-04-28 18:00:18" level=info msg="| 200 |     335.555µs |       127.0.0.1 | GET | /api/imgList?search.1.key=is_show&search.1.value=true |"
+time="2021-04-28 18:00:19" level=info msg="| 200 |     289.256µs |       127.0.0.1 | GET | /api/active |"
+time="2021-04-28 18:00:31" level=info msg="| 200 |     354.904µs |       127.0.0.1 | GET | /api/imgList?search.1.key=is_show&search.1.value=true |"
+time="2021-04-28 18:00:33" level=info msg="| 200 |     274.651µs |       127.0.0.1 | GET | /api/active |"
+time="2021-04-28 18:00:42" level=info msg="| 200 |     347.454µs |       127.0.0.1 | GET | /api/imgList?search.1.key=is_show&search.1.value=true |"
+time="2021-04-28 18:00:44" level=info msg="| 200 |     445.045µs |       127.0.0.1 | GET | /api/active |"
+time="2021-04-28 18:01:06" level=info msg="| 200 |     335.356µs |       127.0.0.1 | GET | /api/imgList?search.1.key=is_show&search.1.value=true |"
+time="2021-04-28 18:01:08" level=info msg="| 200 |     272.164µs |       127.0.0.1 | GET | /api/active |"
+time="2021-04-28 18:02:57" level=info msg="| 200 |     354.807µs |       127.0.0.1 | GET | /api/imgList?search.1.key=is_show&search.1.value=true |"
+time="2021-04-28 18:02:59" level=info msg="| 200 |     342.198µs |       127.0.0.1 | GET | /api/active |"
+time="2021-04-28 18:03:47" level=info msg="| 200 |      346.13µs |       127.0.0.1 | GET | /api/imgList?search.1.key=is_show&search.1.value=true |"
+time="2021-04-28 18:03:50" level=info msg="| 200 |     326.942µs |       127.0.0.1 | GET | /api/imgList?search.1.key=is_show&search.1.value=true |"
+time="2021-04-28 18:03:53" level=info msg="| 200 |     454.159µs |       127.0.0.1 | GET | /api/active |"
+time="2021-04-28 18:04:03" level=info msg="| 200 |      352.41µs |       127.0.0.1 | GET | /api/imgList?search.1.key=is_show&search.1.value=true |"
+time="2021-04-28 18:04:06" level=info msg="| 200 |     290.353µs |       127.0.0.1 | GET | /api/active |"
+time="2021-04-28 18:04:16" level=info msg="| 200 |     365.066µs |       127.0.0.1 | GET | /api/imgList?search.1.key=is_show&search.1.value=true |"
+time="2021-04-28 18:04:18" level=info msg="| 200 |     295.687µs |       127.0.0.1 | GET | /api/active |"
+time="2021-04-28 18:04:28" level=info msg="| 200 |     367.524µs |       127.0.0.1 | GET | /api/imgList?search.1.key=is_show&search.1.value=true |"
+time="2021-04-28 18:04:31" level=info msg="| 200 |     345.405µs |       127.0.0.1 | GET | /api/active |"
+time="2021-04-28 18:04:38" level=info msg="| 200 |     316.019µs |       127.0.0.1 | GET | /api/imgList?search.1.key=is_show&search.1.value=true |"
+time="2021-04-28 18:04:41" level=info msg="| 200 |     299.561µs |       127.0.0.1 | GET | /api/active |"
+time="2021-04-28 18:05:08" level=info msg="| 200 |     368.339µs |       127.0.0.1 | GET | /api/imgList?search.1.key=is_show&search.1.value=true |"
+time="2021-04-28 18:05:10" level=info msg="| 200 |      334.05µs |       127.0.0.1 | GET | /api/active |"
+time="2021-04-28 18:05:41" level=info msg="| 200 |     331.459µs |       127.0.0.1 | GET | /api/imgList?search.1.key=is_show&search.1.value=true |"
+time="2021-04-28 18:05:43" level=info msg="| 200 |     308.351µs |       127.0.0.1 | GET | /api/active |"
+time="2021-04-28 18:06:14" level=info msg="| 200 |     377.479µs |       127.0.0.1 | GET | /api/imgList?search.1.key=is_show&search.1.value=true |"
+time="2021-04-28 18:06:16" level=info msg="| 200 |     324.886µs |       127.0.0.1 | GET | /api/active |"
+time="2021-04-28 18:07:13" level=info msg="| 200 |     512.969µs |       127.0.0.1 | GET | /api/imgList?search.1.key=is_show&search.1.value=true |"
+time="2021-04-28 18:07:13" level=info msg="| 304 |      91.236µs |       127.0.0.1 | GET | /static/img/20210428161113.png |"
+time="2021-04-28 18:07:15" level=info msg="| 200 |     277.615µs |       127.0.0.1 | GET | /api/active |"
+time="2021-04-28 18:07:48" level=info msg="| 200 |     340.237µs |       127.0.0.1 | GET | /api/imgList?search.1.key=is_show&search.1.value=true |"
+time="2021-04-28 18:07:50" level=info msg="| 200 |     334.009µs |       127.0.0.1 | GET | /api/active |"
+time="2021-04-28 18:08:24" level=info msg="| 200 |     382.709µs |       127.0.0.1 | GET | /api/imgList?search.1.key=is_show&search.1.value=true |"
+time="2021-04-28 18:08:26" level=info msg="| 200 |     306.066µs |       127.0.0.1 | GET | /api/active |"
+time="2021-04-28 18:09:35" level=info msg="| 200 |    1.030183ms |       127.0.0.1 | GET | /api/imgList?search.1.key=is_show&search.1.value=true |"
+time="2021-04-28 18:09:40" level=info msg="| 200 |     350.873µs |       127.0.0.1 | GET | /api/active |"
+time="2021-04-28 18:10:19" level=info msg="| 200 |     470.112µs |       127.0.0.1 | GET | /api/imgList?search.1.key=is_show&search.1.value=true |"
+time="2021-04-28 18:10:23" level=info msg="| 200 |     318.772µs |       127.0.0.1 | GET | /api/active |"

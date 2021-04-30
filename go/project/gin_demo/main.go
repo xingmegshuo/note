@@ -15,5 +15,8 @@ func main() {
 	r.GET("/", func(c *gin.Context) {
 		c.String(200, "hello, geek")
 	})
+	r.POST("/login", func(c *gin.Context) {
+		c.String(200, "what fuck")
+	})
 	r.Run(":8080")
 }

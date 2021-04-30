@@ -1,0 +1,253 @@
+[GIN-debug] GET    /static/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (4 handlers)
+[GIN-debug] HEAD   /static/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (4 handlers)
+time="2021-04-21 11:01:16" level=info msg="Server Start ..."
+[GIN-debug] POST   /wx/user/login            --> huakai/handler.Login (4 handlers)
+[GIN-debug] POST   /web/user/login           --> huakai/handler.LoginWeb (4 handlers)
+[GIN-debug] GET    /web/getUsers             --> huakai/handler.GetUsers (5 handlers)
+[GIN-debug] POST   /web/addSuper             --> huakai/handler.AddSuperUser (4 handlers)
+time="2021-04-21 11:01:59" level=info msg="| 404 |          88ns |       127.0.0.1 | GET | /web/addSuper?account=1111111 |"
+time="2021-04-21 11:02:04" level=info msg="| 200 |     384.829µs |       127.0.0.1 | POST | /web/addSuper?account=1111111 |"
+time="2021-04-21 11:03:38" level=info msg="| 200 |     314.238µs |       127.0.0.1 | POST | /web/addSuper?account=1111111 |"
+time="2021-04-21 11:03:59" level=info msg="| 200 |     234.699µs |       127.0.0.1 | POST | /web/addSuper?account=1111111&password=528012 |"
+time="2021-04-21 11:04:01" level=info msg="| 200 |     577.114µs |       127.0.0.1 | POST | /web/addSuper?account=1111111&password=528012 |"
+time="2021-04-21 11:04:02" level=info msg="| 200 |     193.751µs |       127.0.0.1 | POST | /web/addSuper?account=1111111&password=528012 |"
+time="2021-04-21 11:05:42" level=info msg="| 200 |     297.473µs |       127.0.0.1 | POST | /web/user/login?nickname=superuser&openId=123456789 |"
+time="2021-04-21 11:05:56" level=info msg="| 200 |     256.353µs |       127.0.0.1 | POST | /web/user/login?nickname=superuser&openId=12345678 |"
+time="2021-04-21 11:06:00" level=info msg="| 200 |     221.613µs |       127.0.0.1 | POST | /web/user/login?nickname=superuser&openId=1234567 |"
+[GIN-debug] GET    /static/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (4 handlers)
+[GIN-debug] HEAD   /static/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (4 handlers)
+time="2021-04-21 11:07:04" level=info msg="Server Start ..."
+[GIN-debug] POST   /wx/user/login            --> huakai/handler.Login (4 handlers)
+[GIN-debug] POST   /web/user/login           --> huakai/handler.LoginWeb (4 handlers)
+[GIN-debug] GET    /web/getUsers             --> huakai/handler.GetUsers (5 handlers)
+[GIN-debug] POST   /web/addSuper             --> huakai/handler.AddSuperUser (4 handlers)
+time="2021-04-21 11:07:07" level=info msg="| 200 |       355.5µs |       127.0.0.1 | POST | /web/user/login?nickname=superuser&openId=1234567 |"
+[GIN-debug] GET    /static/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (4 handlers)
+[GIN-debug] HEAD   /static/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (4 handlers)
+time="2021-04-21 11:08:02" level=info msg="Server Start ..."
+[GIN-debug] POST   /wx/user/login            --> huakai/handler.Login (4 handlers)
+[GIN-debug] POST   /web/user/login           --> huakai/handler.LoginWeb (4 handlers)
+[GIN-debug] GET    /web/getUsers             --> huakai/handler.GetUsers (5 handlers)
+[GIN-debug] POST   /web/addSuper             --> huakai/handler.AddSuperUser (4 handlers)
+[GIN-debug] GET    /static/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (4 handlers)
+[GIN-debug] HEAD   /static/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (4 handlers)
+time="2021-04-21 11:08:36" level=info msg="Server Start ..."
+[GIN-debug] POST   /wx/user/login            --> huakai/handler.Login (4 handlers)
+[GIN-debug] POST   /web/user/login           --> huakai/handler.LoginWeb (4 handlers)
+[GIN-debug] GET    /web/getUsers             --> huakai/handler.GetUsers (5 handlers)
+[GIN-debug] POST   /web/addSuper             --> huakai/handler.AddSuperUser (4 handlers)
+time="2021-04-21 11:08:40" level=info msg="| 200 |     358.969µs |       127.0.0.1 | POST | /web/user/login?nickname=superuser&openId=1234567 |"
+time="2021-04-21 11:08:58" level=info msg="| 200 |     275.175µs |       127.0.0.1 | POST | /web/user/login?nickname=super&openId=1234567 |"
+[GIN-debug] GET    /static/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (4 handlers)
+[GIN-debug] HEAD   /static/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (4 handlers)
+time="2021-04-21 11:10:23" level=info msg="Server Start ..."
+[GIN-debug] POST   /wx/user/login            --> huakai/handler.Login (4 handlers)
+[GIN-debug] POST   /web/user/login           --> huakai/handler.LoginWeb (4 handlers)
+[GIN-debug] GET    /web/getUsers             --> huakai/handler.GetUsers (5 handlers)
+[GIN-debug] POST   /web/addSuper             --> huakai/handler.AddSuperUser (4 handlers)
+time="2021-04-21 11:10:26" level=info msg="| 200 |     359.554µs |       127.0.0.1 | POST | /web/user/login?nickname=super&openId=1234567 |"
+[GIN-debug] GET    /static/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (4 handlers)
+[GIN-debug] HEAD   /static/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (4 handlers)
+time="2021-04-21 11:11:09" level=info msg="Server Start ..."
+[GIN-debug] POST   /wx/user/login            --> huakai/handler.Login (4 handlers)
+[GIN-debug] POST   /web/user/login           --> huakai/handler.LoginWeb (4 handlers)
+[GIN-debug] GET    /web/getUsers             --> huakai/handler.GetUsers (5 handlers)
+[GIN-debug] POST   /web/addSuper             --> huakai/handler.AddSuperUser (4 handlers)
+time="2021-04-21 11:11:27" level=info msg="| 200 |     335.103µs |       127.0.0.1 | POST | /web/user/login?account=super&password=1234567 |"
+[GIN-debug] GET    /static/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (4 handlers)
+[GIN-debug] HEAD   /static/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (4 handlers)
+time="2021-04-21 11:17:17" level=info msg="Server Start ..."
+[GIN-debug] POST   /wx/user/login            --> huakai/handler.Login (4 handlers)
+[GIN-debug] POST   /web/user/login           --> huakai/handler.LoginWeb (4 handlers)
+[GIN-debug] GET    /web/getUsers             --> huakai/handler.GetUsers (5 handlers)
+[GIN-debug] POST   /web/addSuper             --> huakai/handler.AddSuperUser (4 handlers)
+time="2021-04-21 11:17:23" level=info msg="| 200 |     401.579µs |       127.0.0.1 | POST | /web/user/login?account=super&password=1234567 |"
+time="2021-04-21 11:17:33" level=info msg="| 200 |     319.529µs |       127.0.0.1 | POST | /web/user/login?account=super&password=1234567 |"
+time="2021-04-21 11:18:14" level=info msg="| 200 |     265.372µs |       127.0.0.1 | POST | /web/user/login?account=super&password=1234567 |"
+time="2021-04-21 11:18:48" level=info msg="| 200 |     245.084µs |       127.0.0.1 | POST | /web/user/login?account=super |"
+time="2021-04-21 11:18:49" level=info msg="| 200 |    1.720142ms |       127.0.0.1 | POST | /web/user/login?account=super |"
+time="2021-04-21 11:18:51" level=info msg="| 200 |     257.855µs |       127.0.0.1 | POST | /web/user/login?account=super |"
+time="2021-04-21 11:20:00" level=info msg="| 200 |     352.072µs |       127.0.0.1 | POST | /web/user/login?account=super |"
+time="2021-04-21 11:20:01" level=info msg="| 200 |     203.519µs |       127.0.0.1 | POST | /web/user/login?account=super |"
+time="2021-04-21 11:20:01" level=info msg="| 200 |     201.732µs |       127.0.0.1 | POST | /web/user/login?account=super |"
+time="2021-04-21 11:20:02" level=info msg="| 200 |     268.985µs |       127.0.0.1 | POST | /web/user/login?account=super |"
+time="2021-04-21 11:20:03" level=info msg="| 200 |     217.448µs |       127.0.0.1 | POST | /web/user/login?account=super |"
+time="2021-04-21 11:20:03" level=info msg="| 200 |     211.888µs |       127.0.0.1 | POST | /web/user/login?account=super |"
+time="2021-04-21 11:20:04" level=info msg="| 200 |     231.182µs |       127.0.0.1 | POST | /web/user/login?account=super |"
+time="2021-04-21 11:20:05" level=info msg="| 200 |      264.24µs |       127.0.0.1 | POST | /web/user/login?account=super |"
+[GIN-debug] GET    /static/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (4 handlers)
+[GIN-debug] HEAD   /static/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (4 handlers)
+time="2021-04-21 11:24:58" level=info msg="Server Start ..."
+[GIN-debug] POST   /wx/user/login            --> huakai/handler.Login (4 handlers)
+[GIN-debug] POST   /web/user/login           --> huakai/handler.LoginWeb (4 handlers)
+[GIN-debug] GET    /web/getUsers             --> huakai/handler.GetUsers (5 handlers)
+[GIN-debug] POST   /web/addSuper             --> huakai/handler.AddSuperUser (4 handlers)
+time="2021-04-21 11:25:02" level=info msg="| 200 |      414.69µs |       127.0.0.1 | POST | /web/user/login?account=super |"
+time="2021-04-21 11:25:03" level=info msg="| 200 |     781.182µs |       127.0.0.1 | POST | /web/user/login?account=super |"
+[GIN-debug] GET    /static/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (4 handlers)
+[GIN-debug] HEAD   /static/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (4 handlers)
+time="2021-04-21 11:25:28" level=info msg="Server Start ..."
+[GIN-debug] POST   /wx/user/login            --> huakai/handler.Login (4 handlers)
+[GIN-debug] POST   /web/user/login           --> huakai/handler.LoginWeb (4 handlers)
+[GIN-debug] GET    /web/getUsers             --> huakai/handler.GetUsers (5 handlers)
+[GIN-debug] POST   /web/addSuper             --> huakai/handler.AddSuperUser (4 handlers)
+time="2021-04-21 11:25:32" level=info msg="| 200 |     427.262µs |       127.0.0.1 | POST | /web/user/login?account=super |"
+time="2021-04-21 11:29:17" level=info msg="| 200 |    1.007113ms |       127.0.0.1 | POST | /web/user/login |"
+time="2021-04-21 11:30:06" level=info msg="| 200 |      269.64µs |       127.0.0.1 | POST | /web/user/login |"
+[GIN-debug] GET    /static/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (4 handlers)
+[GIN-debug] HEAD   /static/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (4 handlers)
+time="2021-04-21 11:31:39" level=info msg="Server Start ..."
+[GIN-debug] POST   /wx/user/login            --> huakai/handler.Login (4 handlers)
+[GIN-debug] POST   /web/user/login           --> huakai/handler.LoginWeb (4 handlers)
+[GIN-debug] GET    /web/getUsers             --> huakai/handler.GetUsers (5 handlers)
+[GIN-debug] POST   /web/addSuper             --> huakai/handler.AddSuperUser (4 handlers)
+time="2021-04-21 11:31:42" level=info msg="| 200 |     373.221µs |       127.0.0.1 | POST | /web/user/login |"
+time="2021-04-21 11:32:04" level=info msg="| 200 |     304.586µs |       127.0.0.1 | POST | /web/user/login |"
+[GIN-debug] GET    /static/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (4 handlers)
+[GIN-debug] HEAD   /static/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (4 handlers)
+time="2021-04-21 11:32:10" level=info msg="Server Start ..."
+[GIN-debug] POST   /wx/user/login            --> huakai/handler.Login (4 handlers)
+[GIN-debug] POST   /web/user/login           --> huakai/handler.LoginWeb (4 handlers)
+[GIN-debug] GET    /web/getUsers             --> huakai/handler.GetUsers (5 handlers)
+[GIN-debug] POST   /web/addSuper             --> huakai/handler.AddSuperUser (4 handlers)
+time="2021-04-21 11:32:12" level=info msg="| 200 |     405.443µs |       127.0.0.1 | POST | /web/user/login |"
+time="2021-04-21 11:32:27" level=info msg="| 200 |     324.482µs |       127.0.0.1 | POST | /web/user/login |"
+[GIN-debug] GET    /static/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (4 handlers)
+[GIN-debug] HEAD   /static/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (4 handlers)
+time="2021-04-21 11:35:32" level=info msg="Server Start ..."
+[GIN-debug] POST   /wx/user/login            --> huakai/handler.Login (4 handlers)
+[GIN-debug] POST   /web/user/login           --> huakai/handler.LoginWeb (4 handlers)
+[GIN-debug] GET    /web/getUsers             --> huakai/handler.GetUsers (5 handlers)
+[GIN-debug] POST   /web/addSuper             --> huakai/handler.AddSuperUser (4 handlers)
+time="2021-04-21 11:35:51" level=info msg="| 200 |     421.934µs |       127.0.0.1 | POST | /web/addSuper |"
+time="2021-04-21 11:41:31" level=info msg="| 200 |     586.028µs |       127.0.0.1 | POST | /web/addSuper |"
+[GIN-debug] GET    /static/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (4 handlers)
+[GIN-debug] HEAD   /static/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (4 handlers)
+time="2021-04-21 11:41:52" level=info msg="Server Start ..."
+[GIN-debug] POST   /wx/user/login            --> huakai/handler.Login (4 handlers)
+[GIN-debug] POST   /web/user/login           --> huakai/handler.LoginWeb (4 handlers)
+[GIN-debug] GET    /web/getUsers             --> huakai/handler.GetUsers (5 handlers)
+[GIN-debug] POST   /web/addSuper             --> huakai/handler.AddSuperUser (4 handlers)
+time="2021-04-21 11:42:01" level=info msg="| 200 |    3.571513ms |       127.0.0.1 | POST | /web/addSuper |"
+time="2021-04-21 11:42:05" level=info msg="| 200 |     278.137µs |       127.0.0.1 | POST | /web/addSuper |"
+[GIN-debug] GET    /static/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (4 handlers)
+[GIN-debug] HEAD   /static/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (4 handlers)
+time="2021-04-21 15:38:19" level=info msg="Server Start ..."
+[GIN-debug] POST   /wx/user/login            --> huakai/handler.Login (4 handlers)
+[GIN-debug] POST   /web/user/login           --> huakai/handler.LoginWeb (4 handlers)
+[GIN-debug] GET    /web/getUsers             --> huakai/handler.GetUsers (5 handlers)
+[GIN-debug] POST   /web/addSuper             --> huakai/handler.AddSuperUser (4 handlers)
+[GIN-debug] PUT    /web/changeUser           --> huakai/handler.ChangeUser (4 handlers)
+time="2021-04-21 15:38:56" level=info msg="| 404 |          88ns |       127.0.0.1 | PUT | /web/ChangeUser?id=1 |"
+time="2021-04-21 15:39:08" level=info msg="| 404 |          87ns |       127.0.0.1 | PUT | /web/ChangeUser |"
+time="2021-04-21 15:39:18" level=info msg="| 200 |      311.22µs |       127.0.0.1 | PUT | /web/changeUser |"
+time="2021-04-21 15:39:21" level=info msg="| 200 |    2.127903ms |       127.0.0.1 | PUT | /web/changeUser?id=1 |"
+time="2021-04-21 15:40:07" level=info msg="| 200 |     1.15762ms |       127.0.0.1 | PUT | /web/changeUser?id=1&nickname=Super |"
+[GIN-debug] GET    /static/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (4 handlers)
+[GIN-debug] HEAD   /static/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (4 handlers)
+time="2021-04-21 16:16:25" level=info msg="Server Start ..."
+[GIN-debug] POST   /active                   --> huakai/handler.CreateActive (4 handlers)
+[GIN-debug] GET    /active                   --> huakai/handler.GetActive (5 handlers)
+[GIN-debug] POST   /wx/user/login            --> huakai/handler.Login (4 handlers)
+[GIN-debug] POST   /web/user/login           --> huakai/handler.LoginWeb (4 handlers)
+[GIN-debug] GET    /web/getUsers             --> huakai/handler.GetUsers (5 handlers)
+[GIN-debug] POST   /web/addSuper             --> huakai/handler.AddSuperUser (4 handlers)
+[GIN-debug] PUT    /web/changeUser           --> huakai/handler.ChangeUser (4 handlers)
+[GIN-debug] GET    /static/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (4 handlers)
+[GIN-debug] HEAD   /static/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (4 handlers)
+time="2021-04-21 16:18:37" level=info msg="Server Start ..."
+[GIN-debug] POST   /active                   --> huakai/handler.CreateActive (4 handlers)
+[GIN-debug] GET    /active                   --> huakai/handler.GetActive (5 handlers)
+[GIN-debug] POST   /wx/user/login            --> huakai/handler.Login (4 handlers)
+[GIN-debug] POST   /web/user/login           --> huakai/handler.LoginWeb (4 handlers)
+[GIN-debug] GET    /web/getUsers             --> huakai/handler.GetUsers (5 handlers)
+[GIN-debug] POST   /web/addSuper             --> huakai/handler.AddSuperUser (4 handlers)
+[GIN-debug] PUT    /web/changeUser           --> huakai/handler.ChangeUser (4 handlers)
+time="2021-04-21 16:18:41" level=info msg="| 200 |    4.328436ms |       127.0.0.1 | POST | /active |"
+[GIN-debug] GET    /static/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (4 handlers)
+[GIN-debug] HEAD   /static/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (4 handlers)
+time="2021-04-21 16:21:16" level=info msg="Server Start ..."
+[GIN-debug] POST   /active                   --> huakai/handler.CreateActive (4 handlers)
+[GIN-debug] GET    /active                   --> huakai/handler.GetActive (5 handlers)
+[GIN-debug] POST   /wx/user/login            --> huakai/handler.Login (4 handlers)
+[GIN-debug] POST   /web/user/login           --> huakai/handler.LoginWeb (4 handlers)
+[GIN-debug] GET    /web/getUsers             --> huakai/handler.GetUsers (5 handlers)
+[GIN-debug] POST   /web/addSuper             --> huakai/handler.AddSuperUser (4 handlers)
+[GIN-debug] PUT    /web/changeUser           --> huakai/handler.ChangeUser (4 handlers)
+time="2021-04-21 16:21:19" level=info msg="| 200 |    1.754728ms |       127.0.0.1 | POST | /active |"
+time="2021-04-21 16:21:32" level=info msg="| 200 |    8.311162ms |       127.0.0.1 | POST | /active |"
+[GIN-debug] GET    /static/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (4 handlers)
+[GIN-debug] HEAD   /static/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (4 handlers)
+time="2021-04-21 16:24:17" level=info msg="Server Start ..."
+[GIN-debug] POST   /active                   --> huakai/handler.CreateActive (4 handlers)
+[GIN-debug] GET    /active                   --> huakai/handler.GetActive (5 handlers)
+[GIN-debug] POST   /wx/user/login            --> huakai/handler.Login (4 handlers)
+[GIN-debug] POST   /web/user/login           --> huakai/handler.LoginWeb (4 handlers)
+[GIN-debug] GET    /web/getUsers             --> huakai/handler.GetUsers (5 handlers)
+[GIN-debug] POST   /web/addSuper             --> huakai/handler.AddSuperUser (4 handlers)
+[GIN-debug] PUT    /web/changeUser           --> huakai/handler.ChangeUser (4 handlers)
+time="2021-04-21 16:24:20" level=info msg="| 200 |    1.959493ms |       127.0.0.1 | POST | /active |"
+time="2021-04-21 16:24:31" level=info msg="| 200 |     1.55661ms |       127.0.0.1 | POST | /active |"
+[GIN-debug] GET    /static/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (4 handlers)
+[GIN-debug] HEAD   /static/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (4 handlers)
+time="2021-04-21 16:25:08" level=info msg="Server Start ..."
+[GIN-debug] POST   /active                   --> huakai/handler.CreateActive (4 handlers)
+[GIN-debug] GET    /active                   --> huakai/handler.GetActive (5 handlers)
+[GIN-debug] POST   /wx/user/login            --> huakai/handler.Login (4 handlers)
+[GIN-debug] POST   /web/user/login           --> huakai/handler.LoginWeb (4 handlers)
+[GIN-debug] GET    /web/getUsers             --> huakai/handler.GetUsers (5 handlers)
+[GIN-debug] POST   /web/addSuper             --> huakai/handler.AddSuperUser (4 handlers)
+[GIN-debug] PUT    /web/changeUser           --> huakai/handler.ChangeUser (4 handlers)
+time="2021-04-21 16:25:12" level=info msg="| 200 |    2.277136ms |       127.0.0.1 | POST | /active |"
+[GIN-debug] GET    /static/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (4 handlers)
+[GIN-debug] HEAD   /static/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (4 handlers)
+time="2021-04-21 16:25:55" level=info msg="Server Start ..."
+[GIN-debug] POST   /active                   --> huakai/handler.CreateActive (4 handlers)
+[GIN-debug] GET    /active                   --> huakai/handler.GetActive (5 handlers)
+[GIN-debug] POST   /wx/user/login            --> huakai/handler.Login (4 handlers)
+[GIN-debug] POST   /web/user/login           --> huakai/handler.LoginWeb (4 handlers)
+[GIN-debug] GET    /web/getUsers             --> huakai/handler.GetUsers (5 handlers)
+[GIN-debug] POST   /web/addSuper             --> huakai/handler.AddSuperUser (4 handlers)
+[GIN-debug] PUT    /web/changeUser           --> huakai/handler.ChangeUser (4 handlers)
+time="2021-04-21 16:25:58" level=info msg="| 200 |    3.036917ms |       127.0.0.1 | POST | /active |"
+[GIN-debug] GET    /static/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (4 handlers)
+[GIN-debug] HEAD   /static/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (4 handlers)
+time="2021-04-21 16:44:26" level=info msg="Server Start ..."
+[GIN-debug] POST   /active                   --> huakai/handler.CreateActive (4 handlers)
+[GIN-debug] GET    /active                   --> huakai/handler.GetActive (5 handlers)
+[GIN-debug] PUT    /active                   --> huakai/handler.UpdateActive (4 handlers)
+[GIN-debug] POST   /wx/user/login            --> huakai/handler.Login (4 handlers)
+[GIN-debug] POST   /web/user/login           --> huakai/handler.LoginWeb (4 handlers)
+[GIN-debug] GET    /web/getUsers             --> huakai/handler.GetUsers (5 handlers)
+[GIN-debug] POST   /web/addSuper             --> huakai/handler.AddSuperUser (4 handlers)
+[GIN-debug] PUT    /web/changeUser           --> huakai/handler.ChangeUser (4 handlers)
+time="2021-04-21 16:44:57" level=info msg="| 200 |    3.060756ms |       127.0.0.1 | POST | /active |"
+time="2021-04-21 16:45:06" level=info msg="| 200 |    2.065573ms |       127.0.0.1 | PUT | /active |"
+time="2021-04-21 16:45:46" level=info msg="| 200 |     1.16195ms |       127.0.0.1 | PUT | /active |"
+[GIN-debug] GET    /static/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (4 handlers)
+[GIN-debug] HEAD   /static/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (4 handlers)
+time="2021-04-21 16:46:33" level=info msg="Server Start ..."
+[GIN-debug] POST   /active                   --> huakai/handler.CreateActive (4 handlers)
+[GIN-debug] GET    /active                   --> huakai/handler.GetActive (5 handlers)
+[GIN-debug] PUT    /active                   --> huakai/handler.UpdateActive (4 handlers)
+[GIN-debug] POST   /wx/user/login            --> huakai/handler.Login (4 handlers)
+[GIN-debug] POST   /web/user/login           --> huakai/handler.LoginWeb (4 handlers)
+[GIN-debug] GET    /web/getUsers             --> huakai/handler.GetUsers (5 handlers)
+[GIN-debug] POST   /web/addSuper             --> huakai/handler.AddSuperUser (4 handlers)
+[GIN-debug] PUT    /web/changeUser           --> huakai/handler.ChangeUser (4 handlers)
+time="2021-04-21 16:46:37" level=info msg="| 200 |    1.928619ms |       127.0.0.1 | PUT | /active |"
+time="2021-04-21 16:47:11" level=info msg="| 200 |    2.616483ms |       127.0.0.1 | PUT | /active?id=1 |"
+[GIN-debug] GET    /static/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (4 handlers)
+[GIN-debug] HEAD   /static/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (4 handlers)
+time="2021-04-21 18:16:25" level=info msg="Server Start ..."
+[GIN-debug] POST   /active                   --> huakai/handler.CreateActive (4 handlers)
+[GIN-debug] GET    /active                   --> huakai/handler.GetActive (5 handlers)
+[GIN-debug] PUT    /active                   --> huakai/handler.UpdateActive (4 handlers)
+[GIN-debug] POST   /sign                     --> huakai/handler.CreateSign (4 handlers)
+[GIN-debug] GET    /sign                     --> huakai/handler.GetSign (4 handlers)
+[GIN-debug] PUT    /sign                     --> huakai/handler.ChangeSign (4 handlers)
+[GIN-debug] POST   /wx/user/login            --> huakai/handler.Login (4 handlers)
+[GIN-debug] POST   /web/user/login           --> huakai/handler.LoginWeb (4 handlers)
+[GIN-debug] GET    /web/getUsers             --> huakai/handler.GetUsers (5 handlers)
+[GIN-debug] POST   /web/addSuper             --> huakai/handler.AddSuperUser (4 handlers)
+[GIN-debug] PUT    /web/changeUser           --> huakai/handler.ChangeUser (4 handlers)
